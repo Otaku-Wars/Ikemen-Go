@@ -1,0 +1,39 @@
+; _________________________________________
+;| Elektrosoldat by Saikou Shiva           |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[Info]
+name = "Elektrosoldat"
+displayname = "E-Soldat"
+versiondate = 11,21,2022 
+mugenversion = 1.1
+author = "Saikou Shiva" 
+pal.defaults = 1,4,6,12,2,3,5,7,8,9,10,11
+localcoord = 320, 240
+[Files]
+sprite = Sff.sff
+anim = Anim.air
+sound = Sound.snd
+cmd = Cmd.cmd
+cns = Constants.cns
+stcommon = common1.cns
+st = States/System.st
+st1 = States/Normal.st
+st2 = States/Special.st
+st3 = States/Super.st
+st4 = States/Helpers.st
+st5 = States/Extra-Mugen11.st
+st6 = Custom.txt
+
+[Palette Keymap] 
+x 	= 1
+y 	= 2
+z 	= 3
+a 	= 4
+b 	= 5
+c 	= 6
+x2 	= 7
+y2 	= 8
+z2 	= 9
+a2 	= 10
+b2 	= 11
+c2 	= 12

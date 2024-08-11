@@ -1,0 +1,92 @@
+                            __________________________________________
+===========================| Elektrosoldat by Saikou Shiva	      |===========================
+                            ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ 
+====================================== M O V E L I S T ======================================
+
+ ↑ - up             LP - light punch        LK- light kick
+ ↓ - down           MP - medium punch       MK - medium kick
+ → - forward        HP - heavy punch        HK - heavy kick
+ ← - back           P  - any punch          K  - any kick
+ ↗ - up forward     PP - two punches        KK - two kicks
+ ↘ - down forward
+ ↙ - down back
+ ↖ - up back
+ S - start/taunt
+ c - crouching
+ Cl - close
+
+ (Air) - Move performed in the air.
+ (EX)  - Stronger version of attack. Costs 50% bar of meter and is performed by pressing two punch/kick buttons.
+ (MAX) - Juiced up super that consumes two bars of meter. Use two punch/kick buttons when performing a Super move to power it up.
+
+<CLOSE NORMALS>
+
+- Close Heavy Punch		HP	 (Can canel into Specials and Supers)
+
+<COMMAND NORMALS>
+
+- Panzersfaust	       		→ + HK   (Can be canceled from any Medium normal)
+- Panzerschreck			← + HK   (Can be canceled from any Medium normal)
+- Hubschrauber			(Air) ← or → + MK
+
+<THROWS>
+
+- Grab 1			← or → + PP
+- Grab 2			← or → + KK
+- Back Breaker			(Air) ← or → + PP [Untechable]
+- Back Breaker			(Air) ← or → + KK [Untechable]
+
+<SPECIALS>
+
+- Blitzkugel			(Charge) ← , → + P
+- Blitzkugel (EX)		(Charge) ← , → + PP
+- Flak Tritt			(Charge) ↓ , ↑ + K
+- Flak Tritt (EX)		(Charge) ↓ , ↑ + KK
+
+<SUPERS>
+
+Lv1 - Größer Blitzkugel		↓ ↘ → ↓ ↘ → + P
+Lv2 - Größer Blitzkugel (MAX)	↓ ↘ → ↓ ↘ → + PP
+Lv1 - Größer Flak Tritt		↓ ↘ → ↓ ↘ → + K
+Lv2 - Größer Flak Tritt (MAX)	↓ ↘ → ↓ ↘ → + KK
+
+<Lv3 SUPERS>
+
+Lv3 - Blitzbombe	        ↓ ↓ + PP   (Hits OTG)
+
+<SYSTEM>
+.Forward Dash:                 	→ →
+.Run:                           → → (HOLD)
+.Backward Dash:               	← ←
+.Low Jump:                     	tap ↑
+.High Jump:                    	tap ↓, then long press ↑
+.Long Low Jump:                	tap ↓, then tap ↑            
+.Sidestep:                     	LP + LK
+.Sidestep Attack:               P / K 		(after sidestep)
+.Forward Roll:                 	→ + LP+LK
+.Backward Roll:                	← + LP+LK
+.Parry High:                   	tap →
+.Parry Low:                    	tap ↓
+.Air Parry:                    	tap → 	(Air)
+.Power Charge:                 	hold MP+MK 
+.Zero Counter:                  ← ↙ ↓ + P / K 	(during standing or crouching guard)
+.Special Move Zero Counter:     → + MP+MK 	(during standing or crouching guard)
+.Custom Combo:                 	HP + HK         (Air also)
+.Ground Recovery:              	LP + LK      	(while falling/near floor)
+.Air Recovery:         	        LP + LK      	(while falling and allowed) 
+
+=====<Gameplay Notes>=====
+
+COMBO SYSTEM:
+ - Some Normal attacks can be canceled into Special and Super moves
+ - Some Special moves can be canceled into Super moves
+ - Some Lv1 Super moves can be canceled into MAX Super moves
+ - Cancelling a Special, Super move or Custom Combo into a Super move resets the juggle points
+   but also reduces its damage
+
+CUSTOM COMBO:
+ - Removes cancellable attack restrictions and gives you a lot of freedom to combo them
+ - Juggle limit is lifted
+ - You can only use EX Special or Super moves from the point the character starts flashing faster
+   and brighter, and doing so ends Custom Combo
+ - Gives you a short invulnerability window at the start

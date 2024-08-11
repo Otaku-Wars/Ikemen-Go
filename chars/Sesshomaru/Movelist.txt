@@ -1,0 +1,44 @@
+Super Moves:
+
+Poison Claw!:
+D, DF, F, D, DF, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for MAX Version
+
+Tokijin!:
+D, DB, B, D, DB, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for MAX Version
+
+Whip of Light!:
+D, DF, F, D, DF, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for MAX Version
+
+Dragon Strike:
+D, DB, B, D, DB, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for MAX Version
+
+Demon Transform:
+B, F, B, F, (x+y, y+z or x+z)
+
+____________________________________________________________________
+
+
+Special Moves:
+
+Poison Claw:
+D, DF, F, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Whip of Light:
+F, D, DF, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Tokijin:
+D, DB, B, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version

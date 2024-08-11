@@ -1,0 +1,51 @@
+;====================<DEFINITION>====================
+
+[Info]
+name = "Thanos"
+displayName = "Thanos"
+versionDate = 10,27,2012
+mugenVersion = 1.0
+author = "Arretoman"
+pal.defaults = 4,5,6,1,2,3,7,8,9,10,11,12
+;localCoord = 320,240
+
+[Files]
+cmd = Command.cmd
+cns = Constants.cns
+st = States/System.st
+st1 = States/Normal.st
+st2 = States/Special.st
+st4 = States/Super.st
+st5 = States/Helpers.st
+stCommon = common1.cns
+sprite = Sprite.sff
+anim = Animation.air
+sound = Sound.snd
+pal1 = Palettes/par4.act
+pal2 = Palettes/MVCI_2.act
+pal3 = Palettes/par3.act
+pal4 = Palettes/par1.act
+pal5 = Palettes/par5.act
+pal6 = Palettes/par6.act
+pal7 = Palettes/InfinityWar.act
+pal8 = Palettes/par8.act
+pal9 = Palettes/par9.act
+pal10 = Palettes/par10.act
+pal11 = Palettes/GoTG-AoU.act
+pal12 = Palettes/par12.act
+movelist = movelist.dat
+
+
+[Palette Keymap]
+a = 4
+b = 2
+c = 3
+x = 1
+y = 5
+z = 6
+a2 = 7
+b2 = 8
+c2 = 9
+x2 = 10
+y2 = 11
+z2 = 12

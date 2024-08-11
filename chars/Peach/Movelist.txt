@@ -1,0 +1,60 @@
+Super Moves:
+
+Thwomp:
+D, DF, F, D, DF, F, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for MAX Version
+
+Super Hammer Slam:
+D, DB, B, D, DB, B, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for MAX Version
+
+Charging Toads:
+D, DF, F, D, DF, F, (a, b or c)
+
+(a+b) . (b+c) . (a+b) for MAX Version
+
+Super Twirling Princess:
+D, DB, B, D, DB, B, (a, b or c)
+
+(a+b) . (b+c) . (a+b) for MAX Version
+
+Toadstool Kiss: [LvL3]
+
+F, B, D, F, (x+y) . (y+z) . (x+z)
+
+__________________________________________________________________________________________
+
+
+Special Moves:
+
+Vegetable:
+D, DF, F, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Hammer Slam:
+D, DB, B, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Green Shell:
+D, DF, F, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+Twirling Princess
+D, DB, B, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+Bob-omb:
+F, D, DF, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+Rising Peach:
+B, D, DB, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version

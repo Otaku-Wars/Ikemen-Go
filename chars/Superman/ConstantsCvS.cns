@@ -1,0 +1,168 @@
+;====================<VARIABLE LIST>====================
+
+;var(3)  : Jump Type (0 = Normal; 1 = Low Jump; 2 = Long Low Jump; 3 = Long Jump)
+;var(4)  : Chain Combo (0 = Off; 1 = On)
+
+;var(6)  : Cancel Flag
+;var(7)  : Able to Super Cancel
+;var(8)  : Able to Hyper Cancel
+;var(9)  : Counter Flag
+;var(10) : Button Detect (0 = Light; 1 = Medium; 2 = Heavy)
+
+;var(13) : Hit Count
+
+;var(15) : Juggle Points
+;var(16) : Juggle Flag
+;var(17) : Ticks UnGuardable
+;var(18) : ProjContact (0 = No; 1 = Yes)
+;var(19) : Throw Escape
+;var(20) : Custom Combo Time
+;var(21) : Super Cancel Flag
+;var(22) : Hyper Cancel Flag
+
+;var(23) : Super Finish Type (900 = Custom Combo; 3000 = Somersault Strike; 3100 = Total Wipeout; 3200 = Sonic Hurricane)
+
+;var(25) : Ticks to Apply EX FX
+;var(26) : Ticks Unable to Walk
+;var(30) : Hit Detection
+;var(31) : Hit Sound (0 = Light Punch; 1 = Medium Punch; 2 = Heavy Punch; 3 = Light Kick; 4 = Medium Kick; 5 = Heavy Kick; 6 = Projectile Hit; 800 = Grab)
+;var(32) : Guard Sound
+;var(33) : Hit Spark (8010 = Light; 8011 = Medium; 8012 = Heavy; 8013 = Special; 8014 = Super)
+;var(34) : Guard Spark (8000 = Normal; 8001 = Special)
+;var(35) : Spark xPos
+;var(36) : Spark yPos
+;var(38) : Throw (0 = Allowed; 1 = Not Allowed)
+;var(39) : Projectile Flag (0 = Off; 1 = On)
+
+;var(47) : Ticks Back is held down
+;var(48) : Back Charge Buffer
+;var(49) : Ticks Down is held down
+;var(50) : Down Charge Buffer
+
+;var(58) : Game Time
+
+;fvar(5) : Amount of Corner Push
+;fvar(10): Damage Dampener
+;fvar(11): Damage Dampener with Counter Multiplier Added
+
+
+
+; _________________________________________
+;| Superman by varo_hades                  |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<CONSTANTS>====================
+[Data]
+life = 1000
+power = 3000
+attack = 100
+defence = 100
+fall.defence_up = 50
+lieDown.time = 60
+airJuggle = 15
+sparkNo = s8010
+guard.sparkNo = s8000
+KO.echo = 0
+volume = 0
+IntPersistIndex = 0
+FloatPersistIndex = 0
+
+[Size]
+xScale = 0.8333333
+yScale = 1
+ground.back = 15
+ground.front = 15
+air.back = 15
+air.front = 15
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doScale = 0
+head.pos = -5, -130
+mid.pos = -5, -90
+shadowOffset = 0
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd  = 2.5
+walk.back = -2.2
+run.fwd  = 8,0
+run.back = -8,-3
+jump.neu = 0, -10.1
+jump.fwd = 4.5
+jump.back = -4.55
+runJump.fwd = 6, -12
+runJump.back = -6.55, -12
+airjump.neu = 0,-6.5
+airjump.back = -2.5
+airjump.fwd = 2.5
+
+[Movement]
+airJump.num = 1
+airJump.height = 10
+yAccel = 0.43
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory0 = "Ha Ha Ha Ha!"
+victory1 = "Kneel before me."
+victory2 = "Had enough?"
+victory3 = "Co-operation is not optional!"
+victory4 = "I'll rip you apart!"
+victory5 = "I'll see you burn!"
+victory6 = "Your life is mine!"
+victory7 = "You'll learn your place."
+victory8 = "Quit while you can."
+victory9 = "This is for your own good."
+victory10 = "This ends now!"
+victory11 = "This is my world!"
+victory12 = "I will have order!"
+victory13 = "I'll crush you like the others!"
+victory14 = "No powers, no chance!"
+victory15 = "I admire your bravery."
+victory16 = "Ready to quit yet?"
+victory17 = "Stay down."
+victory18 = "You will lose."
+victory19 = "I will pulverize you."
+victory20 = "The strong protect the weak."
+victory21 = "I'm done holding back."
+victory22 = "Please, don't get up."
+victory23 = "Finally met your match?"
+victory24 = "Hope you've learned something."
+victory25 = "No more Mr. Boy Scout!"
+victory26 = "Don't make me hurt you."
+victory27 = "Give up or get hurt."
+victory28 = "I'll never stop fighting."
+victory29 = "My home, my rules."
+victory30 = "Fighting me was a mistake."
+victory31 = "This is supposed to honor me?"
+victory32 = "This is for your own good."
+victory33 = "Admit your defeat."
+victory34 = "You can't win this."
+victory35 = "You know how this ends."
+victory36 = "Found my weakness yet?"
+victory37 = "I'm just warming up."
+victory38 = "Tap out if you need to."
+victory39 = "You asked for it."
+victory40 = "This world is mine."
+victory41 = "This world needs my protection."
+victory42 = "My rule brought peace!"
+victory43 = "Bad idea to tick me off."
+victory44 = "Won't stop me."
+victory45 = "Find your own universe."
+victory46 = "Get off my planet!"
+victory47 = "Actually, I'm not."
+victory48 = "The feeling's mutual."
+victory49 = "I'm finishing what we started."

@@ -1,0 +1,52 @@
+<#f0f000>THROWS</>
+
+Ofuta Kick									(near opponent)[_B/_F]_+^2P
+Toss										(near opponent)[_B/_F]_+^2K
+
+<#f0f000>NORMAL</>
+
+Jump Kick									(while running)[_B/_F]_+^C
+
+<#f0f000>SPECIALS</>
+
+Hakurei Amulet								(charge)_B_F^P
+Air Hakurei Amulet							(on air)_B_F^P
+Flying Kick									_D_B^K
+Ascention Kick_EX							(charge)_D_U^K
+Teleportation Rift_EX						_B_D_B^P
+???_EX										_D_B^P
+
+<#f0f000>LEVEL 1 SUPER COMBOS</>
+
+???											_D_F_D_F^P
+???											_D_B_D_B^P
+???											_D_F_D_F^K
+???											_D_B_D_B^K
+
+<#f0f000>LEVEL 2 SUPER COMBOS</>
+
+MAX ???										_D_F_D_F^2P
+MAX ???										_D_B_D_B^2P
+
+<#f0f000>LEVEL 3 HYPER COMBOS</>
+
+Fantasy Heaven								_D_F_D_F^P^K
+Fantasy Nature								_D_B_D_B^P^K
+
+<#f0f000>SYSTEM</>
+
+Forward Dash					_F_F
+_!Run							(hold)_F
+Back Dash						_B_B
+High Jump						_TAP_D, _U
+Hop								_TAP_U
+Hyper Hop						_TAP_D, _TAP_U
+Parry							_TAP_F / _TAP_D
+Roll							[_B/_F]^A_+^X
+Sidestep						^A_+^X
+_!Sidestep Attack				^P/^K
+Power Charge					^B_+^Y
+Custom Combo					(air also) ^C_+^Z
+Zero Counter					_B_D^P/^K(while standing/crouching guard)
+Fall Recovery					(when allowed)^P/^K
+Taunt							^S

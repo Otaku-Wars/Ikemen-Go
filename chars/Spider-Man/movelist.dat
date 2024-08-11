@@ -1,0 +1,54 @@
+<#f0f000>THROWS</>
+
+Spider Toss 1								(near opponent)[_B/_F]_+^2P
+Spider Toss 2								(near opponent)[_B/_F]_+^2K
+
+<#f0f000>NORMAL</>
+
+Air Spider Toss 1							(on air near opponent)[_B/_F]_+^2P
+Air Spider Toss 2							(on air near opponent)[_B/_F]_+^2K
+
+<#f0f000>SPECIALS</>
+
+Web Ball_EX									_D_B^P
+Web Shot_EX									_D_F^P(also on air)
+Web Swing_EX								_D_B^K(also on air)
+Spider Sting_EX								_F_D_F^P
+Web Throw_EX								_F_D_B^P
+
+<#f0f000>LEVEL 1 SUPER COMBOS</>
+
+Maximum Spider								_D_F_D_F^P
+Maximum Web Ball							_D_B_D_B^K
+Ultimate Web Throw							_D_B_D_B^P
+Crawler Assault								_D_F_D_F^K
+
+<#f0f000>LEVEL 2 SUPER COMBOS</>
+
+MAX Maximum Spider							_D_F_D_F^2P
+MAX Maximum Web Ball						_D_B_D_B^2K
+MAX Ultimate Web Throw						_D_B_D_B^2P
+MAX Crawler Assault							_D_F_D_F^2K
+
+<#f0f000>LEVEL 3 HYPER COMBO</>
+
+Seperation Anxiety							_D_F_D_F^3P
+
+<#f0f000>SYSTEM</>
+
+Forward Dash					_F_F
+_!Run							(hold)_F
+Back Dash						_B_B
+High Jump						_TAP_D, _U
+Hop								_TAP_U
+Hyper Hop						_TAP_D, _TAP_U
+Wall Cling						(air near Wall)_B_F
+Parry							_TAP_F / _TAP_D
+Roll							[_B/_F]^A_+^X
+Sidestep						^A_+^X
+_!Sidestep Attack				^P/^K
+Power Charge					^B_+^Y
+Custom Combo					(air also) ^C_+^Z
+Zero Counter					_B_D^P/^K(while standing/crouching guard)
+Fall Recovery					(when allowed)^P/^K
+Taunt							^S

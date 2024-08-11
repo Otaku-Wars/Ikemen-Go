@@ -1,0 +1,51 @@
+                            __________________________________________
+===========================| Elektrosoldat by Saikou Shiva            |===========================
+                            ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯         
+                                                                               
+ - Contact: Saikou_Shiva#3738
+ - Customized version of E-Soldat for MUGEN 1.0/1.1
+
+=====<Version History>=====
+
+<11/19/22>
+ - First release
+ - Running is disabled, as I've yet to find a suitable running animation
+
+<11/21/22>
+ - Addition of various customization settings
+ - New colors and a special palette
+
+<11/25/22>
+ - Buffed EX moves and increased Level 1 Blitkugel proj speed
+ - Added new Pandora and Gold modes via palettes 15 and 16
+
+=====<Special Thanks>=====
+
+ - IKEISLEGEND and Xanxus for play testing my character
+ - Mr.Ansatsuken for aiding with coding, and installing various new settings in Soldat
+
+=====<Character Sources>=====
+
+ - [Sounds] : HM and way-oh's Soldats
+ - [Sprites] :  HM and way-oh's Soldats (Custom ones were made by me)
+ - [Char base] : Memo's PotS template
+ - [References] : Trololo's Charlie / Chuchoryu's Devil Jin / Gal129's Blanka
+
+=====<Disclaimer>=====
+
+ - The character "Elektrosoldat" is property of Subtle Style
+ - The "Akatsuki Blitzkampf" IP is property of Subtle Style
+ - This MUGEN character is a non-profit fan work, and may not be used for any commercial purposes
+ - THIS CHARACTER CONTAINS FLASHY EFFECTS THAT MAY AFFECT PEOPLE
+
+=====<Additional Info>=====
+
+ - Any and all future conversions going forward will be under the title of CVS3
+ as PotS himself has requested the community to refrain from using his name for these characters.
+ - All future updates will be uploaded to the my Google Drive and the Mugen Archive
+ - If there are any issues or suggestions you wish to make, then feel free to contact me through Discord
+
+=====<PLEASE READ>=====
+
+ - CVS3 King Lion and King Leo ARE still in development, however due to personal issues
+ I had to halt their production, and decided to make this character as a small project

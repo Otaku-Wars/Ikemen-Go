@@ -1,0 +1,127 @@
+
+;---------------------- Integer variable list ----------------------
+;var(0):= Hyper Finish Text Selector
+;var(3):= Jump
+;var(4):= Normal Cancel
+;var(5):= Special Cancel
+;var(6):= Super Cancel
+;var(7):= Max Cancel
+;var(8):= Helper Contact Target
+;var(9):= Counter Flag
+;var(10):= Move Var
+;var(11):= Helper Var
+;var(13):= Hit count
+;var(15):= Juggle Points
+;var(16):= Juggle Flag
+;var(17):= Unguardable
+;var(18):= Helper Projcontact
+;var(19):= Throw Escape
+;var(20):= Custom Combo Time
+;var(21):= Super Cancel Flag
+;var(22):= Hyper Cancel Flag
+;var(23):= Super Finish Type
+;var(25):= Ticks to Apply EX FX
+;var(26):= Palette Select
+;var(27):= Palette Selector (on/off)
+;var(29):= Palette Selector Timer
+;var(30):= Hit Detection
+;var(33):= Hit SparkNo
+;var(34):= Guard SparkNo
+;var(35):= Spark X Axis
+;var(36):= Spark Y Axis
+;var(38):= Throws (0 = Allowed/1 = Not Allowed)
+;var(43):= Hit Sparks Selector
+;var(44):= Hit Sounds Selector
+;var(55):= Combo Style Selector
+
+;---------------------- Float variable list ----------------------
+;fvar(5):= Corner Push
+;fvar(8):= Down Juggle Points
+;fvar(9):= Ctrl Flag
+;fvar(10):= Damage Scale (Dampener)
+;fvar(11):= Damage Scale Backup
+;fvar(12):= Enemy In Hit State
+;fvar(13):= Attack Level
+;fvar(17):= Hitspark Helper Var
+;fvar(18):= Hitspark Helper Var
+;---------------------- Sound Channel list ----------------------
+;Channel=0 := Voice
+;Channel=1 := Dust Sound FX's
+;Channel=5 := Movement Sound FX's
+;Channel=22 := Wall Hit Sound FX
+
+;======================================================================================
+;Constants
+;======================================================================================
+[Data]
+life = 1000
+power = 3000	
+attack = 100		
+defence = 100		
+fall.defence_up = 50	
+liedown.time = 50		
+airjuggle = 0		
+sparkno = s8010			
+guard.sparkno = s8000	
+KO.echo = 0			
+volumescale = 255			
+IntPersistIndex = 0	
+FloatPersistIndex = 0 
+
+[Size]
+xscale = 0.9
+yscale = 0.75
+ground.back = 15
+ground.front = 15
+air.back = 15
+air.front = 15
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doScale = 0
+head.pos = 0 , -92
+mid.pos = -7, -53
+shadowOffset = -1
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd  = 2.85           ;Walk forward
+walk.back = -2.85          ;Walk backward
+run.fwd  = 6.5            ;Run forward (x, y)  - if y<0, player will hop
+run.back = -6.1,-5.1           ;Run backward (x, y) - if y=0, player will run
+jump.neu = 0,-10             ;Neutral jumping velocity (x, y)
+jump.back = -3.7           ;Jump back Speed (x, y)
+jump.fwd = 3.9             ;Jump forward Speed (x, y)
+runjump.back = -4.5,-11.2    ;Running jump speeds (opt)
+runjump.fwd = 4.5,-11.2      ;.
+airjump.neu = 0,-9.1         ;.
+airjump.back = -2.55         ;Air jump speeds (opt)
+airjump.fwd = 2.5            ;.
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yaccel = 0.46875
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+
+[Quotes]
+victory1 = "Hey, don't touch my hat! I gotta hand this back to Shanks once I reach the One Piece!"
+victory2 = "Don't you know who I am?! I'm the man who will be Pirate King!"
+victory3 = "Whoa, that was awesome! You just gotta join my crew!"
+victory3 = "Phew! Sure worked up an appetite. Hey Sanji! I want meat!"
+victory4 = "Moves like that won't work on me! I'm made of rubber!"
+victory5 = "I'm not gonna lose. Not anymore! I have my crew to protect after all."

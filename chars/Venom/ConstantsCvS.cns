@@ -1,0 +1,196 @@
+;====================<VARIABLE LIST>====================
+
+;var(3)  : Jump Type (0 = Normal; 1 = Low Jump; 2 = Long Low Jump; 3 = Long Jump)
+;var(4)  : Chain Combo (0 = Off; 1 = On)
+
+;var(6)  : Cancel Flag
+;var(7)  : Able to Super Cancel
+;var(8)  : Able to Hyper Cancel
+;var(9)  : Counter Flag
+;var(10) : Button Detect (0 = Light; 1 = Medium; 2 = Heavy)
+
+;var(13) : Hit Count
+
+;var(15) : Juggle Points
+;var(16) : Juggle Flag
+;var(17) : Ticks UnGuardable
+;var(18) : ProjContact (0 = No; 1 = Yes)
+;var(19) : Throw Escape
+;var(20) : Custom Combo Time
+;var(21) : Super Cancel Flag
+;var(22) : Hyper Cancel Flag
+
+;var(23) : Super Finish Type (900 = Custom Combo; 3000 = Somersault Strike; 3100 = Total Wipeout; 3200 = Sonic Hurricane)
+
+;var(25) : Ticks to Apply EX FX
+;var(26) : Ticks Unable to Walk
+;var(30) : Hit Detection
+;var(31) : Hit Sound (0 = Light Punch; 1 = Medium Punch; 2 = Heavy Punch; 3 = Light Kick; 4 = Medium Kick; 5 = Heavy Kick; 6 = Projectile Hit; 800 = Grab)
+;var(32) : Guard Sound
+;var(33) : Hit Spark (8010 = Light; 8011 = Medium; 8012 = Heavy; 8013 = Special; 8014 = Super)
+;var(34) : Guard Spark (8000 = Normal; 8001 = Special)
+;var(35) : Spark xPos
+;var(36) : Spark yPos
+;var(38) : Throw (0 = Allowed; 1 = Not Allowed)
+;var(39) : Projectile Flag (0 = Off; 1 = On)
+
+;var(47) : Ticks Back is held down
+;var(48) : Back Charge Buffer
+;var(49) : Ticks Down is held down
+;var(50) : Down Charge Buffer
+
+;var(58) : Game Time
+
+;fvar(5) : Amount of Corner Push
+;fvar(10): Damage Dampener
+;fvar(11): Damage Dampener with Counter Multiplier Added
+
+
+
+; _________________________________________
+;| Venom by varo_hades                     |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<CONSTANTS>====================
+[Data]
+life = 1000
+power = 3000
+attack = 100
+defence = 100
+fall.defence_up = 50
+lieDown.time = 60
+airJuggle = 15
+sparkNo = s8010
+guard.sparkNo = s8000
+KO.echo = 0
+volume = 0
+IntPersistIndex = 0
+FloatPersistIndex = 0
+
+[Size]
+xscale = .83
+yscale = 1.07
+ground.back = 33     
+ground.front = 33    
+air.back = 18
+air.front = 18     
+height = 80	     
+attack.dist = 160   
+proj.attack.dist = 90 
+proj.doscale = 0     
+head.pos = -5, -90   
+mid.pos = -5, -60    
+shadowoffset = 0     
+draw.offset = 0,0 
+
+[Velocity]
+walk.fwd  = 4.1
+walk.back = -3.2
+run.fwd  = 7,0
+run.back = -7,-3
+jump.neu = 0, -11
+jump.fwd = 3.7
+jump.back = -4.15
+runJump.fwd = 4.8, -12
+runJump.back = -5.15, -12
+airjump.neu = 0,-10
+airjump.back = -3.55
+airjump.fwd = 3.5
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yAccel = .61;0.46875
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory0 = "Men like these... They bring out the evil in people. That's how they make their money. They don't want you to change for the good... So I show them the old me."
+victory1 = "The darkness that blankets this city is nothing. Nothing! Not compared to the shroud that Spider-Man pulled over me! He stole my life... shattered it... then cast it aside like yesterday's news! So it is only fitting, only fair, that I do the same to him! And I will. Very... very... soon!" 
+victory2 = "Hi, honey... I'm home!" 
+victory3 = "Welcome to my neighborhood, Spider-Man! Would you be my... could you be my... neighbor?" 
+victory4 = "I only hate... spiders!" 
+victory5 = "Parker's wife didn't know where he was, either, and I found him before. I'll find him again! " 
+victory6 = "Hi. I'm Eddie Brock. Can Peter come out and play? " 
+victory7 = "Hi. I'm Eddie Brock. Remember me?" 
+victory8 = "Welcome to casa Venom, be it ever so humble... filthy... rat-infested...! "
+victory9 = "How you survived isn't important! That you survived is! For again, we are one! The one called -- VENOM And Venom wants to play!"
+victory10 = "Yesterday, we told that mugger you were ours! Now... you are!"
+victory11 = "You're doomed, Carnage! I'm older, wiser, more experienced!"
+victory12 = "Eyes! Lungs! Pancreas! So many snacks, so little time! "
+victory13 = "All right, Spider-Man -- LET'S MAKE A DEAL! You don't come after us -- we won't come after you! Fair enough"
+victory14 = "You -- Carnage! We thought we were done with you! But we've come back to make sure that this time... YOU DIIIEEE!"
+victory15 = "He did this! If it wasn't for him this never would have happened! He took my wife from me! Now... ...we are going to take everything away from him!"
+victory16 = "Leave me alone! I have to get in the church! Have to talk to God! I am alone now... my wife gone... my other torn from me by that creature... ...I need guidance"
+victory17 = "You three relax and enjoy the ride. You always knew it would come down to him and me. No more trick guns, no more traps, no more werewolves. Symbiote against symbiote. Toxin against Carnage. It's a family thing"
+victory18 = "Welcome. Our name is Venom. This is our Island. We'll kill you as mercifully as we can."
+victory19 = "Tonight you're Venom's prey!"
+victory20 = "That's where you are wrong. It's not about control, or following orders like a soldier. It's about us. We. We are Venom! "
+victory21 = "Ghost Rider! You let Spider-Man escape my grasp! For that you will die!"
+victory22 = "We are Venom. We know the evil that men do."
+victory23 = "Stand in our way and Venom will feast on your entrails! "
+victory24 = "If this is a dream -- then we're the hero...that makes you the villain. So...you're dead! See, there are some things as sharp as your claws!"
+victory25 = "Fingers trembling, I unwrap the package. Legs almost buckling beneath me, I slip the costume on. It's cheap nylon. It hangs loosely on my body. It's nothing like the symbiote. But it's everything... the only thing... I need now."
+victory26 = " [...] That symbiote you hate so much... might just save your life!"
+victory27 = "We'll recruit the toughest, the most vicious bunch of fighters we can find -- and we'll crush Carnage's gang like the cockroaches they are! But, remember -- KASADY IS MINE!!"
+victory28 = "No! We must redirect our anger----channel our restive energies toward the ruthless parasites who prey on the innocent! "
+victory29 = "We kill those who DESERVE it-- THAT'S more fun!"
+victory30 = "With great power comes great fun!"
+victory31 = "Hate to dine and dash, but we've got lots of prey to catch!"
+victory32 = "Quiet! We never talk to our dinner!"
+victory33 = "Ha ha ha! If we had sympathy, we wouldn't waste it on you!"
+victory34 = "A meal is a meal-- even if it tastes a little rotten!"
+victory35 = "Beat it, hero! We don't need savin'!" 
+victory36 = "What gives, girlie? You're no spider!" ;females
+victory37 = "We live for moments like these, beating you down like the spineless weakling you are, Parker!" ;Spiderman
+victory38 = "We sense consciousness in that arm! Are you two symbiotic?" ;Spencer
+victory39 = "Blech! You taste like motor oil!" ;Ultron
+victory40 = "Come on! Over already? We still want to play!"
+victory41 = "You ruined it, wallcrawler. I wanted to put some serious mileage between this place and me. But you couldn't let it go! Ya had to keep pushing me... until finally I just had to push back."
+victory42 = "We are the victim of outrageous lies and vicious gossip! Carnage kills indiscriminately and at random... we choose our victims most carefully!"
+victory43 = "Your senseless slaughter of innocents is about to end, Kasady!"
+victory44 = "We're not monster! We're not! We can't be! No! No!"
+victory45 = "My name is Eddie Brock, and I used to have a symbiotic relationship with an alien. When the Other left, it took half of me with it. Can’t live without it. Can’t live with what it’s become. I remember a t-shirt my ex-wife gave me a long time ago. ‘If you love something, set it free; if it doesn’t come back to you – hunt it down and kill it."
+victory46 = "Funny thing. Turns out chocolate’s a good source of the phenethylamine the Other needs. So, as long as I remember to buy it presents now and then – we’re gonna live happily ever after."
+victory47 = "Do they have white phosphorous grenades on your cesspool of a planet?"
+victory48 = "We'll spin your spine till it corkscrews your head! And for you, we'll punch your bladder up the back of your throat!"
+victory49 = "There! An innocent! Hello, kitty. I'm VENOM. Do you need saving today?" ;feline characters
+victory50 = "Yes, we make a great hero! We can bash with the best of them! Heh heh. We'll be back!"
+victory51 = "You're an obscenity, Carnage! You were given a gift of power from the very stars-- --and you would use it to kill innocents!! You deserve to get your brains scooped out with a runcible spoon!"
+victory52 = "Nothing is going right with us!! Arrrrgh! We just don't deserve to have so much psychic pain!! But we can fix it right up, can't we?? We will fix it right up with some feel-good romping and stomping on our old pal Carnage!!!"
+victory53 = "He wants out-- --and what he wants that bad, we're not going to give him! Let him rot in that place, and let him think about who put him back in there-- --us!!"
+victory54 = "Yeah! Rats with a high soprano! Watch out for the fangs-- and that other thing! Like we have to tell you about fangs!"
+victory55 = "Don't you losers ever learn..? --that if you mess with Venom... ...you get your brains eaten!!" 
+victory56 = "We should kill you, but your instant of compassion has bought you your life!"
+victory57 = "Perhaps we'll smash all of your masks first! Yes! That should make it much easier to decide -- whose face we want to eat first!"
+victory58 = "We will be your friend, and more! From this day forward, all innocents can consider themselves under our protection! And whoever would dare do them harm will answer to... VENOM!"
+victory59 = "Call me sleazy, huh? I'll eat your medulla oblongata!!"
+victory60 = "Do you know how honked off it makes us that after we trash, bash and smash all of you......there aren't even going to be any brains to eat?"
+victory61 = "Electricity hurts us, but it doesn't kill us. Just makes us angrier! And you have made us about as angry as we can get!" ;Thor and Elecktro
+victory62 = "You hurt us before! It won't happen again! Now how about you take off your costume, buddy......and we finish this man to symbiote!"
+victory63 = " Here's one for you-- Exclusive! Sin-Eater revealed! Eddie Brock A.K.A.-- --Venom!"
+victory64 = "We're going to make you all right again, Ann......we promise. I promise."
+victory65 = "This is your doing, villain! Another innocent hurt... ...one important to us!" 
+victory66 = "I live for these moments, Spider-Man. Me... Eddie Brock. Beating you down... Like the weak-kneed little boy that you are... And then leaving you there. Broken, knowing that any time I want... We can come back and do it again."
+victory67 = "Oooo... sexy. We love liberated women."
+victory68 = "You're the Spider-Woman. We've heard of you." ;Spiderwoman
+victory69 = "It's either you now... or the entire planet later."
+victory70 = "Carnage. Son. I never thought I'd say this but-- How would you feel about a temporary--a very temporary--alliance with your old man?"
+victory71 = "Come to papa, Carnage... we have some serious catching up to do!"
+victory72 = "Thanks, killer, but after I'm done eating Spider-Man's spleen... I'm coming for you. 'cause I'm that kind of guy!" 
+victory73 = "I'm alone. Carnage is coming and I'm going to have to face him alone."
+victory74 = "Venom-Man, Venom-Man, friendly symbiote Venom-Man. Spins a web, any size, catches thieves, makes them die,Look out! Here comes the Venom-Man.In the chill of night, at the scene of a crime,Like a streak of light, he will rip out your spine!Wealth and fame, he&#8217;s ignored, killing is his reward!" 
+victory75 = "At your service! Mashed brains and scrambled faces our specialty! In your case we're even willing to toss in a shattered vertibrae-- But that's only if you can supply the necessary spine!"
+victory76 = "To do list: 1.Do Laundry 2.Kidnap JJJ at Daily Bugle 3.Kill Spider-Man 4.Kill Spider-Man 5.Kill Spider-Man!"
+victory77 = "I was innocent,once." 

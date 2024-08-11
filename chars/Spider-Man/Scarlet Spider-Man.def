@@ -1,0 +1,39 @@
+; _______________________________________________
+;| Scarlet Spiderman by varo_hades		 |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<DEFINITION>====================
+[Info]
+name        ="Scarlet Spider-Man"
+displayName ="Scarlet Spider-Man"
+versionDate =05,02,2012
+mugenVersion=1.0
+author      ="varo_hades"
+pal.defaults=4,5,6,1,2,3,10,11,12,7,8,9
+localCoord  = 320,240
+
+[Files]
+cmd     =Command.cmd
+cns     =ConstantsCvS.cns
+st      =States/System.st
+stCommon=common1.cns
+sprite  =Scarlet.sff
+anim    =Anim.air
+sound   =Scarlet Sound.snd
+pal1=Palettes/Scarlet/01.act
+pal2=Palettes/Scarlet/02.act
+pal3=Palettes/Scarlet/03.act
+pal4=Palettes/Scarlet/04.act
+pal5=Palettes/Scarlet/05.act
+pal6=Palettes/Scarlet/06.act
+pal7=Palettes/Scarlet/07.act
+pal8=Palettes/Scarlet/08.act
+pal9=Palettes/Scarlet/09.act
+pal10=Palettes/Scarlet/10.act
+pal11=Palettes/Scarlet/11.act
+pal12=Palettes/Scarlet/12.act
+st1=States/Normal.st
+st2=States/Special.st
+st3=States/Super.st
+st4=States/Helpers.st
+st5=States/Scarlet.st
+movelist = movelist2.dat

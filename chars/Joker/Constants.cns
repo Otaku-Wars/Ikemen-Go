@@ -1,0 +1,168 @@
+;====================<VARIABLE LIST>====================
+
+;var(3)  : Jump Type (0 = Normal; 1 = Low Jump; 2 = Long Low Jump; 3 = Long Jump)
+;var(4)  : Chain Combo (0 = Off; 1 = On)
+
+;var(6)  : Cancel Flag
+;var(7)  : Able to Super Cancel
+;var(8)  : Able to Hyper Cancel
+;var(9)  : Counter Flag
+;var(10) : Button Detect (0 = Light; 1 = Medium; 2 = Heavy)
+
+;var(13) : Hit Count
+
+;var(15) : Juggle Points
+;var(16) : Juggle Flag
+;var(17) : Ticks UnGuardable
+;var(18) : ProjContact (0 = No; 1 = Yes)
+;var(19) : Throw Escape
+;var(20) : Custom Combo Time
+;var(21) : Super Cancel Flag
+;var(22) : Hyper Cancel Flag
+
+;var(23) : Super Finish Type (900 = Custom Combo; 3000 = Somersault Strike; 3100 = Total Wipeout; 3200 = Sonic Hurricane)
+
+;var(25) : Ticks to Apply EX FX
+;var(26) : Ticks Unable to Walk
+;var(30) : Hit Detection
+;var(31) : Hit Sound (0 = Light Punch; 1 = Medium Punch; 2 = Heavy Punch; 3 = Light Kick; 4 = Medium Kick; 5 = Heavy Kick; 6 = Projectile Hit; 800 = Grab)
+;var(32) : Guard Sound
+;var(33) : Hit Spark (8010 = Light; 8011 = Medium; 8012 = Heavy; 8013 = Special; 8014 = Super)
+;var(34) : Guard Spark (8000 = Normal; 8001 = Special)
+;var(35) : Spark xPos
+;var(36) : Spark yPos
+;var(38) : Throw (0 = Allowed; 1 = Not Allowed)
+;var(39) : Projectile Flag (0 = Off; 1 = On)
+
+;var(47) : Ticks Back is held down
+;var(48) : Back Charge Buffer
+;var(49) : Ticks Down is held down
+;var(50) : Down Charge Buffer
+
+;var(58) : Game Time
+
+;fvar(5) : Amount of Corner Push
+;fvar(10): Damage Dampener
+;fvar(11): Damage Dampener with Counter Multiplier Added
+
+
+
+; _________________________________________
+;| Joker by varo_hades                     |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<CONSTANTS>====================
+[Data]
+life = 1000
+power = 3000
+attack = 100
+defence = 100
+fall.defence_up = 50
+lieDown.time = 60
+airJuggle = 15
+sparkNo = s8010
+guard.sparkNo = s8000
+KO.echo = 0
+volume = 0
+IntPersistIndex = 0
+FloatPersistIndex = 0
+
+[Size]
+xScale = 0.5
+yScale = 0.5
+ground.back = 15
+ground.front = 15
+air.back = 15
+air.front = 15
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doScale = 0
+head.pos = -5, -90
+mid.pos = -5, -60
+shadowOffset = 0
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd  = 2.5
+walk.back = -2.5
+run.fwd  = 7,0
+run.back = -4.5,-3
+jump.neu = 0, -8.4
+jump.fwd = 3.5
+jump.back = -3.55
+runJump.fwd = 4, -9.2
+runJump.back = -4, -9.2
+airjump.neu = 0,-6.5
+airjump.back = -2.5
+airjump.fwd = 2.5
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yAccel = 0.44
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory0 = "Watch out Joker, this one look's kinda tough!' Really? I think you underestimate me."
+victory1 = "You're fired!"
+victory2 = "Oh really?"
+victory3 = "Wakey-wakey!"
+victory4 = "Open wide."
+victory5 = "Hold this. Gimme that."
+victory6 = "Trick or Treat."
+victory7 = "Say Ahh."
+victory8 = "Helloooo."
+victory9 = "I hit 'cause I care!"
+victory10 = "Just die already!"
+victory11 = "Now that's funny."
+victory12 = "May I have this dance?"
+victory13 = "I don't like you."
+victory14 = "Lets turn that frown upside down."
+victory15 = "You're gonna love this!"
+victory16 = "Dying so soon?"
+victory17 = "Are you crying?"
+victory18 = "I'll turn that frown upside down."
+victory19 = "You're corpse will have a great smile."
+victory20 = "Deep down you know this is funny."
+victory21 = "I'm magic with a knife."
+victory22 = "We're almost done here."
+victory23 = "Club soda will get that right out."
+victory24 = "This next part is so funny."
+victory25 = "All that training, how humiliating."
+victory26 = "My punchline keeps landing."
+victory27 = "You're taking the fun out of this!"
+victory28 = "You got no sense of humor."
+victory29 = "It's time for us to part."
+victory30 = "Hit me like you mean it, hero!"
+victory31 = "Your pick: dynamite or crowbar?"
+victory32 = "This farce is played out."
+victory33 = "You can be my new toady!"
+victory34 = "Let's take the stage together"
+victory35 = "You should smile more."
+victory36 = "That piehole should be sewn shut."
+victory37 = "You're fun when you're angry."
+victory38 = "Normally symmetry bores me."
+victory39 = "I'll show you funny!"
+victory40 = "We're just getting to the punchline."
+victory41 = "Thank you."
+victory42 = "So big, so dumb."
+victory43 = "I'll put a smile on that puss."
+victory44 = "Unless this is a reboot."
+victory45 = "Someone needs to look in a mirror."
+victory46 = "How punny of you to say."
+victory47 = "Are we playing something?"
+victory48 = "I'm the most sane man I know."
+victory49 = "Tried it once, but it didn't take."

@@ -1,0 +1,30 @@
+===============<11,21,2022>===============
+
+ - Added the following features that can be toggled inside the "Custom" file
+ ↘ - Palette selector
+   - Multi-colored hit sparks
+   - Custom Combo / Max Mode selector
+   - New hit sounds
+   - New backgrounds for Blitzbombe
+   - Chain combos
+   - Air combos
+   - Zoom-in on Supers
+   - Screen shake for normals
+ - Fixed an issue where sometime Blitzbombe's input would override Grosse Blitz's
+ - Added in-game movelist
+
+===============<11,25,2022>===============
+
+ - EX Kugel now beats out single-hit projectiles
+ ↘ - Made projectile 10% bigger
+ ↘ - Changed animation for EX fireball
+ - Buffed EX Flak Tritts's damage
+ - Fixed forward/back rolls not being invincible on start-up
+ - Increased Level 1 Grosse Blitzkugel's projectile speed
+ - New Pandora and Gold modes added (palettes 15 and 16 respectively
+
+
+===============< To do list >===============
+
+ - PotS/CvS3 King Lion & King Leo
+ - Possible Lien Neville conversion

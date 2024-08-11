@@ -1,0 +1,37 @@
+; _________________________________________
+;| Elektrosoldat by Saikou Shiva           |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+[Info]
+name = "Elektrosoldat"
+displayname = "Elektrosoldat"
+versiondate = 21,11,2022 
+mugenversion = 1.0
+author = "Saikou Shiva" 
+pal.defaults = 1,4,2,3,5,6,7,8,9,10,11,12
+localcoord = 320, 240
+[Files]
+sprite = Sff.sff
+anim = Anim.air
+sound = Sound.snd
+cmd = Cmd.cmd
+cns = Constants.cns
+stcommon = common1.cns
+st = States/System.st
+st1 = States/Normal.st
+st2 = States/Special.st
+st3 = States/Super.st
+st4 = States/Helpers.st
+st5 = States/Extra-Mugen10.st
+st6 = Custom.txt
+pal1	 = Palettes/act001.act
+pal2	 = Palettes/act002.act
+pal3	 = Palettes/act003.act
+pal4	 = Palettes/act004.act
+pal5	 = Palettes/act005.act
+pal6	 = Palettes/act006.act
+pal7	 = Palettes/act007.act
+pal8	 = Palettes/act008.act
+pal9	 = Palettes/act009.act
+pal10 = Palettes/act010.act
+pal11 = Palettes/act011.act
+pal12 = Palettes/act012.act

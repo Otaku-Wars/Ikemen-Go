@@ -1,0 +1,179 @@
+﻿; _________________________________________
+;| Colonel Sanders by IkuTronHD            |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<CONSTANTS>====================
+[Data]
+life = 1000
+power = 3000
+attack = 100
+defence = 100
+fall.defence_up = 50
+lieDown.time = 60
+airJuggle = 0
+sparkNo = s8010
+guard.sparkNo = s8000
+KO.echo = 0
+volume = 128
+IntPersistIndex = 0
+FloatPersistIndex = 0
+
+[Size]
+xScale = 1
+yScale = 1
+ground.back = 15
+ground.front = 15
+air.back = 15
+air.front = 15
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doScale = 0
+head.pos = 0 , -92
+mid.pos = -7, -53
+shadowOffset = -1
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd = 2.5
+walk.back = -1.5
+run.fwd = 4.625, 0
+run.back = -6.25, -6.25
+jump.neu = 0, -10.47
+jump.fwd = 2.6094
+jump.back = -2.7206
+runJump.fwd = 3.5441, -11.47
+runJump.back = -4.1309, -10.47
+airjump.neu = 0,-6.5
+airjump.back = -2.8
+airjump.fwd = 2.8
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yAccel = 0.595
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory1 = "To me, my recipes are priceless."
+victory2 = "I've only had two rules: Do all you can and do it the best you can. It's the only way you ever get that feeling of accomplishing something."
+victory3 = "There's no reason to be the richest man in the cemetery. You can't do any business from there."
+victory4 = "I've read hundreds of cookbooks. For my money, they are the bird."
+victory5 = "Don't be against things so much as for things."
+victory6 = "A lot of learned men think people really are the food they've eaten."
+victory7 = "I've got no idea when I am going to retire. Whenever they pick me up and take me to the funeral home, I guess."
+victory8 = "I am not too proud of having my name associated with some of my restaurants."
+victory9 = "I always hired widows with children, because they had to work and didn't have any foolishness about them."
+victory10 = "The food I've liked in my time is American country cookin'."
+victory11 = "I've read hundreds of cookbooks. Most of those cookbooks don't even tell you how to get a steak ready, how to bake biscuits or an apple pie."
+victory12 = "You got to like your work. You have got to like what you are doing, you have got to be doing something worthwhile so you can like it - because it is worthwhile, that it makes a difference, don't you see?"
+victory13 = "No hours, nor amount of labor, nor amount of money would deter me from giving the best that there was in me."
+;Special Quotes
+;Vs.Donald/Ronald
+victory14 = "It's won all of KFC's!"
+;Vs.Colonel Sanders
+victory15 = "Who are you?"
+;Vs.Miku Hatsune
+victory16 = "Can not take your songs."
+;Vs.Reimu Hakurei
+victory17 = "To be a priestess you are very selfish."
+;Vs.Marisa Kirisame
+victory18 = "Do not steal the persons."
+;Vs.Byakuren Hijiri
+victory19 = "To be a nun you're quite irritating."
+;Vs.Eirin Yagokoro
+victory20 = "A doctor did not use weapons."
+;Vs.Flandre Scarlet
+victory21 = "Take some pills epileptic girl."
+;Vs.Kanako Yasaka
+victory22 = "A god attacking a human.What a shame."
+;Vs.Komachi Onozuka
+victory23 = "I would like to travel in your ship."
+;Vs.Lie Meiling
+victory24 = "I do not know you."
+;Vs.Hong Meiling
+victory25 = "Unattended."
+;Vs.Fujiwara no Mokou
+victory26 = "An immortal give me the elixir of Felix."
+;Vs.Patchouli Knowledge
+victory27 = "Do not you have a headache after reading so many books?"
+;Vs.Sakuya Izayoi
+victory28 = "A maid who stops time... I don't see that everyday."
+;Vs.Utsuho Reiuji
+victory29 = "Do not use nuclear power."
+;Vs.Yukari Yakumo
+victory30 = "You don't get tired of spying on the people."
+;Vs.Yuuka Kazami
+victory31 = "Your sunflowers are precious."
+;Vs.Yuyuko Saigyouji
+victory32 = "I invite the KFC in order that you eat something."
+;Vs.Alice Margatroid
+victory33 = "Do your dolls take gunpowder?"
+
+[ja.Quotes]
+victory1 = "私への、私のレシピは貴重である。"
+victory2 = "あなたができるすべてをして、それをあなたができる最善を尽くし：私は2つだけのルールを持っていました。それはあなたが今まで何かを達成するためのその感覚を得る唯一の方法です。"
+victory3 = "墓地で最も裕福な男になる理由はありません。あなたはそこからどのようなビジネスを行うことはできません。"
+victory4 = "私は、料理本の数百を読みました。私のお金のために、彼らは鳥です。"
+victory5 = "物事のようなので、多くの事に反してはいけません。"
+victory6 = "学習した男性の多くは、人々は本当に彼らが食べた食べ物だと思います。"
+victory7 = "私は引退するつもりは考えを持ってませんしました。彼らが私をピックアップし、葬儀の家に私を取るたびに、私は推測します。"
+victory8 = "私は私のレストランのいくつかに関連付けられている私の名前を持つ、あまりにも誇りに思っていないです。"
+victory9 = "彼らは仕事をしていたし、それらについての愚かさを持っていなかったので、私はいつも、子どもたちとやもめを雇いました。"
+victory10 = "私は私の時間に言ってきた食品は「アメリカの国のクッキンです。"
+victory11 = "私は、料理本の数百を読みました。これらの料理本のほとんどはあっても、どのようにステーキを準備する方法ビスケットやアップルパイを焼くためにあなたを教えていません。"
+victory12 = "あなたはあなたの仕事を好きになりました。あなたが表示されていない、それは違いを作ることは、価値があるので、 - あなたはあなたが何をしているか好きに持っている、あなたがそれを好むことができるように価値のある何かをやってに持ってきましたか？"
+victory13 = "いいえ時間、また労働の量、またお金の量が私にあった最高のを与えることから私を阻止しないだろう。"
+;Special Quotes
+;Vs.ドナルド/ロナルド
+victory14 = "これは、KFCのすべてを獲得しています！"
+;Vs.カーネルサンダース
+victory15 = "あなたは誰？"
+;Vs.初音ミク
+victory16 = "あなたの曲を取ることができません。"
+;Vs.博麗霊夢
+victory17 = "巫女であるためにあなたは非常に利己的です。"
+;Vs.博麗　霊夢（はくれい　れいむ）
+victory18 = "人物を盗むしないでください。"
+;Vs.白蓮聖
+victory19 = "あなたは非常に刺激している修道女であるために。"
+;Vs.八意　永琳（やごころ　えいりん）
+victory20 = "医者は武器を使用していませんでした。"
+;Vs.フランドール・スカーレット
+victory21 = "いくつかの丸薬にてんかんの女の子を取ります。"
+;Vs.八坂　神奈子（やさか　かなこ
+victory22 = "人間を攻撃良いです。 残念だ。"
+;Vs.小野塚　小町（おのづか　こまち）
+victory23 = "私はあなたの船で旅行したいです。"
+;Vs.リー美鈴
+victory24 = "私はあなたを知りません。"
+;Vs.香港美鈴
+victory25 = "無人。"
+;Vs.紅 美鈴（ほん　めいりん）
+victory26 = "不滅のは私にフェリックスの万能薬を与えます。"
+;Vs.風見　幽香（かざみ　ゆうか）
+victory27 = "あなたは非常に多くの本を読んだ後に頭痛を持っていないのですか？"
+;Vs.十六夜　咲夜（いざよい　さくや）
+victory28 = "時間を停止メイドが毎日ことは表示されません。"
+;Vs.霊烏路 空（れいうじ　うつほ）（通称：おくう）
+victory29 = "原子力発電は使用しないでください。"
+;Vs.八雲　紫（やくも　ゆかり）
+victory30 = "あなたは人をスパイの疲れを得ることはありません。"
+;Vs.風見　幽香（かざみ　ゆうか）
+victory31 = "あなたのヒマワリは貴重です。"
+;Vs.西行寺　幽々子（さいぎょうじ　ゆゆこ）
+victory32 = "私はあなたが何かを食べるようにするためにKFCを招待します。"
+;Vs.アリス・マーガトロイド
+victory33 = "あなたの人形は、火薬を取るのですか？"

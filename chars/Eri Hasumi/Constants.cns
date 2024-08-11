@@ -1,0 +1,95 @@
+﻿; _________________________________________
+;| Eri Hasumi by Sennou-Room               |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<CONSTANTS>====================
+[Data]
+life = 1000
+power = 3000
+attack = 100
+defence = 100
+fall.defence_up = 50
+lieDown.time = 60
+airJuggle = 0
+sparkNo = s8010
+guard.sparkNo = s8000
+KO.echo = 0
+volumescale = 100
+IntPersistIndex = 0
+FloatPersistIndex = 0
+
+[Size]
+xScale = .375
+yScale = .375
+ground.back = 16
+ground.front = 16
+air.back = 12
+air.front = 12
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doScale = 0
+head.pos = 2, -84
+mid.pos = 4, -56
+shadowOffset = 0
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd = 3
+walk.back = -3
+run.fwd = 6.5, 0
+run.back = -6.25, -4.75
+jump.neu = 0, -11
+jump.fwd = 2.9
+jump.back = -2.9
+runJump.fwd = 5, -12
+runJump.back = -5, -12
+airjump.neu = 0,-6.5
+airjump.back = -2.8
+airjump.fwd = 2.8
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yAccel = 0.52
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+;English（英語）
+[Quotes]
+victory0 = "If you can't catch up with my speed, you'll never defeat me. Ever."
+victory1 = "Is your ability this degree? It world is the surprisingly narrow."
+victory2 = "Nobody can not stop me!"
+victory3 = "The blink is the fatal!"
+victory4 = "Kurumi ... Where are you?"
+
+;vs Kurumi Mirumati
+victory5 = "Kurumi!? Are you okay?"
+
+;vs Luna Himeki
+victory6 = "I don't again return to that place!"
+
+;Japanese（日本語）
+[ja.Quotes]
+victory0 = "この程度のスピードについてこれないようじゃ、私を倒すのは一生ムリね。"
+victory1 = "この程度なの？世間って意外と狭いのね。"
+victory2 = "誰も私を止められないわ！"
+victory3 = "その瞬きが命取りよ！"
+victory4 = "くるみ……どこにいるの？"
+
+;vs 美留町くるみ
+victory5 = "く、くるみ！？大丈夫……？"
+
+;vs ルナ姫木
+victory6 = "私は二度とあんなところには戻らないわ！"

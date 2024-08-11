@@ -1,0 +1,168 @@
+;====================<VARIABLE LIST>====================
+
+;var(3)  : Jump Type (0 = Normal; 1 = Low Jump; 2 = Long Low Jump; 3 = Long Jump)
+;var(4)  : Chain Combo (0 = Off; 1 = On)
+
+;var(6)  : Cancel Flag
+;var(7)  : Able to Super Cancel
+;var(8)  : Able to Hyper Cancel
+;var(9)  : Counter Flag
+;var(10) : Button Detect (0 = Light; 1 = Medium; 2 = Heavy)
+
+;var(13) : Hit Count
+
+;var(15) : Juggle Points
+;var(16) : Juggle Flag
+;var(17) : Ticks UnGuardable
+;var(18) : ProjContact (0 = No; 1 = Yes)
+;var(19) : Throw Escape
+;var(20) : Custom Combo Time
+;var(21) : Super Cancel Flag
+;var(22) : Hyper Cancel Flag
+
+;var(23) : Super Finish Type (900 = Custom Combo; 3000 = Somersault Strike; 3100 = Total Wipeout; 3200 = Sonic Hurricane)
+
+;var(25) : Ticks to Apply EX FX
+;var(26) : Ticks Unable to Walk
+;var(30) : Hit Detection
+;var(31) : Hit Sound (0 = Light Punch; 1 = Medium Punch; 2 = Heavy Punch; 3 = Light Kick; 4 = Medium Kick; 5 = Heavy Kick; 6 = Projectile Hit; 800 = Grab)
+;var(32) : Guard Sound
+;var(33) : Hit Spark (8010 = Light; 8011 = Medium; 8012 = Heavy; 8013 = Special; 8014 = Super)
+;var(34) : Guard Spark (8000 = Normal; 8001 = Special)
+;var(35) : Spark xPos
+;var(36) : Spark yPos
+;var(38) : Throw (0 = Allowed; 1 = Not Allowed)
+;var(39) : Projectile Flag (0 = Off; 1 = On)
+
+;var(47) : Ticks Back is held down
+;var(48) : Back Charge Buffer
+;var(49) : Ticks Down is held down
+;var(50) : Down Charge Buffer
+
+;var(58) : Game Time
+
+;fvar(5) : Amount of Corner Push
+;fvar(10): Damage Dampener
+;fvar(11): Damage Dampener with Counter Multiplier Added
+
+
+
+; _________________________________________
+;| Batman by varo_hades                    |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<CONSTANTS>====================
+[Data]
+life = 1000
+power = 3000
+attack = 100
+defence = 100
+fall.defence_up = 50
+lieDown.time = 60
+airJuggle = 15
+sparkNo = s8010
+guard.sparkNo = s8000
+KO.echo = 0
+volume = 0
+IntPersistIndex = 0
+FloatPersistIndex = 0
+
+[Size]
+xScale = 1
+yScale = 1
+ground.back = 15
+ground.front = 15
+air.back = 15
+air.front = 15
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doScale = 0
+head.pos = -5, -90
+mid.pos = -5, -60
+shadowOffset = 0
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd  = 2.4
+walk.back = -2.2
+run.fwd  = 5,0
+run.back = -4.5,-4
+jump.neu = 0, -8.4
+jump.fwd = 3.5
+jump.back = -3.55
+runJump.fwd = 5.5, -9.2
+runJump.back = -5.55, -9.2
+airjump.neu = 0,-6.5
+airjump.back = -2.8
+airjump.fwd = 2.8
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yAccel = 0.44
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory0 = "I’m Batman."
+victory1 = "The night is darkest just before the dawn. And I promise you, the dawn is coming."
+victory2 = "I believe what doesn’t kill you simply makes you, stranger."
+victory3 = "Endure, Master Wayne. Take it. They’ll hate you for it, but that’s the point of Batman, he can be the outcast. He can make the choice that no one else can make, the right choice."
+victory4 = "Your anger gives you great power. But if you let it, it will destroy you… As it almost did me."
+victory5 = "You either die a hero or live long enough to see yourself become the villain."
+victory6 = "If you’re good at something, never do it for free."
+victory7 = "Have you ever danced with the Devil in the pale moonlight?"
+victory8 = "Swear to me!"
+victory9 = "If you make yourself more than just a man, if you devote yourself to an ideal, and if they can’t stop you, then you become something else entirely… Legend, Mr. Wayne."
+victory10 = "It’s not who I am underneath, but what I do that defines me."
+victory11 = "The world only makes sense if you force it to."
+victory12 = "Some men just want to watch the world burn."
+victory13 = "Yes, father. I shall become a bat."
+victory14 = "Good grammar is essential, Robin."
+victory15 = "YHe’s the hero Gotham deserves, but not the one it needs right now."
+victory16 = "YCriminals, by nature, are a cowardly and superstitious lot."
+victory17 = "Let the games begin!"
+victory18 = "Holy rusted metal, Batman!"
+victory19 = "I am vengeance. I am the night. I am Batman."
+victory20 = "Sometimes the truth isn’t good enough, sometimes people deserve more. Sometimes people deserve to have their faith rewarded."
+victory21 = "That’s one trouble with dual identities, Robin. Dual responsibilities."
+victory22 = "I’m not going to kill you. I want you to do me a favor. I want you to tell all your friends about me."
+victory23 = "Rubber lips are immune to your charms."
+victory24 = "As a man; I am flesh and blood; I can be ignored, I can be destroyed. But as a symbol, I can be incorruptible. I can be everlasting."
+victory25 = "The training is nothing! The will is everything! The will to act."
+victory26 = "Not you, Robin. They have strict licensing laws in this country. A boy of your age is not allowed in a drinking tavern."
+victory27 = "We all wear masks."
+victory28 = "The true crimefighter always carries everything he needs in his utility belt, Robin."
+victory29 = "She wants to kill you, Dick."
+victory30 = "You wanna get nuts? Come on! Let’s get nuts!"
+victory31 = "Batman punches people in the face."
+victory32 = "Maybe that’s what Batman is about. Not winning, but failing, and getting back up. Knowing he’ll fail, fail a thousand times, but still won’t give up."
+victory33 = "No miracles. No mercy. No redemption. No heaven. No hell. No Higher Power. Just life, just…us."
+victory34 = "I don’t blend in at a family picnic."
+victory35 = "You think darkness is your ally."
+victory36 = "It is the duty of every good citizen of Gotham City to report meeting a man from Mars in a public park."
+victory37 = "You’re a real nice girl, and I like you a lot, but right now—shut up!"
+victory38 = "I see without seeing. To me, darkness is as clear as daylight. What am I?"
+victory39 = "A hero can be anyone. Even a man doing something as simple and reassuring as putting a coat around a little boy’s shoulders to let him know that the world hadn’t ended."
+victory40 = "Never leave the cave without it!"
+victory41 = "The bat-signal is not a beeper."
+victory42 = "Let that be a lesson. In the future, be more careful from who you accept free lemonade."
+victory43 = "For once I’m stuck without a punchline."
+victory44 = "You’re about to become compost."
+victory45 = "All men have limits. They learn what they are and learn not to exceed them. I ignore mine."
+victory46 = "I never said thank you.”… “And you’ll never have to."
+victory47 = "That's enough!"
+victory48 = "He's with me."
+victory49 = "You can turn that off now."

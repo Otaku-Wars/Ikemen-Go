@@ -1,0 +1,54 @@
+; Definition file for Kung Fu Man
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name = "Mario"        ;Name of character
+displayname = "Mario" ;Name of character to display
+versiondate = 09,30,2009    ;Version date of character (MM-DD-YYYY or X.XX)
+mugenversion = 1.0          ;Version of M.U.G.E.N character works on (X.XX)
+author = "Golde Briggs"         ;Character author name
+pal.defaults = 4,1,5,2      ;Default palettes in order of preference (up to 4)
+localcoord = 320,240                            ;Numbering starts from 1
+
+; Files for the player
+[Files]
+cmd     = mario.cmd           ;Command set
+cns     = mario.cns           ;Constants
+st      = mario.st           ;States
+stcommon = common1.cns      ;Common states (from data/ or motif)
+sprite  = mario.sff           ;Sprite
+anim    = mario.air           ;Animation
+sound   = mario.snd           ;Sound
+st1 = special.st
+st2 = super.st
+st3 = config.txt
+
+pal1=Palettes/MarioColor1.act
+pal2=Palettes/MarioColor2.act
+pal3=Palettes/MarioColor3.act
+pal4=Palettes/Simpson.act
+pal5=Palettes/MarioColor5.act
+pal6=Palettes/MarioColor6.act
+pal7=Palettes/MarioColor7.act
+pal8=Palettes/MarioColor8.act
+pal9=Palettes/MarioColor9.act
+pal10=Palettes/MarioColor10.act
+pal11=Palettes/MarioColor11.act
+pal12=Palettes/SSBBBlack.act
+
+
+
+[Palette Keymap]
+a  = 1
+b  = 2
+c  = 3
+x  = 4
+y  = 5
+z  = 6
+a2 = 7
+b2 = 8
+c2 = 9
+x2 = 10
+y2 = 11
+z2 = 12

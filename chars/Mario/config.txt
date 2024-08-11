@@ -1,0 +1,52 @@
+;Customizer
+[statedef 900]
+type = S
+movetype = I
+physics = S
+anim = 9741
+velset = 0,0
+
+;----------------------MODIFY ONLY BELOW THIS LINE!------------------
+
+;Mario's Voice
+;0: Classic SM64 Voice (default)
+;1: Modern SMG/SSBB Voice
+[state 900, voicevar]
+type = parentvarset
+trigger1 = 1
+var(24) = 1
+
+;----------------------MODIFY ONLY ABOVE THIS LINE!------------------
+;==========================================================================
+; Palette Selector
+[State 5900, Palette Selector]
+type = VarSet
+trigger1 = 1
+v = 27
+value = 0
+
+[State 5900, Varset]
+type = Varset
+trigger1 =1
+var(29)=0
+persistent=0
+
+[State 5900, Pal Selector on]
+type=helper
+triggerall=var(27)&&!numhelper(256)&&!AILevel&&numenemy 
+trigger1= roundno = 1 && matchno=1 && !(teammode = simul) && !(enemy, teammode = simul)
+trigger2= !var(26) 
+trigger3=(teammode = turns)
+trigger3=!roundsexisted && (enemy,roundsexisted)
+id=256
+stateno=256
+size.xScale=0.5
+size.yScale=0.5
+facing=facing
+ownpal=1
+[state 5900, No Palette selector]
+type = remappal
+trigger1 = !var(27)||AILevel
+source = 1, 1
+dest = 1, palno
+ignorehitpause = 1

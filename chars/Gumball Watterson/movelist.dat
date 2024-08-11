@@ -1,0 +1,42 @@
+<#f0f000>THROWS</>
+
+Throw 1								(near opponent) [_B/_F]_+^2P
+Throw 2								(near opponent) [_B/_F]_+^2K
+
+<#f0f000>NORMAL</>
+
+
+
+<#f0f000>SPECIALS</>
+
+
+
+<#f0f000>LEVEL 1 SUPER COMBOS</>
+
+
+
+<#f0f000>LEVEL 2 SUPER COMBOS</>
+
+
+
+<#f0f000>LEVEL 3 HYPER COMBO</>
+
+
+
+<#f0f000>SYSTEM</>
+
+Forward Dash					_F_F
+_!Run							(hold)_F
+Back Dash						_B_B
+High Jump						_TAP_D, _U
+Hop								_TAP_U
+Hyper Hop						_TAP_D, _TAP_U
+Parry							_TAP_F / _TAP_D
+Roll							[_B/_F]_+^A+^X
+Sidestep						^A_+^X
+_!Sidestep Attack				^P/^K
+Custom Combo					(air also) ^C_+^Z
+Guard Cancel High				(while guarding)_F_+^2P
+Guard Cancel Low				(while guarding)_F_+^2K
+Fall Recovery					(when allowed)^P/^K
+Taunt							^S

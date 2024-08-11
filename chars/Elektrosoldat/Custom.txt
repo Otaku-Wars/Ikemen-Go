@@ -1,0 +1,333 @@
+;==================< INITIALIZE >========================================
+
+;Initialize Start Round
+[Statedef 5900]
+type = S
+
+;==========================================================================
+
+[state 5900, Reset Variables]
+type = varrangeset
+trigger1 = !roundsexisted && matchno = 1
+value = 0
+[state 5900, Reset Variables]
+type = varrangeset
+trigger1 = !roundsexisted && matchno = 1
+fvalue = 0
+[State 5900, Reset Palette]
+type = VarSet
+trigger1 = !roundsexisted&&matchno=1;
+fvar(0) = palno
+[State 5900, Reset Palette]
+type = RemapPal
+trigger1 = !roundsexisted && matchno = 1
+source = 1,1
+dest = 1,fvar(0)
+
+;___________________________________________________________________________
+
+;CUSTOM COMBO / MAX MODE SELECT
+[State 5900, Custom Combo / Max Mode Select];
+type = VarSet;
+trigger1 = !roundsexisted&&matchno=1;
+var(54) = 0
+;0 = Custom Combo
+;1 = MAX Mode
+;___________________________________________________________________________
+
+;PALETTE SSELECTOR & CUSTOM COMBO / MAX MDOE SELECTOR
+[State 5900, Palette Selector + MAX Mode / Custom Combo Selector];
+type=Varset;
+trigger1=1;
+v=56;
+
+Value = 2
+;0 = No Match-start-selector
+;1 = Palette Selector
+;2 = Palette Selector + Custom Combo / MAX Mode Selector
+;3 = ustom Combo / MAX Mode Selector
+;___________________________________________________________________________
+
+;CHAIN COMBOS & AIR COMBOS
+[State 5901, Chain Combos and Air Combos];
+type = varset;
+trigger1=1;
+v=59;
+Value = 0
+;0 = No Chain Combos
+;1 = Chain Combos (3-hit-max)
+;2 = Chain Combos (6-hit-max)
+;3 = Chain Combos + Air-Combos
+;___________________________________________________________________________
+
+;LV1-TO-LV1 SUPER-CANCELING
+[State 5901, Lv1-into-Lv1 Super-Canceling, etc];
+type = varset;
+trigger1=1;
+v=51;
+
+Value = 0
+;0 = Supers can only be canceled into Supers of higher level (Lv1->Lv2, etc)
+;1 = Supers can be canceled into Supers of the same level or higher
+;2 = Supers can be canceled into their MAX variations
+;___________________________________________________________________________
+
+;POTS, INFINITE OR CVS HITSOUNDS?
+[State 5901, PotS, Infinite or CvS Hit-Sounds];
+type = varset;
+trigger1=1;
+v=52;
+
+Value = 1
+;0 = Classic PotS Hit-sounds
+;1 = Infinite Hit-sounds
+;2 = Capcom vs SNK Hit-sounds
+;___________________________________________________________________________
+
+;HIT-SPARKS COLORS
+[State 5901, PotS or Infinite Hit-Sparks];
+type = varset;
+trigger1=1;
+v=57;
+
+Value = 1
+;0 = Classic Orange PotS Hitsparks
+;1 = Multi-Colored PotS Hitsparks (AKA, Infinite's Hitsparks)
+;2 = PotS' 2022 Hitsparks
+;___________________________________________________________________________
+
+;HIT-SPARK SIZE
+[State 5901, Bigger of smaller Hit-Sparks];
+type = varset;
+trigger1=1;
+v=46;
+
+Value = 0
+;0 = Regular-sized hit-sparks
+;1 = Slightly-smaller hit-sparks
+;2 = Smaller hitsparks, like in some chars from Jmorphman
+;3 = Even smaller hitsparks, like in some of Varo_Hades' chars
+;___________________________________________________________________________
+
+;SPECIAL FINISH PREFERENCES
+[State 5901, Special Finish preferences];
+type = varset;
+trigger1=1;
+fv=26;
+
+Value = 4
+;0 = Special Finish screen OFF
+;1 = Special Finish screen ON (stage music stays on)
+;2 = Special Finish screen ON (stage music is muted)
+;3 = Special Finish screen ON (Golden version when EX Finish + stage music is muted)
+;4 = Special Finish screen ON (Golden version when EX Finish + stage music stays on)
+;___________________________________________________________________________
+
+;SUPER FINISH PREFERENCES
+[State 5901, Super Finish preferences];
+type = varset;
+trigger1=1;
+v=41;
+
+Value = 0
+;0 = Super Finish has the classic black background (stage music is turned OFF)
+;1 = Super Finish has the classic black background (stage music stays on)
+;2 = Super Finish has the background of PotS' 2022 chars (stage music stays on)
+;3 = Super Finish has the background of PotS' 2022 chars (stage music is turned OFF)
+;___________________________________________________________________________
+
+;LV2 SUPERCHARGE SOUND EFFECT
+[State 5901, Lv2 Super-charge Sound Effect];
+type=Varset;
+trigger1=1;
+fv=24;
+
+Value = 1
+;0 = Standard PotS-Styled Supercharge sound effect
+;1 = Lv2 sound-effect commonly found in Infinite's chars
+;2 = Lv2 sound-effect found on PotS' 2022 updated characters
+;___________________________________________________________________________
+
+;LV3 SUPERCHARGE SOUND EFFECT
+[State 5901, Lv3 Super-charge Sound Effect];
+type=Varset;
+trigger1=1;
+fv=25;
+
+Value = 1
+;0 = Standard PotS-Styled Supercharge sound effect
+;1 = Lv3 sound-effect commonly found in Infinite's chars
+;2 = Lv3 sound-effect found on PotS' 2022 updated characters
+;3 = Lv3 sound-effect commonly found on Buckus', Mr.Ansatsuken's and DJMouF's chars
+;___________________________________________________________________________
+
+;SUPER AFTER-IMAGES
+[State 5900, Super After-images & After-image colors];
+type=Varset;
+trigger1=1;
+v=55;
+
+Value = 1
+;0 = Classic PotS-styled Super after-images (no additional effect)
+;1 = Classic PotS-styled Super after-images + a double after-image effect during Super Charge
+;2 = The Super after-images of PotS's 2022 updated characters + a double after-image effect during Super Charge
+;3 = The Super after-images of PotS's 2022 updated characters (no additional effect)
+;___________________________________________________________________________
+ 
+;COUNTER FX PREFERENCES
+[State 5900, Counter-attack FX];
+type=Varset;
+trigger1=1;
+fv=13;
+
+Value = 1
+;0 = Classic Counter FX ("Counter!" text)
+;2 = Counter FX from PotS' 2022 characters (White circle effect)
+;1 = Both FX at the same time
+;___________________________________________________________________________
+
+;CUSTOM COMBO & MAX-MODE CANCELING FROM NORMALS
+[State 5900, Custom Combo & MAX-Mode canceling from normals (V-Trigger Style)];=
+type=Varset;
+trigger1=1;
+v=44;
+
+Value = 2
+;0 = No canceling into Custom Combo / MAX Mode
+;1 = Normals can be canceled into Custom Combo
+;2 = Normals can be canceled into either Custom Combo or MAX Mode
+;3 = Normals can be canceled into MAX Mode
+;___________________________________________________________________________
+
+;CUSTOM COMBO VISUALS
+[State 5900, Custom Combo meter + "EX" text-effect];
+type=Varset;
+trigger1=1;
+v=40;
+
+Value = 1
+;0 = Classic PotS Custom Combo visuals
+;1 = Classic PotS Custom Combo visuals + a visible duration meter/gauge.
+;2 = "EX" text-effect on Custom Combo activation + a visible duration meter/gauge.
+;3 = "EX" text-effect on Custom Combo activation
+;___________________________________________________________________________
+
+; CUSTOM COMBO MECHANICS
+[State 5900, Custom Combo level, duration, and Super-cancel];
+type=Varset;
+trigger1=1;
+fv=17;
+
+Value = 0
+;0 = classic Custom Combo duration, being able to Super Cancel during the last second (costs 1 bar)
+;1 = classic Custom Combo duration, being unable to Super Cancel during it (costs 1 bar)
+;2 = the Custom Combo of PotS' 2022 characters, being unable to Super Cancel during it (costs 2 bars)
+;3 = the Custom Combo of PotS' 2022 characters, being able to Super Cancel during the last second (costs 2 bars)
+;___________________________________________________________________________
+ 
+;SCREEN SHAKE ON NORMALS
+[State 5901, Screen-shake on Normal attacks];
+type = varset;
+trigger1=1;
+v=45;
+
+Value = 0
+;0 = No screen-shake
+;1 = Screen shake upon landing Normal attacks
+;___________________________________________________________________________
+
+;LV3 SUPER PORTRAIT
+[State 5900, Lv3 Super Portrait];
+type=Varset;
+trigger1=1;
+fv=18;
+
+Value = 0
+;0 = PotS-Styled Lv3 Super Background
+;1 = Akatsuki Blitzkampf-styled Lv3 Super Background
+;___________________________________________________________________________
+ 
+;STUN SYSTEM
+[State 5900, Stun System];
+type=Varset;================================================================
+trigger1=1;============================NOT HERE=============================
+fv=33;==========================NOT HERE====================================
+
+Value = 0
+;0 = The character cannot apply Stun status on his own
+;1 = The character can apply Stun status (from the Street Fighter games) like PotS' 2022 updated characters.
+;___________________________________________________________________________
+ 
+; PAUSE MENU (SHOW MOVELIST)
+[State 5900, Pause Menu (Show Movelist)];
+type=Varset;
+trigger1=1;
+fv=29;
+
+Value = 1
+;0 = No pause-menu
+;1 = Tapping "Start" twice brings up a Show-Movelist pause-menu (with move previews)
+;___________________________________________________________________________
+ 
+;CAMERA MECHANICS CUSTOMIZATION
+[State 5901, Camera-Focus & Camera-Zoom];
+type=varset;
+trigger1=1;
+fv=35;
+
+Value = 0;5
+;0 = No camera-related mechanics
+;1 = The camera centers on the character during win-poses
+;2 = Camera centers during win-poses + zoom-in during moves like Throws etc (MUGEN 1.1 version only)
+;3 = Camera does NOT center during winposes, but zooms-in during moves like Throws etc (MUGEN 1.1 version only)
+;4 = Camera does NOT center during winposes, but zooms-in during moves like THrows AND Super-Charges (MUGEN 1.1 version only)
+;5 = Camera centers during winposes + zooms-in during moves like THrows AND Super-Charges (MUGEN 1.1 version only)
+;___________________________________________________________________________
+
+
+
+
+
+
+
+;___________________________________________________________________________
+[State 5900, How many palettes?];
+type=Varset
+trigger1=1;
+fv=27;
+Value = 16
+; How many color palettes does the character have?
+
+
+
+;___________________________________________________________________________
+;                     DO NOT CHANGE ANYTHING BELOW THIS LINE
+;___________________________________________________________________________
+[State 5900, Pal Selector on]
+type=helper
+triggerall=var(56)&&!numhelper(256)&&!AILevel&&numenemy;
+trigger1=roundno=1&&matchno=1&&!(teammode=simul)&&!(enemy,teammode=simul)
+trigger2=(teammode=turns)
+trigger2=!roundsexisted&&(enemy,roundsexisted)
+id=256
+stateno=256
+size.xScale=0.5
+size.yScale=0.5
+facing=facing
+ownpal=1
+
+[State 5900, Turns Intro]
+type = ChangeState
+trigger1 = TeamMode = Turns
+trigger1 = !RoundsExisted && RoundNo >= 2
+value = 6900
+
+[State 5900, Intro Decider]
+type = ChangeState
+trigger1 = RoundNo = 1
+value = 190
+
+[State 5900, End]
+type = ChangeState
+trigger1 = 1
+value = 0

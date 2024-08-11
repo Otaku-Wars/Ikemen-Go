@@ -1,0 +1,30 @@
+; ADD004 BASIC PIEs ReBuilded DEF (01/03/2023)
+;==============================================
+; This file is Made by PIE.
+; there is a backup of this file in the same folder, named "<samename>.a4bk".
+; to Restore, use assist tool, or delete this file, then remove ".a4bk" from the neme of backup.
+;==============================================
+
+[Info]
+name="Sonic The Hedgehog"
+displayname="Sonic The Hedgehog"
+versiondate=
+mugenversion=06,14,2003
+author="SeanAltly, Golde Briggs"
+pal.defaults=1,2,3,4
+[Files]
+sprite=Sonic.sff
+sound=Sonic.snd
+anim=Sonic.air
+cmd=Sonic.cmd
+cns=add004basic.reb1
+st=add004basic.reb1
+stcommon=common1.cns
+pal1=Colors/sonic3.act
+pal2=Colors/sonic2.act
+pal3=Colors/sonic1a.act
+pal4=Colors/sonic4.act
+pal5=Colors/sonic5.act
+pal6=Colors/sonic6.act
+pal7=Colors/sonic1.act
+pal8=Colors/sonic7.act

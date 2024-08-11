@@ -1,0 +1,94 @@
+; __________________
+;| Vegeta by DJMouF |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<CONSTANTS>====================
+[Data]
+life = 1000
+power = 3000
+attack = 100
+defence = 100
+fall.defence_up = 50
+lieDown.time = 60
+airJuggle = 0
+sparkNo = s8010
+guard.sparkNo = s8000
+KO.echo = 0
+volume = 256
+IntPersistIndex = 0
+FloatPersistIndex = 0
+
+[Size]
+xScale = .85
+yScale = .85
+ground.back = 15
+ground.front = 15
+air.back = 15
+air.front = 15
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doScale = 0
+head.pos = 0 , -92
+mid.pos = -7, -53
+shadowOffset = -1
+draw.offset = 0,0
+
+[Velocity]
+walk.fwd = 2.5
+walk.back = -1.5
+run.fwd = 8, 0
+run.back = -6.25, -6.25
+jump.neu = 0, -10.47
+jump.fwd = 2.6094
+jump.back = -2.7206
+runJump.fwd = 3.5441, -11.47
+runJump.back = -4.1309, -10.47
+airjump.neu = 0,-6.5
+airjump.back = -2.8
+airjump.fwd = 2.8
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yAccel = 0.595
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory0 = "Dare to challenge the Prince Of All Saiyans!?"
+victory1 = "Stay where you are unless you want to be sent to the next world"
+victory2 = "No one will get in my way of defeating that clown Kakarot"
+victory3 = "There's no such thing as too much POWERRRRR!"
+victory4 = "I Hate Weaklings"
+victory5 = "To Hell With You!"
+victory6 = "Waste of my time"
+victory7 = "If that's your limit dont ever come my way"
+victory8 = "The Great Vegeta Shows No Mercy!"
+
+; vs Goku
+victory10 = "Kakarot... I'm Number One!"
+victory11 = "You will always be a low class compared to me Clown!"
+
+; vs Vegeta
+victory12 = "How Dare You Impersonate The Prince!"
+victory13 = "There can only be one Prince of the Warrior Race"
+
+; vs Broly
+victory14 = "Just Who The Hell Are You!? All that Legendary power with no training..."
+victory15 = "I Will Not Pay For My Father's Accusations!"
+
+; vs Bardock
+victory16 = "Kakarot's father huh? You're genius for the scouters, but I'm on a much... further level"
+victory17 = "You're low class son defeated the one enemy I've spent my life training to defeat... Now he must Pay!!!"
