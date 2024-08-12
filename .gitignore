@@ -4,7 +4,6 @@ go/*
 # Runtime
 /chars/*
 *.bat
-*.png
 save/*
 Ikemen_GO.exe
 Ikemen_GO_Linux
@@ -42,9 +41,9 @@ external/script/.idea/*
 # stages/*
 # sound/*
 
+
 # Temp
 src/lua_triggers.go
-external/script/wip/*
 
 # IDE Files
 .vscode/*
@@ -56,3 +55,7 @@ bin/*
 
 # Compilation files
 src/*.syso
+
+
+!external/*
+
