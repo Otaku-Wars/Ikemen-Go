@@ -2,7 +2,6 @@
 go/*
 
 # Runtime
-/chars/*
 *.bat
 save/*
 Ikemen_GO.exe
@@ -10,7 +9,6 @@ Ikemen_GO_Linux
 Ikemen_GO_MacOS
 Ikemen_GO_x86.exe
 Ikemen_GO.command
-external/script/.idea/*
 
 # Ikemen_GO-Elecbyte-Screenpack
 # ScreenpackLicense.txt
@@ -57,5 +55,5 @@ bin/*
 src/*.syso
 
 
-!external/*
+!external/script/*
 
