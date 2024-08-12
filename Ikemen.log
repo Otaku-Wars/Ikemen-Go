@@ -1,0 +1,8 @@
+external/script/main.lua:1474: 
+overrideCharData function used before loading player 1, member 1
+
+stack traceback:
+	[G]: in function 'overrideCharData'
+	external/script/main.lua:1474: in function 'f_commandLine'
+	external/script/main.lua:1515: in main chunk
+	[G]: ?

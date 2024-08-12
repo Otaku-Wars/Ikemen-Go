@@ -2,7 +2,6 @@
 go/*
 
 # Runtime
-*.log
 *.cmd
 *.bat
 *.sh
