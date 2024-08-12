@@ -2,9 +2,8 @@
 go/*
 
 # Runtime
-*.cmd
+/chars/*
 *.bat
-*.sh
 *.png
 save/*
 Ikemen_GO.exe
