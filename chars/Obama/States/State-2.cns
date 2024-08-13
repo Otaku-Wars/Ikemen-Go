@@ -1,0 +1,296 @@
+[Statedef -2]
+
+[State No Longer?]
+type = VarSet
+triggerall = var(35) = 0
+trigger1 = enemy, const(data.attack)>=250
+trigger2 = enemy, name = "Asura Yun"
+trigger3 = enemy, authorname = "Ex-Infernis"
+trigger4 = enemy, authorname = "Tetchi"
+trigger5 = enemy, authorname = "EasyChar"
+trigger6 = enemy, authorname = "Actarus"
+trigger7 = enemy, authorname = "Actarus, maxim"
+trigger8 = enemy, authorname = "GohanSSM2"
+trigger9 = enemy, authorname = "gulthor"
+trigger10 = enemy, authorname = "supermystery"
+trigger11 = enemy, authorname = "YOUKAI"
+trigger12 = enemy, authorname = "Reu"
+trigger13 = enemy, authorname = "Slayer"
+trigger14 = enemy, authorname = "Cannon Musume"
+trigger15 = enemy, authorname = "Zero_Col"
+trigger16 = enemy, authorname = "Toma"
+trigger17 = P2name = "GOD ADON" || P4name = "GOD ADON"
+trigger18 = P2name = "Rare Akuma" || P4name = "Rare Akuma" || P2name = "Dai Gouki" || P4name = "Dai Gouki" || P2name = "IT CAME FROM HELL..." || P4name = "IT CAME FROM HELL..."
+trigger19 = P2name = "Rashoujin Mizuki" || P4name = "Rashoujin Mizuki"
+trigger20 = p2name = "elque" || p4name = "elque"
+trigger21 = p2name = "oni chizuru" || p4name = "oni chizuru"
+trigger22 = p2name = "Kingpamaty" || p4name = "Kingpamaty"
+trigger23 = p2name = "Makoto Shishio" || p2name = "Makoto Shishio"
+trigger24 = p2name = "Kishin Orochi" || p4name = "Kishin Orochi" || P2name = "Mizuchi" || P4name = "Mizuchi" || P2name = "Kishin Mizuchi" || P4name = "Kishin Mizuchi"
+trigger25 = p2name = "Goro" || P4name = "Goro"
+trigger26 = p2name = "Kintaro" || P4name = "Kintaro"
+trigger27 = p2name = "MOTARO" || P4name = "MOTARO"
+trigger28 = p2name = "Shao Kahn" || P4name = "Shao Kahn"
+trigger29 = p2name = "[Necromancer's] Broli" || P4name = "[Necromancer's] Broli"
+trigger30 = p2name = "Oda Nobunaga" || P4name = "Oda Nobunaga"
+trigger31 = p2name = "Pneophen's random experiment" || P4name = "Pneophen's random experiment"
+trigger32 = p2name = "Omega Zero" || P4name = "Omega Zero"
+trigger33 = p2name = "Gill" || P4name = "Gill"
+trigger34 = p2name = "Shadow Lady" || P4name = "Shadow Lady"
+trigger35 = p2name = "Dark Chun Li" || P4name = "Dark Chun Li"
+trigger36 = p2name = "Gill" || P4name = "Gill"
+trigger37 = p2name = "Nameless One" || P4name = "Nameless One"
+trigger38 = P2name = "Master Geese" || P4name = "Master Geese"
+trigger39 = p2name = "Perfect Weapon MB-02" || P4name = "Perfect Weapon MB-02"
+trigger40 = p2name = "Sonic Machine" || P4name =  "Sonic Machine"
+trigger41 = p2name = "Evil Ken" || P4name = "Evil Ken"
+trigger42 = p2name = "Evil Ryu" || P4name = "Evil Ryu"
+trigger43 = p2name = "ihiryu" || P4name = "ihiryu"
+trigger44 = p2name = "somos" || P4name = "somos"
+trigger45 = p2name = "Mech-HISUIX" || p4name = "Mech-HISUIX" || p2name = "mechhisuiex" || p4name = "mechhisuiex" || p2name = "Stupid Mech-HISUIX" || p4name = "Stupid Mech-HISUIX"
+trigger46 = p2name = "Kurihan by kurihan" || P4name = "Kurihan by kurihan"
+trigger47 = p2name = "Super-Vegeta by Biohazard 82" || P4name = "Super-Vegeta by Biohazard 82"
+trigger48 = p2name = "kuroneko" || P4name = "kuroneko"
+trigger49 = P2name = "Mega Weapon" || P4name = "Mega Weapon"
+trigger50 = p2name = "Zero Hotaru" || P4name = "Zero Hotaru"
+trigger51 = p2name = "Radish SSj4 by the vicious" || P4name = "Radish SSj4 by the vicious"
+trigger52 = p2name = "Shinobi" || P4name = "Shinobi"
+trigger53 = P2name = "Evil Soul" || P4name = "Evil Soul"
+trigger54 = P2name = "DX" || P4name = "DX"
+trigger55 = P2name = "OMEGA" || P4name = "OMEGA"
+trigger56 = P2name = "Shinryu" || P4name = "Shinryu"
+trigger57 = P2name = "Kamek's Rival" || P4name = "Kamek's Rival"
+trigger58 = P2name = "Master Hand" || P4name = "Master Hand"
+trigger59 = P2name = "Cheep-Chomp" || P4name = "Cheep-Chomp"
+trigger60 = P2name = "Adolf Hitler" || P4name = "Adolf Hitler"
+trigger61 = P2name = "Hyper Neo-Kamek" || P4name = "Hyper Neo-Kamek"
+trigger62 = P2name = "Overlord" || P4name = "Overlord"
+trigger63 = P2name = "Light Yagami" || P4name = "Light Yagami"
+trigger64 = p2name = "Kanna" || P4name = "Kanna"
+trigger65 = P2name = "Dark Hikari Reiko" || P4name = "Dark Hikari Reiko"
+trigger66 = P2name = "F1" || P4name = "F1"
+trigger67 = P2name = "Psycho Shredder[S]" || P4name = "Psycho Shredder[S]"
+trigger68 = P2name = "Kadelioscope" || P4name = "Kadelioscope"
+trigger69 = P2name = "Super Dizzy" || P2name = "Dizzy" || P4name = "Super Dizzy" || P4name = "Dizzy"
+trigger70 = P2name = "Goku super saiyajin 5" || P4name = "Goku super saiyajin 5"
+trigger71 = p2name = "Son Goku@ by Nemesis82 and Biohazard82" || P4name = "Son Goku@ by Nemesis82 and Biohazard82"
+trigger72 = P2name = "Pico" || P4name = "Pico"
+trigger73 = P2name = "Setsuna Sakurazaki" || P4name = "Setsuna Sakurazaki"
+trigger74 = P2name = "Pacman" || P4name = "Pacman"   ;;THANK GOD It's not Manny Pacquiao
+trigger75 = P2name = "Bloo" || P4name = "Bloo"
+trigger76 = P2name = "Zeeky H. Bomb" || P4name = "Zeeky H. Bomb"
+trigger77 = P2name = "Neo-Sephiroth" || P4name = "Neo-Sephiroth"
+trigger78 = P2name = "Sabaki Ryuuken" || P4name = "Sabaki Ryuuken"
+trigger79 = p2name = "Masta Gambit" || P4name = "Masta Gambit"
+trigger80 = P2name = "Disciple's Storm" || P4name = "Disciple's Storm"
+trigger81 = p2name = "Dark Gogeta" || p4name = "Dark Gogeta" || p2name = "Gogeta" || p4name = "Gogeta"
+trigger82 = p2name = "Y20k buggeroid t3h H4x" || p4name = "Y20k buggeroid t3h H4x"
+trigger83 = p2name = "Death Star" || p4name = "Death Star" || p2name = "deathstar" || p4name = "deathstar"   ;;;;I AIN'T SURE ABOUT THE REAL NAME OF THIS....
+trigger84 = p2name = "Omni-Psych Chipp" || p4name = "Omni-Psych Chipp" || p2name = "Omni-Psych Jam" || p4name = "Omni-Psych Jam" || p2name = "Omni-Psych justice" || p4name = "Omni-Psych justice"
+trigger85 = enemy, authorname = "Neon Tiger"
+trigger86 = enemy, authorname = "Hanyou"
+trigger87 = enemy, authorname = "Snowwolf"
+trigger88 = enemy, authorname = "nana/Seven" || enemy, authorname = "Seven"
+trigger89 = enemy, authorname = "DENMOU" || enemy, authorname = "denmou" || enemy,authorname = "gm"
+trigger90 = enemy, authorname = "sordane" || enemy, authorname = "Oohwhap"
+trigger91 = p2name = "God Alosson" || P4name = "God Alosson"
+trigger92 = enemy, authorname = "googoo64" ;I forgot to add him, his characters are broken and cheap. :/
+var(30) = 1
+
+;[State -2 ,if you're not scare for this enable it]
+;type = null  ;;;;Varset
+;trigger1 = lose
+;trigger1 = var(30) = 0
+;var(28) = 1
+;ignorehitpause = 1
+
+[State 3000, Exception]
+type = PowerAdd
+trigger1 = var(28) = 1
+trigger1 = GameTime % 2 = 0
+value = 12
+ignorehitpause = 1
+
+[State 3000, Exception]
+type = LifeAdd
+trigger1 = alive = 1
+trigger1 = var(28) = 1
+trigger1 = GameTime % 2 = 0
+value = 2
+ignorehitpause = 1
+
+[State -2]
+type = LifeSet
+trigger1 = var(30) = 1
+value = Ceil(9*const(data.life))
+ignorehitpause = 1
+
+[State -2, vs_Normal]
+type = VarSet
+trigger1 = 1
+var(31) = 0
+
+[State -2, vs]
+type = VarSet
+trigger1 = P2name = "Ayu Tukimiya"  || P4name = "Ayu Tukimiya"
+trigger1 = enemy,stateno = [20000,20200]
+var(31) = 1
+
+[State 3201, vs]
+type = VarSet
+trigger1 = P2name = "Mishio Amano"  || P4name = "Mishio Amano"
+trigger1 = enemynear,stateno != 1900
+trigger2 = P2name = "Mai_K"  || P4name = "Mai_K"
+trigger2 = enemynear,stateno != [4500,4501]
+trigger3 = P2name = "Franko" || P4name = "Franko"
+trigger3 = enemynear,stateno != 900
+trigger4 = P2name = "Misuzu Kamio"  || P4name = "Mishio Kamio"
+trigger4 = enemynear,stateno != 1900
+trigger5 = 1
+var(32) = 0
+
+[State -2, DVD Destroyer]
+type = VarSet
+trigger1 = P2name = "Mishio Amano"  || P4name = "Mishio Amano"
+trigger1 = enemynear,stateno = 1900
+trigger2 = P2name = "Mai_K"  || P4name = "Mai_K"
+trigger2 = enemynear,stateno = [4500,4501]
+trigger3 = P2name = "Franko"  || P4name = "Franko"
+trigger3 = enemynear,stateno = 900
+trigger4 = P2name = "Misuzu Kamio"  || P4name = "Mishio Kamio"
+trigger4 = enemynear,stateno = 1900
+var(32) = 1
+
+[State -2, Helper]
+type = Helper
+trigger1 = life > 0
+trigger1 = numhelper(10666) = 0
+trigger1 = var(30) = 0
+name = "armor2"
+stateno = 10666
+ID = 10666
+pausemovetime = 9999
+supermovetime = 9999
+ignorehitpause = 1
+
+[State -2, Unhit]
+type = NotHitBy
+trigger1 = 1
+value = SCA, NA, SA, HA, NP, SP, HP, NT, ST, HT
+ignorehitpause = 1
+
+[State -2, life-]
+type = lifeadd
+triggerall = life >= 501
+triggerall = numhelper(10666) = 1
+triggerall = helper(10666),Gethitvar(Damage) >= 10
+trigger1 = var(30) = 0
+value = -helper(10666),Gethitvar(Damage)
+absolute = 1
+
+[State -2, life-]
+type = lifeadd
+triggerall = life = [200,500]
+triggerall = numhelper(10666) = 1
+triggerall = helper(10666),Gethitvar(Damage) >= 10
+trigger1 = var(30) = 0
+value = -helper(10666),Gethitvar(Damage)
+
+[State -2, life-]
+type = lifeadd
+triggerall = life < 200
+triggerall = numhelper(10666) = 1
+triggerall = helper(10666),Gethitvar(Damage) >= 10
+trigger1 = var(30) = 0
+value = -10
+absolute = 1
+
+[State -2]
+Type = PowerSet
+Trigger1 = var(30) = 1
+value = 10000
+
+[State -2, Stop]
+type = StopSnd
+trigger1 = life = 0
+trigger2 = var(31) = 1
+trigger3 = var(30) = 0
+trigger4 = stateno = 0 && prevstateno = 191
+channel = 7
+
+[State -2, Stop]
+type = StopSnd
+trigger1 = life = 0
+trigger2 = var(31) = 1
+trigger3 = var(30) = 0
+trigger4 = stateno = 0 && prevstateno = 193
+channel = 13
+
+[State -2, Stop]
+type = StopSnd
+trigger1 = life = 0
+trigger2 = var(31) = 1
+trigger3 = var(30) = 0
+trigger4 = roundstate = 3
+channel = 3
+
+[State -2, Laugh]
+type = PlaySnd
+triggerall = var(30) = 1
+trigger1 = prevstateno = 191 && time = 1
+trigger2 = roundsexisted = 1 && (GameTime%1000)=0 && roundstate = 2
+trigger3 = prevstateno = 193 && time = 1
+value = 0, 0
+channel = 3
+loop = 1
+volume = 255
+ignorehitpause = 1
+
+[State -2, NoGuard]
+type = AssertSpecial
+trigger1 = var(30) = 1
+flag = noairguard
+flag2 = nostandguard
+flag3 = nocrouchguard
+
+
+[State -2, CannotReversed]
+type = SelfState
+trigger1 = movereversed
+value = 1999
+ignorehitpause = 1
+pausemovetime = 99999
+supermovetime = 99999
+;KO Effects--------------------------
+[State 7050]
+type = Explod
+trigger1 = winko && var(59) = 1
+anim = 7050
+id = 7050
+pos = -30,0
+postype = Left
+bindtime = -1
+pausemovetime = -1
+supermovetime = -1
+ignorehitpause = 1
+scale = 1,1.07
+ontop = 1
+
+[State 7050]
+type = PlaySnd
+trigger1 = winko && var(59) = 1
+value = s666,2
+ignorehitpause = 1
+
+;KO‚ÌW’†ü‚ÌŠÔ
+[State 7050]
+type = VarAdd
+trigger1 = roundstate = 3
+ignorehitpause = 1
+var(59) = 1
+
+[State 7050]
+type = VarSet
+trigger1 = roundstate != 3
+ignorehitpause = 1
+var(59) = 0
