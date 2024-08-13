@@ -26,7 +26,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const child_process_1 = require("child_process");
 const fs = __importStar(require("fs"));
 const ikemenPath = '../Ikemen-GO/bin/Ikemen_GO_Linux'; // Path to the Ikemen_GO executable
-const chars = fs.readdirSync('../Ikemen-GO/chars/'); // Characters directory
+const chars = fs.readdirSync('../Ikemen-GO/chars/')
+    .filter((char) => !char.startsWith('_') && !char.startsWith('.'))
 function runBattle() {
     const p1 = chars[Math.floor(Math.random() * chars.length)];
     const p2 = chars[Math.floor(Math.random() * chars.length)];
