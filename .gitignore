@@ -56,3 +56,5 @@ src/*.syso
 
 !external/script/*
 
+.DS_Store
+

@@ -6,17 +6,17 @@
 [Data]
 life = 1000			;Amount of life to start with
 power = 3000		;Amount of maximum power
-attack = 160		;attack power (more is stronger)
-defence = 160		;defensive power (more is stronger)
+attack = 350		;attack power (more is stronger)
+defence = 300		;defensive power (more is stronger)
 fall.defence_up = 50	;Percentage to increase defense everytime player is knocked down
-liedown.time = 60		;Time which player lies down for, before getting up
-airjuggle = 15		;Number of points for juggling
-sparkno = 2			;Default hit spark number for HitDefs
+liedown.time = 30		;Time which player lies down for, before getting up
+airjuggle = 30		;Number of points for juggling
+sparkno = 30			;Default hit spark number for HitDefs
 guard.sparkno = 40	;Default guard spark number
-KO.echo = 0			;1 to enable echo on KO
+KO.echo = 1			;1 to enable echo on KO
 volume = 0			;Volume offset (negative for softer)
-IntPersistIndex = 60	;Variables with this index and above will not have their values
-FloatPersistIndex = 40  ;reset to 0 between rounds or matches. There are 60 int variables,
+IntPersistIndex = 50	;Variables with this index and above will not have their values
+FloatPersistIndex = 50  ;reset to 0 between rounds or matches. There are 60 int variables,
   				;indexed from 0 to 59, and 40 float variables, indexed from 0 to 39.
   				;If omitted, then it defaults to 60 and 40 for integer and float
   				;variables repectively, meaning that none are persistent, i.e. all
