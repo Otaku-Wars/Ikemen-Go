@@ -1,0 +1,153 @@
+;---------------------------------------------------------------------------
+; ローラーだッ！
+[Statedef 3100]
+type = S
+movetype = A
+physics = S
+juggle = 3
+poweradd= -1000
+ctrl = 0
+anim = 0
+
+[state 2000,1]
+type = playsnd
+trigger1 = animelem = 1
+value = s13,0
+abspan = 0
+
+[State 3000,0]
+type = playsnd
+trigger1 = time = 6
+value = 555,0
+
+[State 3000,0]
+type = playsnd
+trigger1 = animtime = 0
+value = 555,4
+
+[state hah]
+type = varset
+trigger1 = time = 5
+fvar(4) = .5
+
+[state hah]
+type = varset
+trigger1 = time = 55
+fvar(4) = .5
+
+[state hah]
+type = removeexplod
+trigger1 = time >= 54
+id = 7000
+
+[state 3000, changing]
+type = AssertSpecial
+trigger1 = time = [6,55]
+flag = nofg
+flag2 = nobardisplay
+flag3 = timerfreeze
+
+
+[State Super BG]
+type = helper
+trigger1 = animtime = 0
+helpertype = normal
+pos = -200,-8
+postype = back
+stateno = 3101
+ID = 3100
+keyctrl = 0
+ignorehitpause = 1
+ownpal = 1
+
+[State 3000,0]
+type = changestate
+trigger1 = animtime = 0
+value = 0
+ctrl = 1
+;DIO------------------------------------------------------
+[statedef 3101]
+type = A
+movetype = A
+physics = S
+ctrl = 0
+anim = 3101
+velset = 0,0
+
+[State 3031,Env]
+type = EnvShake
+trigger1 = time = 0
+time = 280
+ampl = -3
+freq = 90
+phase = 90
+
+[state 3101,change]
+type = explod
+trigger1 = time = 0
+anim = 3102
+removetime = 500
+sprpriority = 3
+postype = p1
+pos = 25,25
+vel = 3,0
+
+[State 3101, 1]
+type = HitDef
+trigger1 = animelem = 2
+attr = S,HA
+animtype  = hard
+damage    = 100,28
+hitflag = MAFDP
+guardflag = M
+affectteam = B
+pausetime = 0,0
+sparkno = s7000
+sparkxy = -2,-36
+hitsound = s0,1
+guard.sparkno = s7000
+ground.type = Low
+ground.velocity = -2.2,2
+air.velocity = -2,2
+fall = 1
+ground.hittime  = 25
+ground.cornerpush.veloff = 0
+air.cornerpush.veloff = 0
+
+[state 3101,change]
+type = assertspecial
+trigger1 = time = [0,330]
+flag = nomusic
+
+[State 3101, 1]
+type = PlaySnd
+trigger1 = Time = 0
+value = 555, 6
+
+[State 3101, 1]
+type = PlaySnd
+trigger1 = Time = 25
+value = 555, 2
+
+[State 3101, 1]
+type = PlaySnd
+trigger1 = Time = 110
+value = s555, 7
+
+[State 3101, 1]
+type = velset
+trigger1 = Time = [0,400]
+x = 3
+
+[State 3101, 7]
+type = destroyself
+trigger1 = Time = 400
+
+[state 3101,1]
+type = explod
+trigger1 = animelem = 1
+anim = 7200
+postype = left
+bindtime = 2
+removetime = 250
+pos = 150,100

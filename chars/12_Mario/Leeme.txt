@@ -1,0 +1,61 @@
+Mario v2.0
+Este es mi segundo char la serie de super mario bros 
+
+version.2.0
+Se agrego el Astral finish (Super Fire Bros).
+Se aumento la velocidad en las animaciones de las 3 versiones del especial fireball (solo en el suelo).
+Ahora los golpes con B son mas faciles de conectar en combos.
+Se corrigio de la IA de Mario en el que usaba un ataque que no estaba siendo usado como parte movimientos especiales. 
+Se agrego un intro especial contra luigi.
+Se agrego el efecto al correr. 
+Se redujo la altura de salto del ataque Jump, tambien se aumento la velocidad al caer cuando golpea al oponente.
+Ahora los supers Mario Finale y Hammer tienen versiones mas fuertes de sus ataques cuando se usa el modo ultra burst.
+Ahora Mario tiene mas libertad de moverse al usar golpe en el aire con el boton C y se aumento la distancia cuando golpea al oponente.
+Se cambiaron las animaciones del golpe normal en el aire con el boton B y el segundo golpe con el combo B.
+Se agrego una caja de colision extra en el golpe con el boton B en el aire, asi Mario podra conectar un golpe si el oponente esta del otro lado. 
+Se agregaron mas sonidos y efectos.
+
+Mario movelist 
+------------------------
+Super Fire Bros
+~D, D, a+b
+Mario Finale
+~D, DF, F, a+b
+Hammer (F -> en la version ultra burst Mario puede moverse hacia adelante)
+~D, DB, B, a+b
+------------------
+Super Jump Punch (Air)
+~F, D, DF, b 
+--------------
+Ex Air Fireball (Air) 
+~D, DF, F, c
+Air Fireball (Air) 
+~D, DF, F, b
+-------------
+Triple Fireball 
+~D, DF, F, c
+Doble Fireball
+~D, DF, F, b
+Fireball (Air)
+~D, DF, F, a
+------------
+Tornado (EX) <->
+~D, DB, B, c
+Tornado      <->
+~D, DB, B, b
+Cape
+~D, DB, B, a
+-----------
+~Jump
+c
+Burst/Ultra burst
+y+z
+
+<-> (cambia de direccion con moviendo a Mario hacia adelanto o hacia atras) 
+
+Agradecimientos a: 
+OHMSBY (por dejarme usar sus chars como base para programarlos) 
+Ploaj(sprites del juego mario and luigi bowser's inside story and bowser jr's journey, mario and luigi dream team  superstar saga and bowser's minions, mario and luigi dream team dream team )
+aokmaniac13 (efectos kof XIII)
+Chris Parker (sprites para el explod estilo persona 5)
+y a ti por descargarlo 

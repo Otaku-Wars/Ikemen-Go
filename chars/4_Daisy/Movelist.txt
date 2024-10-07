@@ -1,0 +1,60 @@
+Super Moves:
+
+Golf Swing:
+D, DF, F, D, DF, F, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for MAX Version
+
+Charging Princess:
+D, DB, B, D, DB, B, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for MAX Version
+
+Daisy Punch:
+D, DF, F, D, DF, F, (a, b or c)
+
+(a+b) . (b+c) . (a+b) for MAX Version
+
+Bat Combo:
+D, DB, B, D, DB, B, (a, b or c)
+
+(a+b) . (b+c) . (a+b) for MAX Version
+
+Simple Flips: [LvL3]
+
+F, B, D, F, (a+b) . (b+c) . (a+c)
+
+__________________________________________________________________________________________
+
+
+Special Moves:
+
+Volleyball Spike:
+D, DF, F, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Daisy Charge:
+D, DB, B, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Dolphin Dive:
+F, D, DF, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Double Bash:
+B, D, DB, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Soccerball Kick:
+D, DF, F, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+Baseball Mitt
+D, DB, B, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version

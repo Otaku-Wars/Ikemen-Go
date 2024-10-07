@@ -1,0 +1,386 @@
+[Data]
+life = 1000
+attack = 162
+defence = 162
+fall.defence_up = 50
+liedown.time = 50	
+airjuggle = 20		
+sparkno = 2		
+guard.sparkno = 40	
+KO.echo = 10		
+volume = 255
+IntPersistIndex = 60	
+FloatPersistIndex = 40  
+
+[Size]
+xscale = 1		
+yscale = 1		
+ground.back = 20	
+ground.front = 20	
+air.back = 20		
+air.front = 20		
+height = 80		
+attack.dist = 160	
+proj.attack.dist = 90	
+proj.doscale = 0	  
+head.pos = 0, -100	
+mid.pos = 0, -50	
+shadowoffset = 0	
+draw.offset = 0,0	
+
+[Velocity]
+walk.fwd  = 0		
+walk.back = 0		
+run.fwd  = 0, 0		
+run.back = -4.5,-3.8
+jump.neu = 0,0		
+jump.back = 0		
+jump.fwd = 0		
+runjump.back = 0,0	
+runjump.fwd = 0,0	
+airjump.neu = 0,0	
+airjump.back = 0
+airjump.fwd = 0		
+
+[Movement]
+airjump.num = 0	
+airjump.height = 35	
+yaccel = .45		
+stand.friction = .85	
+crouch.friction = .82	
+
+[Quotes]
+victory1 = "BING BING BONG!"
+victory2 = "We will build the wall and Mexico will pay for it!"
+victory3 = "You are fake news!"
+victory4 = "I'm not going to tell ya!"
+victory5 = "I didn't say that....."
+victory6 = "We will make America great again!"
+victory7 = "BIGLY! (Big League)"
+victory8 = "Your Fired!."
+victory9 = "Build that wall, Build that wall, Build that wall, Build that wall, Build that wall!"
+victory10 = "I beat Jina (China) everyday!"
+victory11 = "I don't have to tell ya!" 
+victory12 = "We will 'continue build the wall!'"
+victory13 = "If Ivanka wern't my daughter perhaps I should be dating her."
+;---------------------------------------------------------------------------
+; Crouch
+[Statedef 10]
+
+[State 10, 0]
+type = ChangeState
+trigger1 = 1
+value = 0
+ctrl = 1
+
+;---------------------------------------------------------------------------
+; Walk
+[Statedef 20]
+
+[State 20, 0]
+type = ChangeState
+trigger1 = 1
+value = 0
+ctrl = 1
+
+;---------------------------------------------------------------------------
+; Jump
+[Statedef 40]
+
+[State 40, 0]
+type = ChangeState
+trigger1 = 1
+value = 0
+ctrl = 1
+
+;---------------------------------------------------------------------------
+; Dash
+[Statedef 100]
+
+[State 100, 0]
+type = ChangeState
+trigger1 = 1
+value = 0
+ctrl = 1
+
+;---------------------------------------------------------------------------
+; Lose by Time Over
+[Statedef 170]
+type = S
+anim = 170
+velset = 0,0
+ctrl = 0
+
+[State 1010, 1]
+type = PlaySnd
+trigger1 = Time = 2
+value = 0,3
+volume = 255
+
+[State 170, 1]
+type = NotHitBy
+trigger1 = 1
+value = SCA
+time = 1
+
+;---------------------------------------------------------------------------
+; DRAWGAME (Time over)
+[Statedef 175]
+type = S
+velset = 0,0
+ctrl = 0
+
+[State 175, 1] ; If no anim, use go to lose state.
+type = ChangeState
+trigger1 = Time = 0
+trigger1 = !SelfAnimExist(175)
+value = 170
+
+[State 175, 3]
+type = NotHitBy
+trigger1 = 1
+value = SCA
+time = 1
+
+;---------------------------------------------------------------------------
+; Win Pose
+[Statedef 180]
+type = S
+anim = 180
+velset = 0,0
+ctrl = 0
+
+[State 1010, 1]
+type = PlaySnd
+trigger1 = Time = 2
+value = 0,2
+volume = 255
+
+[State 181, 1]
+type = NotHitBy
+trigger1 = 1
+value = SCA
+time = 1
+
+;---------------------------------------------------------------------------
+; Introduction
+[Statedef 190]
+type = S
+anim = 190
+velset = 0,0
+ctrl = 0
+
+[State 190, 2] ;Assert this until you want "round 1, fight" to begin
+type = AssertSpecial
+trigger1 = 1
+flag = Intro
+
+[State 190, 4] ;Change to stand state
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+
+;---------------------------------------------------------------------------
+;Bone!
+
+[Statedef 1010]
+type    = S
+movetype= A
+physics = S
+anim = 1010
+juggle = 8
+poweradd= -500
+velset = 0
+ctrl = 0
+
+[State 1010, 1]
+type = PlaySnd
+trigger1 = AnimElem = 1
+value = 1,1
+
+[State 1010, 2]
+type = Projectile
+trigger1 = AnimElem = 1
+projanim = 666
+offset = 0, 0
+projpriority = 5
+projshadow = -1
+velocity = 7
+sparkno = 0
+attr = S, SP
+damage   = 64
+animtype =  medium
+guardflag = MA
+hitflag = MAF
+pausetime = 12,12
+hitsound = s100,0
+guardsound = s0,4
+ground.type = low
+ground.slidetime = 18
+ground.hittime  = 21
+ground.velocity = -1.2,-11
+guard.velocity = -6
+air.velocity = -1.2,-9
+airguard.velocity = -4,-4.5
+air.animtype = Back
+air.juggle = 3
+air.fall = 1
+fall = 1
+
+[State 1010, 3]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+;---------------------------------------------------------------------------
+; Smash Kung Fu Upper (hyper)
+; CNS difficulty: medium
+; Description: This is very similar to KFM's Strong and Light Kung Fu Uppers.
+;     There is just one HitDef, for a screen-shaking hit. The envshake
+;     parameters are used to make this effect. You can find out more about
+;     each parameter in the CNS documentation.
+;     The fall.recover parameter is set at 0, meaning that p2 cannot recover
+;     from the fall by entering his recovery command (for KFM, that is x+y).
+;     This gives the attacking KFM a chance to follow up with another attack,
+;     such as the Fast Kung Fu Palm.
+;     Note that there is a ChangeState controller used to make KFM change to
+;     a success state if he hits. The success state has KFM hold his arm
+;     up longer for a dramatic effect.
+[Statedef 3050]
+type    = S
+movetype= A
+physics = S
+juggle  = 4
+velset = 0,0
+anim = 3050
+ctrl = 0
+sprpriority = 2
+
+[State 3050, Width]
+type = Width
+trigger1 = AnimElemTime(1) >= 0 && AnimElemTime(16) < 0
+value = 5,0
+
+[State 3050, Super A]
+type = SuperPause
+trigger1 = AnimElem = 1
+pos = -5, -55
+anim = 100
+sound = 20, 0
+poweradd = -1000
+
+[State 3050, Super B]
+type = AfterImage
+trigger1 = AnimElem = 1
+time = 2
+
+[State 3050, Super C]
+type = AfterImageTime
+trigger1 = AnimElemTime(1) >= 0
+time = 2
+
+[State 3050, Super D]
+type = NotHitBy
+trigger1 = AnimElem = 1
+value = , NA, SA, AT
+time = 6
+
+[State 3050, 1]
+type = PlaySnd
+trigger1 = AnimElem = 1
+value = 0, 0
+
+[State 3050, 1]
+type = PlaySnd
+trigger1 = Time = 14
+value = 0, 1
+
+[State 3050, 2]
+type = HitDef
+trigger1 = Time = 0
+attr = S, HA
+animtype  = Up               ;Make p2 use "Up" type animation on hit
+damage    = 155, 12
+getpower  = 0
+priority  = 5
+guardflag = MA
+pausetime = 30,30
+sparkno = 3
+sparkxy = 0,-110
+hitsound   = 5,4
+guardsound = s0,4
+ground.type = Low
+ground.slidetime = 30
+ground.hittime  = 30
+ground.velocity = -1.3,-25
+guard.velocity = -11
+air.velocity = -1.3,-25
+airguard.velocity = -4.5,-5
+envshake.time = 25           ;Parameters for shaking the screen on hit
+envshake.ampl = 7
+envshake.freq = 176
+p2facing = 1                 ;Force p2 to face p1 on hit
+fall = 1
+fall.recover = 0             ;Prevent p2 from recovering
+fall.damage = 70             ;p2 will take 70 damage on hitting the ground
+fall.envshake.ampl = 6       ;Parameters for shaking the screen on fall
+fall.envshake.freq = 178
+fall.envshake.time = 15
+mindist = 50,-100            ;Keep p2 a minimum of 50 pixels away from p1, and no higher than 100 pixels up
+maxdist = 100,-10            ;Keep p2 a maximum of 100 pixels away from p1, and no lower than 10 pixels below
+yaccel = .8                  ;Accelerate p2 downwards rapidly
+
+[State 3050, 5]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+;---------------------------------------------------------------------------
+[statedef -2]
+
+[State -2, ��炢]
+type = PlaySnd
+trigger1 = time = 1
+trigger1 = stateno = 5100
+channel = 0
+value = 6, 0
+;-------------------------------------------------------------------------
+
+[Statedef -3]
+
+;This controller plays a sound everytime KFM lands from a jump, or
+;from his back-dash.
+[State -3, Landing Sound]
+type = PlaySnd
+triggerall = Time = 1
+trigger1 = stateno = 52 ;Jump land
+trigger2 = stateno = 106 ;Run-back land
+value = 40, 0
+
+[State -3, �N���オ��{�C�X]
+type = PlaySnd
+triggerall = Time = 1
+triggerall = Alive
+trigger1 = stateno = 5120
+value = 800,0
+
+[state a]
+type = PlaySnd
+triggerall = movetype = H
+triggerall = time = 0
+trigger1 = stateno = 5000 || stateno = 5010 || stateno = 5020 || stateno = 5030
+trigger1 = GetHitVar(animtype) = 0
+channel = 0
+value = 5,0
+channel = 5
+
+[state a]
+type = PlaySnd
+triggerall = movetype = H
+triggerall = time = 0
+triggerall = stateno != [120,159]
+trigger1 = GetHitVar(animtype) = 2
+trigger2 = GetHitVar(animtype) = 3
+trigger3 = GetHitVar(animtype) = 4
+value = 5,0

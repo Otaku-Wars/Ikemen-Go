@@ -1,0 +1,39 @@
+;====================<DEFINITION>====================
+
+[Info]
+name = "Wolverine"
+displayName = "Wolverine"
+versionDate = 10,27,2012
+mugenVersion = 1.0
+author = "Froz"
+pal.defaults =1,2,3,4,5,6
+localCoord = 320,240
+
+[Files]
+sprite = Wolverine.sff
+anim = Wolverine.air
+sound = Wolverine.snd
+cmd = Wolverine.cmd
+cns = Constants.cns
+stCommon = common1.cns
+st = States/System.st
+st1 = States/Normal.st
+st2 = States/Special.st
+st3 = States/Special - Drill Claw.st
+st4 = States/Super.st
+st5 = States/Helpers.st
+st6 = Config.txt
+
+[Palette Keymap]
+a  = 1
+b  = 2
+c  = 3
+x  = 4
+y  = 5
+z  = 6
+a2 = 7
+b2 = 8
+c2 = 9
+x2 = 10
+y2 = 11
+z2 = 12

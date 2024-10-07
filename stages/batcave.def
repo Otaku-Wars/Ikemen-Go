@@ -1,0 +1,571 @@
+BATMAN STAGE
+[Info]
+name ="Bat Cave"
+displayname="Bat Cave"
+versiondate=5/30/2007
+mugenversion=04,14,2001
+author="CherokeeBlackjack"
+pal.defaults=1
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -312
+boundright = 312
+boundhigh = -13
+boundlow = 0
+verticalfollow = .2
+tension = 50
+
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+[Scaling]
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+[Bound]
+screenleft = 15
+screenright = 15
+
+[StageInfo]
+zoffset = 215
+autoturn = 1
+resetBG = 1
+
+[Shadow]
+yscale = .3
+
+[Music]
+bgmusic= stages/BatCave.mp3
+bgvolume = 256
+
+[BGdef]
+spr = stages/BatCave.sff
+
+[BG 1]
+type = normal
+spriteno = 0,0
+start = 0,240
+delta = 1,1
+mask = 1
+
+[BG overhang]
+type = normal
+spriteno = 19,0
+start = 132,-12
+delta = 1,1
+mask = 1
+
+[BG overhang2]
+type = normal
+spriteno = 19,0
+start = 20,-12
+delta = 1,1
+mask = 1
+
+[BG overhang3]
+type = normal
+spriteno = 19,0
+start = -85,-12
+delta = 1,1
+mask = 1
+
+[BG overhang4]
+type = normal
+spriteno = 19,0
+start = -191,-12
+delta = 1,1
+mask = 1
+
+[BG overhang5]
+type = normal
+spriteno = 19,0
+start = -297,-12
+delta = 1,1
+mask = 1
+
+[BG overhang6]
+type = normal
+spriteno = 19,0
+start = -410,-12
+delta = 1,1
+mask = 1
+
+[BG overhang7]
+type = normal
+spriteno = 19,0
+start = -518,-12
+delta = 1,1
+mask = 1
+
+[BG bats]
+type = anim
+actionno = 5
+start = 60,30
+delta = 1,1
+mask = 1
+
+[BG bats2]
+type = anim
+actionno = 7
+start = 50,30
+delta = 1,1
+mask = 1
+
+[BG reversebats2]
+type = anim
+actionno = 8
+start = 50,30
+delta = 1,1
+mask = 1
+
+[BG loopbats]
+type = anim
+actionno = 9
+start = 60,30
+delta = 1,1
+mask = 1
+
+
+[BG reversebats]
+type = anim
+actionno = 6
+start = 50,30
+delta = 1,1
+mask = 1
+
+[BG jokercard]
+type = normal
+spriteno = 14,1
+start = 145,100
+delta = 1,1
+mask = 1
+
+[BG bigpenny]
+type = normal
+spriteno = 14,0
+start = 110,110
+delta = 1,1
+mask = 1
+
+[BG dinosaur]
+type = normal
+spriteno = 14,2
+start = 20, 110
+delta = 1,1
+mask = 1
+
+[BG costume trophy]
+type = normal
+spriteno = 22,0
+start = 160,145
+delta = 1,1
+mask = 1
+
+
+[BG handrail]
+type = normal
+spriteno = 15,0
+start = -40, 130
+delta = 1,1
+mask = 1
+
+[BG Alfred]
+type = anim
+actionno = 10
+start = -68,80
+delta = 1,1
+mask = 1
+
+
+[BG elevator shaft]
+type = normal
+spriteno = 20,0
+start = 250,-20
+delta = 1,1
+mask = 1
+
+
+[BG batmobile]
+type = normal
+spriteno = 8,0
+start = 220,100
+delta = 1,1
+mask = 1
+
+
+
+[BG compscreen]
+type = normal
+spriteno = 10,0
+start = -360,6
+delta = 1,1
+mask = 1
+
+[BG crimefiles]
+type = anim
+actionno = 1
+start = -353,22
+delta = 1,1
+mask =1
+
+[BG ScanCenter] 
+type = anim 
+actionno = 2
+layerno = 0 
+start = -353,22
+mask = 1
+
+[BG watchtower]
+type = anim
+actionno = 3
+start = -240,0
+delta = 1,1
+mask = 1
+
+
+
+[BG batcomputer]
+type = anim
+actionno = 4
+start = -418,50
+delta = 1,1
+mask = 1
+
+[BG viewscreenA]
+type = anim
+actionno = 11
+start = -153,96
+delta = 1,1
+mask = 1
+
+
+[BG robincostume]
+type = normal
+spriteno = 13,1
+start = -452,95
+delta = 1,1
+mask =1
+layerno = 1
+
+[BG displaytube]
+type = normal
+spriteno = 13,0
+start = -495,60
+delta = 1,1
+mask =1
+layerno = 1
+
+
+[Begin action 0]
+
+0,0, 0,0, 6
+0,1, 0,0, 6
+0,2, 0,0, 6
+0,3, 0,0, 6
+
+
+[Begin action 1]
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,0,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,1,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,2,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,3,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,4,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,5,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,6,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,7,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,8,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,9,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,10,0,0,200
+10,8,0,0,5
+10,1,0,0,50
+10,2,0,0,5
+10,3,0,0,5
+10,4,0,0,5
+10,5,0,0,5
+10,6,0,0,5
+10,7,0,0,15
+10,6,0,0,15
+10,7,0,0,15
+10,6,0,0,15
+10,8,0,0,5
+11,11,0,0,200
+10,8,0,0,5
+
+[Begin action 2]
+12,1,0,0,4
+
+[Begin action 3]
+9,1,0,0,30
+9,10,0,0,10
+9,1,0,0,10
+9,5,0,0,10
+9,6,0,0,9
+9,5,0,0,12
+9,6,0,0,5
+9,5,0,0,8
+9,1,0,0,40
+9,7,0,0,3
+9,8,0,0,3
+9,9,0,0,3
+9,2,0,0,6
+9,3,0,0,6
+9,4,0,0,6
+9,3,0,0,6
+9,2,0,0,6
+9,10,0,0,6
+9,3,0,0,6
+9,4,0,0,6
+9,10,0,0,6
+9,3,0,0,6
+9,2,0,0,6
+9,3,0,0,6
+9,4,0,0,6
+9,10,0,0,6
+9,3,0,0,6
+9,9,0,0,3
+9,8,0,0,3
+9,7,0,0,3
+9,6,0,0,4
+9,5,0,0,6
+
+[Begin action 4]
+9,0,0,0,20
+15,1,0,0,20
+
+[Begin action 5]
+16,0,0,0,6
+16,1,0,0,6
+16,2,0,0,6
+16,3,0,0,5
+16,4,0,0,5
+16,5,0,0,6
+16,6,0,0,6
+16,7,0,0,5
+16,8,0,0,7
+16,9,0,0,5
+16,10,0,0,6
+16,11,0,0,6
+
+[Begin action 6]
+17,0,0,0,7
+17,1,0,0,6
+17,2,0,0,7
+17,3,0,0,8
+17,4,0,0,8
+17,5,0,0,7
+17,6,0,0,8
+17,7,0,0,7
+17,8,0,0,7
+
+[Begin action 7]
+16,0,0,0,7
+16,1,0,0,7
+16,2,0,0,8
+16,3,0,0,8
+16,4,0,0,7
+16,5,0,0,7
+16,6,0,0,7
+16,7,0,0,7
+16,8,0,0,8
+16,9,0,0,8
+16,10,0,0,7
+16,11,0,0,6
+
+[Begin action 8]
+17,0,0,0,6
+17,1,0,0,6
+17,2,0,0,6
+17,3,0,0,6
+17,4,0,0,5
+17,5,0,0,5
+17,6,0,0,6
+17,7,0,0,6
+17,8,0,0,5
+
+[Begin action 9]
+18,0,0,0,6
+18,1,0,0,6
+18,2,0,0,5
+18,3,0,0,6
+18,4,0,0,6
+18,5,0,0,7
+18,6,0,0,7
+18,7,0,0,6
+18,8,0,0,5
+18,9,0,0,6
+
+[Begin action 10]
+21,0,0,0,100
+21,1,0,0,120
+21,0,0,0,140
+21,1,0,0,90
+
+[Begin action 11]
+23,0,0,0,40
+23,1,0,0,40
+23,2,0,0,20
+23,3,0,0,80
+23,4,0,0,60
+
+
+
+
+[Files]
+sprite=
+sound=
+anim=
+cmd=
+cns=
+st=
+stcommon=
+[Arcade]
+intro.storyboard=
+ending.storyboard=

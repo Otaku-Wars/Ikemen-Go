@@ -1,0 +1,187 @@
+;--------------------------------------------------------
+[Info]
+name = "Iron Man's Hall of Armor"
+;concept: Marvel Comics, Bob Layton
+;graphics and programming by PrimeOp
+;Editor: xWagnerPlaguesx
+;--------------------------------------------------------
+[Camera]
+startx = 0
+starty = 0
+
+boundleft  = -159
+boundright = 159
+boundhigh = -210
+boundlow = -13
+
+verticalfollow = .93
+floortension = 65
+tension = 50
+tensionhigh = 90
+tensionlow = -20
+floortension = 0
+tension = 60
+startzoom = 1
+zoomin = 1
+zoomout = .71
+
+;--------------------------------------------------------
+[PlayerInfo]
+
+p1startx = -70
+p1starty = 0
+p1startz = 0  
+p1facing = 1           
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+[Scaling]
+
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+[Bound]
+screenleft = 15
+screenright = 15
+
+[StageInfo]
+zoffset = 208
+autoturn = 1
+resetBG = 0
+
+[Shadow]
+intensity = 32
+color = 64,56,80
+yscale = 1
+
+[Reflection]
+intensity = 32
+
+[Music]
+bgmusic = sound/Marvel Super Heroes OST - Iron Man.mp3
+;bgmusic = sound/msh_s-im.adx
+bgvolume = 255
+
+;========================================================
+
+[BGdef]
+spr = hallarmr.sff
+debugbg = 1
+
+[BG floor]
+type  = parallax
+spriteno = 10, 0
+start =  0, 153
+xscale = 1, .90
+
+[BG reflection]
+type  = anim
+mask = 1
+spriteno = 11, 0
+start =  0, 153
+actionno = 2
+
+[BG insidecells]
+type  = anim
+mask = 1
+spriteno = 22, 3
+start =  0, 152
+delta= .99, 1
+actionno = 1
+
+[BG wallfront]
+type  = normal
+mask = 1
+spriteno = 21, 0
+start =  0, 152
+delta= 1, 1
+
+[BG cellframebotlightsfloorref]
+type  = anim
+mask = 1
+spriteno = 30, 0
+start =  0, 164
+delta= 1, 1
+actionno = 4
+
+[BG cellframebotlights1]
+type  = anim
+mask = 1
+spriteno = 30, 0
+start =  0, 141
+delta= 1, 1
+actionno = 3
+
+[BG cellframebotlights2]
+type  = anim
+mask = 1
+spriteno = 30, 0
+start =  0, 29
+delta= 1, 1
+actionno = 3
+
+[BG cellframebotlights3]
+type  = anim
+mask = 1
+spriteno = 30, 0
+start =  0, -83
+delta= 1, 1
+actionno = 3
+
+[BG cellframebotlights4]
+type  = anim
+mask = 1
+spriteno = 30, 0
+start =  0, -195
+delta= 1, 1
+actionno = 3
+
+[Begin Action 1]
+22, 3, 0,0, 280
+22, 2, 0,0, 4 
+22, 3, 0,0, 4 
+22, 2, 0,0, 8 
+22, 1, 0,0, 8 
+22, 0, 0,0, 640
+22, 1, 0,0, 4 
+22, 0, 0,0, 4
+22, 1, 0,0, 8 
+22, 2, 0,0, 8 
+
+[Begin Action 2]
+11, 0, 0,0, 280 ,,s
+11, 1, 0,0, 4 ,,s
+11, 0, 0,0, 4 ,,s
+11, 1, 0,0, 8 ,,s
+11, 2, 0,0, 8 ,,s
+11, 3, 0,0, 640 ,,s
+11, 2, 0,0, 4 ,,s
+11, 3, 0,0, 4 ,,s
+11, 2, 0,0, 8 ,,s
+11, 1, 0,0, 8 ,,s
+
+[Begin Action 3]
+30, 0, 0,0, 16
+30, 1, 0,0, 8
+30, 2, 0,0, 8
+30, 3, 0,0, 16
+30, 2, 0,0, 8
+30, 1, 0,0, 8
+
+[Begin Action 4]
+30, 0, 0,0, 16, ,as088d256
+30, 1, 0,0, 8, ,as088d256
+30, 2, 0,0, 8, ,as088d256
+30, 3, 0,0, 16, ,as088d256
+30, 2, 0,0, 8, ,as088d256
+30, 1, 0,0, 8, ,as088d256

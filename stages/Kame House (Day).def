@@ -1,0 +1,2333 @@
+;--------------------------------------------------------
+[Info]
+name = "Kame House (Day)"
+displayname = "Kame House (Day)"
+versiondate = 10,30,8930
+mugenversion = 1.2
+author = "Vogel"
+;--------------------------------------------------------
+[Camera]
+startx =0
+starty =0
+startzoomout = .3
+boundleft=-500
+boundright= 500
+boundhigh= -600
+boundlow =0
+tension = 100
+overdrawhigh = 100
+overdrawlow = 100
+cuthigh = 0
+cutlow = 0
+zoomin = 1.3
+zoomout = .8; Do not go less than .8
+tensionhigh = 400
+tensionlow = -300
+;--------------------------------------------------------
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -500      
+p1starty = 0            ;
+p1facing = 1            ;Direction player faces: 1=right, -1=left
+
+;--- Player 2 ---
+p2startx = 500
+p2starty = 0
+p2facing = -1
+
+;--- Player 3 ---
+p3startx = -720          ;Starting x coordinates
+p3starty = 0            ;Starting y coordinates
+p3facing = 1            ;Direction player faces: 1=right, -1=left
+
+;--- Player 4 ---
+p4startx = 720
+p4starty = 0
+p4facing = -1
+
+;--- Common ---
+ ;Don't change these values.
+
+
+leftbound  = -1800
+rightbound =  3000
+
+
+;--------------------------------------------------------
+[Bound]
+ ;Distance from left/right edge of screen that player can move to
+ ;Typically 15
+screenleft = 60;Dist from left of screen that player can move to
+screenright = 60  ;Right edge
+; use 15 for low res
+; use 30 for high res
+; use 60 for HD res
+;--------------------------------------------------------
+[StageInfo]
+ ;"Ground" level where players stand at, measured in pixels from the
+ ;top of the screen.
+ ;Adjust this value to move the ground level up/down in the screen.
+ ;***
+zoffset = 650
+
+ ;Leave this at 1. It makes the players face each other
+autoturn = 1
+
+ ;Set the following to 1 to have the background reset itself between
+ ;rounds.
+resetBG = 0
+localcoord = 1280, 720
+
+
+ ;Horizontal and vertical scaling factor for drawing.
+xscale = 1
+yscale = 1
+;--------------------------------------------------------
+[Shadow]
+intensity = 50
+color = 0,0,0
+yscale = -0.15
+fade.range = -400, -100
+xshear = 0.5
+
+
+
+
+
+
+;--------------------------------------------------------
+[Reflection]
+intensity = 50
+
+
+
+;--------------------------------------------------------
+[Music]
+bgmusic=stages/Kame House.mp3
+bgmvolume = 255
+
+
+
+
+;____________________________________________________________________________________________________________________________________
+[BGdef]
+spr = Kame House (Day).sff
+debugbg = 0
+
+[BG 0,sky grad 1]
+type = normal
+spriteno = 2,0
+start = 0,650
+delta = 0.01515625,0.025
+mask = 1
+Tile = 1
+scalestart = 1,1
+
+
+[BG 0,clouds back 1]
+type = parallax
+spriteno = 3,0
+start = 0,365
+delta = 0.0303125,0.04
+mask = 1
+Tile = 1
+width = 1500, 750
+scaledelta = 0, 0.002
+scalestart = 1,1
+Velocity = 0.075
+trans = addalpha
+alpha = 100,255
+
+[BG 0,clouds back 2]
+type = parallax
+spriteno = 3,1
+start = 0,365
+delta = 0.060625,0.04
+mask = 1
+Tile = 1
+width = 3000, 1500
+scaledelta = 0, 0.002
+scalestart = 1,1
+Velocity = 0.15
+trans = addalpha
+alpha = 100,255
+
+
+[BG 0,clouds back 3]
+type = parallax
+spriteno = 3,2
+start = 0,365
+delta = 0.12125,0.04
+mask = 1
+Tile = 1
+width = 6000, 3000
+scaledelta = 0, 0.002
+scalestart = 1,1
+Velocity = 0.3
+trans = addalpha
+alpha = 100,255
+
+[BG 0,clouds middle 1]
+type = parallax
+spriteno = 3,3
+start = 0,420 ;69
+delta = 0.04546875,0.04
+mask = 1
+Tile = 1
+width = 1500, 750
+scaledelta = 0, 0.004
+scalestart = 1,1
+Velocity = 0.225
+trans = addalpha
+alpha = 75,255
+
+[BG 0,clouds middle 2]
+type = parallax
+spriteno = 3,4
+start = 0,420 ;69
+delta = 0.0909375,0.04
+mask = 1
+Tile = 1
+width = 3000, 1500
+scaledelta = 0, 0.004
+scalestart = 1,1
+Velocity = 0.45
+trans = addalpha
+alpha = 75,255
+
+[BG 0,clouds middle 3]
+type = parallax
+spriteno = 3,5
+start = 0,420 ;69
+delta = 0.181875,0.04
+mask = 1
+Tile = 1
+width = 6000, 3000
+scaledelta = 0, 0.004
+scalestart = 1,1
+Velocity = 0.9
+trans = addalpha
+alpha = 75,255
+
+[BG 0,clouds middle 4]
+type = parallax
+spriteno = 3,6
+start = 0,420 ;69
+delta = 0.36375,0.04
+mask = 1
+Tile = 1
+width = 12000, 6000
+scaledelta = 0, 0.004
+scalestart = 1,1
+Velocity = 1.8
+trans = addalpha
+alpha = 75,255
+
+
+[BG 0,clouds front 1]
+type = parallax
+spriteno = 3,7
+start = 0,462
+delta = 0.0909375,0.04
+mask = 1
+Tile = 1
+width = 1500, 750
+scaledelta = 0, 0.008
+scalestart = 1,1
+Velocity = 0.225
+trans = addalpha
+alpha = 50,255
+
+
+[BG 0,clouds front 2]
+type = parallax
+spriteno = 3,8
+start = 0,462
+delta = 0.181875,0.04
+mask = 1
+Tile = 1
+width = 3000, 1500
+scaledelta = 0, 0.008
+scalestart = 1,1
+Velocity = 0.45
+trans = addalpha
+alpha = 50,255
+
+[BG 0,clouds front 3]
+type = parallax
+spriteno = 3,9
+start = 0,462
+delta = 0.36375,0.04
+mask = 1
+Tile = 1
+width = 6000, 3000
+scaledelta = 0, 0.008
+scalestart = 1,1
+Velocity = 0.9
+trans = addalpha
+alpha = 50,255
+
+[BG 0,clouds front 4]
+type = parallax
+spriteno = 3,10
+start = 0,462
+delta = 0.7275,0.04
+mask = 1
+Tile = 1
+width = 12000, 6000
+scaledelta = 0, 0.008
+scalestart = 1,1
+Velocity = 1.8
+trans = addalpha
+alpha = 50,255
+
+[BG 0,clouds front 4]
+type = parallax
+spriteno = 3,11
+start = 0,462
+delta = 1.455,0.04
+mask = 1
+Tile = 1
+width = 24000, 12000
+scaledelta = 0, 0.008
+scalestart = 1,1
+Velocity = 3.6
+trans = addalpha
+alpha = 50,255
+
+
+
+[BG 0,water bg]
+type = parallax
+spriteno = 1,7
+start = 0,650
+delta = 0,0.82
+mask = 1
+Tile = 1
+width = 59.375, 118.75
+scaledelta = 0, -0.007
+scalestart = 1,1
+Velocity = 0.015625
+sin.y = 1,150
+;sin.x = 0.21875,500
+
+
+
+
+[BG 0,water 7]
+type = parallax
+spriteno = 1,6
+start = 0,650
+delta = 0.01515625,0.82
+mask = 1
+Tile = 1
+width = 59.375, 118.75
+scaledelta = 0, -0.007
+scalestart = 1,1
+Velocity = 0.015625
+sin.y = 1,150
+;sin.x = 0.21875,500
+
+[BG 0,water 6]
+type = parallax
+spriteno = 1,5
+start = 0,650
+delta = 0.0303125,0.82
+mask = 1
+Tile = 1
+width = 118.75, 237.5
+scaledelta = 0, -0.007
+scalestart = 1,1
+Velocity = 0.03125
+sin.y = 1,150
+;sin.x = 0.21875,500
+
+[BG 0,water 5]
+type = parallax
+spriteno = 1,4
+start = 0,650
+delta = 0.060625,0.82
+mask = 1
+Tile = 1
+width = 237.5, 475
+scaledelta = 0, -0.007
+scalestart = 1,1
+Velocity = 0.0625
+sin.y = 1,150
+;sin.x = 0.21875,500
+
+[BG 0,water 4]
+type = parallax
+spriteno = 1,3
+start = 0,650
+delta = 0.12125,0.82
+mask = 1
+Tile = 1
+width = 475, 950
+scaledelta = 0, -0.007
+scalestart = 1,1
+Velocity = 0.125
+sin.y = 1,150
+;sin.x = 0.21875,500
+
+[BG 0,water 3]
+type = parallax
+spriteno = 1,2
+start = 0,650
+delta = 0.2425,0.82
+mask = 1
+Tile = 1
+width = 950, 1900
+scaledelta = 0, -0.007
+scalestart = 1,1
+Velocity = 0.25
+sin.y = 1,150
+;sin.x = 0.21875,500
+
+[BG 0,water 2]
+type = parallax
+spriteno = 1,1
+start = 0,650
+delta = 0.485,0.82
+mask = 1
+Tile = 1
+width = 1900, 3800
+scaledelta = 0, -0.007
+scalestart = 1,1
+Velocity = 0.5
+sin.y = 1,150
+;sin.x = 0.21875,500
+
+
+
+[BG 0,water bgref]
+type = parallax
+spriteno = 1,8
+start = 0,650
+delta = 0,0.82
+mask = 1
+Tile = 1
+width = 59.375, 118.75
+scaledelta = 0, -0.007
+scalestart = 1,1
+Velocity = 0.015625
+sin.y = 1,150
+;sin.x = 0.21875,500
+
+[BG 0,ground 3]
+type = parallax
+spriteno = 0,2
+start = 0,641
+delta = 0.2425,0.82
+mask = 1
+Tile = 0
+width = 750, 1500
+scaledelta = 0, -0.006
+scalestart = 1,1
+
+
+[BG 0,ground 2]
+type = parallax
+spriteno = 0,190
+start = 0,641
+delta = 0.485,0.82
+mask = 1
+Tile = 0
+width = 1500, 3000
+scaledelta = 0, -0.006
+scalestart = 1,1
+;
+[BG 0,ground 1 REFLECTION COVER]; this is a sloped bank
+type = parallax
+spriteno = 0,90
+start = -0,641
+delta = 0.97,0.82
+mask = 1
+Tile = 1
+width = 3000, 4000
+scaledelta = 0, -0.006
+scalestart = 1,1
+;window= -9000,655,50000,50000
+window= -9000,650,50000,50000
+windowdelta= 0.97,0.1
+layerno=1
+
+
+
+[BG 0,ground 1]; this is a sloped bank
+type = parallax
+spriteno = 0,123
+start = 0,641
+delta = 0.97,0.82
+mask = 1
+Tile = 1
+width = 3000, 4000
+scaledelta = 0, -0.006
+scalestart = 1,1
+
+;Tree 2 Sway______________________________________________________________________________________________________
+;___________________________________________________________________________________
+;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[BG 0,tree 2 right 1]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,500,1900,582
+windowdelta = 0.3,0.34
+
+[BG 0,tree 2 right 2]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,452,1900,500
+windowdelta = 0.3,0.34
+sin.x = 1,150
+
+[BG 0,tree 2 right 3]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,404,1900,452
+windowdelta = 0.3,0.34
+sin.x = 2,150
+
+[BG 0,tree 2 right 4]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,356,1900,404
+windowdelta = 0.3,0.34
+sin.x = 3,150
+
+[BG 0,tree 2 right 5]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,308,1900,356
+windowdelta = 0.3,0.34
+sin.x = 4,150
+
+[BG 0,tree 2 right 6]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,260,1900,308
+windowdelta = 0.3,0.34
+sin.x = 5,150
+
+
+[BG 0,tree 2 right 7]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,212,1900,260
+windowdelta = 0.3,0.34
+sin.x = 6,150
+
+[BG 0,tree 2 right 8]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,164,1900,212
+windowdelta = 0.3,0.34
+sin.x = 7,150
+
+[BG 0,tree 2 right 9]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,116,1900,164
+windowdelta = 0.3,0.34
+sin.x = 8,150
+
+[BG 0,tree 2 right 10]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,68,1900,116
+windowdelta = 0.3,0.34
+sin.x = 9,150
+
+[BG 0,tree 2 right 11]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,20,1900,68
+windowdelta = 0.3,0.34
+sin.x = 10,150
+
+
+[BG 0,tree 2 right 12]
+type = normal
+spriteno = 8,2
+start = 0,641
+delta = 0.3,0.34
+mask = 1
+scalestart = 1,1
+window = 0,-28,1900,20
+windowdelta = 0.3,0.34
+sin.x = 11,150
+
+
+;Bush 2 sway______________________________________________________________________________________________________
+;___________________________________________________________________________________
+;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[BG 0,bush 2 right 1]
+type = normal
+spriteno = 8,5
+start = 0,641
+delta = 0.35,0.4
+mask = 1
+scalestart = 1,1
+window = 0,520,1280,500000
+windowdelta = 0.35,0.4
+
+[BG 0,bush 2 right 2]
+type = normal
+spriteno = 8,5
+start = 0,641
+delta = 0.35,0.4
+mask = 1
+scalestart = 1,1
+window = 0,496,1280,520
+sin.x = 1,175
+windowdelta = 0.35,0.4
+
+[BG 0,bush 2 right 3]
+type = normal
+spriteno = 8,5
+start = 0,641
+delta = 0.35,0.4
+mask = 1
+scalestart = 1,1
+window = 0,472,1280,496
+sin.x = 2,175
+windowdelta = 0.35,0.4
+
+[BG 0,bush 2 right 4]
+type = normal
+spriteno = 8,5
+start = 0,641
+delta = 0.35,0.4
+mask = 1
+scalestart = 1,1
+window = 0,-50000,1280,472
+sin.x = 3,175
+windowdelta = 0.35,0.4
+;asgosajhgpirjiiiiiiiiiiijijijijijijijijijijiii
+
+
+
+;Tree 3 Sway______________________________________________________________________________________________________
+;___________________________________________________________________________________
+;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[BG 0,tree 3 right 1]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.4,0.45
+mask = 1
+scalestart = 1,1
+windowdelta = 0.4,0.451
+window = 0,500,1900,582
+
+[BG 0,tree 3 right 2]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.4,0.45
+mask = 1
+scalestart = 1,1
+windowdelta = 0.4,0.451
+window = 0,452,1900,500
+sin.x = 1.5,200
+
+[BG 0,tree 3 right 3]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.4,0.45
+mask = 1
+scalestart = 1,1
+windowdelta = 0.4,0.451
+window = 0,404,1900,452
+sin.x = 3,200
+
+[BG 0,tree 3 right 4]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.4,0.45
+mask = 1
+scalestart = 1,1
+windowdelta = 0.4,0.451
+window = 0,356,1900,404
+sin.x = 4.5,200
+
+[BG 0,tree 3 right 5]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.4,0.45
+mask = 1
+scalestart = 1,1
+windowdelta = 0.4,0.451
+window = 0,308,1900,356
+sin.x = 6,200
+;sdkgosdp;lhjgiohjrtfiophjspfdtihjfijpfphjfkh
+[BG 0,tree 3 right 1]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.32,0.35
+mask = 1
+scalestart = -1,1
+windowdelta = 0.32,0.35
+window = 0,500,1900,582
+
+[BG 0,tree 3 right 2]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.32,0.35
+mask = 1
+scalestart = -1,1
+windowdelta = 0.32,0.35
+window = 0,452,1900,500
+sin.x = 1.5,200
+
+[BG 0,tree 3 right 3]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.32,0.35
+mask = 1
+scalestart = -1,1
+windowdelta = 0.32,0.35
+window = 0,404,1900,452
+sin.x = 3,200
+
+[BG 0,tree 3 right 4]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.32,0.35
+mask = 1
+scalestart = -1,1
+windowdelta = 0.32,0.35
+window = 0,356,1900,404
+sin.x = 4.5,200
+
+[BG 0,tree 3 right 5]
+type = normal
+spriteno = 8,3
+start = 0,641
+delta = 0.32,0.35
+mask = 1
+scalestart = -1,1
+windowdelta = 0.32,0.35
+window = 0,308,1900,356
+sin.x = 6,200
+
+
+
+[BG 0,bush 2 right 1]
+type = normal
+spriteno = 8,5
+start = 0,641
+delta = 0.35,0.4
+mask = 1
+scalestart = -1,1
+window = 0,520,1280,580000
+windowdelta = 0.35,0.4
+
+[BG 0,bush 2 right 2]
+type = normal
+spriteno = 8,5
+start = 0,641
+delta = 0.35,0.4
+mask = 1
+scalestart = -1,1
+window = 0,496,1280,520
+sin.x = 1,175
+windowdelta = 0.35,0.4
+
+[BG 0,bush 2 right 3]
+type = normal
+spriteno = 8,5
+start = 0,641
+delta = 0.35,0.4
+mask = 1
+scalestart = -1,1
+window = 0,472,1280,496
+sin.x = 2,175
+windowdelta = 0.35,0.4
+
+[BG 0,bush 2 right 4]
+type = normal
+spriteno = 8,5
+start = 0,641
+delta = 0.35,0.4
+mask = 1
+scalestart = -1,1
+window = 0,-50000,1280,472
+sin.x = 3,175
+windowdelta = 0.35,0.4
+
+
+
+;______________________________________________________________________________________________________
+;___________________________________________________________________________________
+;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[BG 0,grass 11 P3]
+type = normal
+spriteno = 10,0
+start = -41,550
+delta = 0.42,0.42
+mask = 1
+scalestart = 0.3,0.3
+tile = 1 
+window = 20,0,1250,548
+windowdelta = 0.42,0.42
+alpha = 90,150
+trans=addalpha
+sin.x = 2,170
+
+[BG 0,grass 11 P2]
+type = normal
+spriteno = 10,0
+start = -41,550
+delta = 0.42,0.42
+mask = 1
+scalestart = 0.3,0.3
+tile = 1 
+window = 20,548,1250,552
+windowdelta = 0.42,0.42
+alpha = 90,150
+trans=addalpha
+sin.x = 1,170
+
+[BG 0,grass 11 P1]
+type = normal
+spriteno = 10,0
+start = -41,550
+delta = 0.42,0.42
+mask = 1
+scalestart = 0.3,0.3
+tile = 1 
+window = 20,552,1250,2435437
+windowdelta = 0.42,0.42
+alpha = 90,150
+trans=addalpha
+
+
+
+
+[BG 0,Kame wall left of screen interior]
+type = normal
+spriteno = 5,1
+start = 0,641
+delta = 0.5,0.6
+mask = 1
+window = 0,0,700,676
+windowdelta = 0.41,0.5
+scaledelta = 0,-0.0006
+window = 0,400,1300,500
+windowdelta = 0.5, 0.2
+
+scalestart = 1,1
+
+[BG 0,Kame wall right of screen interior]
+type = normal
+spriteno = 5,0
+start = 0,641
+delta = 0.41,0.38
+mask = 1
+scaledelta = 0, -0.0006
+scalestart = 1,1
+window = 0,350,1300,500
+windowdelta = 0.41,0.48
+
+[BG 0,floor]
+type = normal
+spriteno = 500,0
+start = 0,641
+delta = 0.41,0.38
+mask = 1
+scaledelta = 0, -0.0006
+window = 0,0,1300,500
+windowdelta = 0.41, 0.6
+scalestart = 1,1
+
+
+[BG 0,Kame tv set]
+type = normal
+spriteno = 12,0
+start = 0,641
+delta = 0.445,0.4
+mask = 1
+scaledelta 0, -0.0006
+
+scalestart = 1,1
+
+[BG 0,Bulma]
+type = anim
+actionno = 1
+start = -40,548
+delta = 0.53,0.45
+mask = 1
+scalestart = 1,1
+
+;[BG 0,Krillin]
+;type = anim
+;actionno = 3
+;start = -10,520
+;delta = 0.555,0.53
+;mask = 1
+;scalestart = 1,1
+
+
+
+
+[BG 0,Kame wind catcher bird ]
+type = normal
+spriteno = 7,2
+start = 0,641
+delta = 0.475,0.6
+mask = 1
+scalestart = 1,1
+scaledelta = 0, -0.0006
+
+[BG 0,Kame wind catcher right ]
+type = normal
+spriteno = 7,1
+start = 0,641
+delta = 0.625,0.6
+mask = 1
+scaledelta = 0.001,-0.0006
+scalestart = 1,1
+
+[BG 0,Kame wind catcher left ]
+type = normal
+spriteno = 7,0
+start = 0,641
+delta = 0.315,0.6
+mask = 1
+scaledelta = -0.0022,-0.0006
+scalestart = 1,1
+
+[BG 0,Kame roof ]
+type = parallax
+spriteno = 4,2
+start = 0,641
+delta = 0.315,0.6
+mask = 1
+xscale = 1,2.2
+scaledelta = -0.0022,-0.0006
+scalestart = 1,1
+
+
+[BG 0,Kame roof wall window interior wall]
+type = normal
+spriteno = 4,6
+start = 131,681
+delta = 0.51,0.6
+mask = 1
+scalestart = 1,1
+scaledelta = 0, -0.0006
+
+;[BG 0,oolong]
+;type = anim
+;actionno = 2
+;start = 110,300
+;delta = 0.54,0.47
+;mask = 1
+;scalestart = 1,1
+
+
+[BG 0,Kame roof over]
+type = parallax
+spriteno = 4,7
+start = 0,641
+delta = 0.315,0.6
+mask = 1
+xscale = 1,2.2
+scaledelta = -0.0022,-0.0006
+scalestart = 1,1
+
+
+[BG 0,Kame roof wall ]
+type = normal
+spriteno = 4,3
+start = 131,681
+delta = 0.53,0.6
+mask = 1
+scaledelta = 0.0009,-0.0006
+scalestart = 1,1
+
+
+[BG 0,Kame roof wall window]
+type = normal
+spriteno = 4,5
+start = 131,681
+delta = 0.66,0.61
+mask = 1
+scaledelta = -0.0009,-0.0006
+scalestart = 1,1
+
+[BG 0,Kame roof wall roof ]
+type = parallax
+spriteno = 4,4
+start = 110,681
+delta = 0.458,0.62
+mask = 1
+xscale = 1,1.17
+scaledelta = 0.0009,-0.0006
+scalestart = 1,1
+
+[BG 0,Kame wall left of screen]
+type = normal
+spriteno = 4,1
+start = 0,641
+delta = 0.69,0.6
+mask = 1
+scaledelta = -0.0012,-0.0006
+scalestart = 1,1
+
+
+
+[BG 0,Kame wall right of screen]
+type = normal
+spriteno = 4,0
+start = 0,641
+delta = 0.69,0.6
+mask = 1
+scaledelta = 0.0009,-0.0006
+scalestart = 1,1
+
+
+[BG 0,Kame porch floor]
+type = normal
+spriteno = 6,8
+start = 0,641
+delta = 0.69,0.6
+mask = 1
+scaledelta = 0.0009,-0.0006
+
+scalestart = 1,1
+
+
+[BG 0,Kame porch pillar left]
+type = normal
+spriteno = 6,3
+start = 0,641
+delta = 0.35,0.6
+mask = 1
+scalestart = 1,1
+scaledelta = -0.0017,-0.0006
+
+
+[BG 0,Kame porch pillar right]
+type = normal
+spriteno = 6,4
+start = 0,641
+delta = 0.24,0.6
+mask = 1
+scalestart = 1,1
+scaledelta = -0.0017,-0.0006
+
+
+
+[BG 0,Kame porch sloped roof]
+type = parallax
+spriteno = 6,0
+start = 0,641
+delta = 0.69,0.5
+xscale= 1,1.1
+mask = 1
+scaledelta = 0.0009,;-0.0006
+scalestart = 1,1
+
+[BG 0,Kame porch roof edge]
+type = normal
+spriteno = 6,1
+start = 0,641
+delta = 0.795,0.5
+mask = 1
+scaledelta = 0.0009,;-0.0006
+
+scalestart = 1,1
+
+
+[BG 0,Kame porch triangle half wall]
+type = normal
+spriteno = 6,2
+start = 0,641
+delta = 0.34,0.5
+mask = 1
+scaledelta = -0.0019,;-0.0006
+
+scalestart = 1,1
+
+
+[BG 0,Kame porch floor]
+type = normal
+spriteno = 6,5
+start = 0,641
+delta = 0.795,0.6
+mask = 1
+scaledelta = 0.0009,-0.0006
+
+scalestart = 1,1
+
+[BG 0,Kame porch floor2]
+type = normal
+spriteno = 6,7
+start = 0,641
+delta = 0.795,0.6
+mask = 1
+scaledelta = 0.0009,-0.0006
+
+scalestart = 1,1
+
+[BG 0,Kame porch floor side]
+type = normal
+spriteno = 6,6
+start = 0,641
+delta = 0.41,0.6
+mask = 1
+scaledelta = -0.0015,-0.0006
+
+;scalestart = 1,1
+
+[BG 0,grass 10 p3]
+type = normal
+spriteno = 10,0
+start = -153,560
+delta = 0.5,0.47
+mask = 1
+scalestart = 0.4,0.4
+tile = 1 
+window = 1050,0,1400,558
+windowdelta = 0.5,0.47
+alpha = 100,150
+trans=addalpha
+sin.x = 2,160
+
+[BG 0,grass 10 p2]
+type = normal
+spriteno = 10,0
+start = -153,560
+delta = 0.5,0.47
+mask = 1
+scalestart = 0.4,0.4
+tile = 1 
+window = 1050,558,1400,563
+windowdelta = 0.5,0.47
+alpha = 100,150
+trans=addalpha
+sin.x = 1,160
+
+[BG 0,grass 10 p1]
+type = normal
+spriteno = 10,0
+start = -153,560
+delta = 0.5,0.47
+mask = 1
+scalestart = 0.4,0.4
+tile = 1 
+window = 1050,563,1400,2435437
+windowdelta = 0.5,0.47
+alpha = 100,150
+trans=addalpha
+
+[BG 0,grass 9 P3]
+type = normal
+spriteno = 10,0
+start = -153,560
+delta = 0.5,0.47
+mask = 1
+scalestart = 0.4,0.4
+tile = 1 
+window = -110,0,420,558
+windowdelta = 0.5,0.47
+alpha = 100,150
+trans=addalpha
+sin.x = 2,160
+
+
+[BG 0,grass 9 P2]
+type = normal
+spriteno = 10,0
+start = -153,560
+delta = 0.5,0.47
+mask = 1
+scalestart = 0.4,0.4
+tile = 1 
+window = -110,558,420,563
+windowdelta = 0.5,0.47
+alpha = 100,150
+trans=addalpha
+sin.x = 1, 160
+
+
+[BG 0,grass 9 P1]
+type = normal
+spriteno = 10,0
+start = -153,560
+delta = 0.5,0.47
+mask = 1
+scalestart = 0.4,0.4
+tile = 1 
+window = -110,563,420,12132134
+windowdelta = 0.5,0.47
+alpha = 100,150
+trans=addalpha
+
+[BG 0,roshi]
+type = anim
+actionno = 8
+start = -525,522
+delta = 0.5,0.47
+mask = 1
+scalestart = 1.5,1.5
+
+[Begin Action 8] ;roshi
+19,5, 0,0,3,,,1,1,
+19,5, 0,0,3,,,1,0.998,
+19,5, 0,0,3,,,1,0.996,
+19,5, 0,0,3,,,1,0.994,
+19,5, 0,0,3,,,1,0.992,
+19,5, 0,0,3,,,1,0.990,
+19,5, 0,0,3,,,1,0.988,
+19,5, 0,0,3,,,1,0.986,
+19,5, 0,0,3,,,1,0.984,
+19,5, 0,0,3,,,1,0.982,
+19,5, 0,0,3,,,1,0.980,
+19,5, 0,0,3,,,1,0.978,
+19,5, 0,0,3,,,1,0.976,
+19,5, 0,0,3,,,1,0.974,
+19,5, 0,0,3,,,1,0.972,
+19,5, 0,0,3,,,1,0.970,
+19,5, 0,0,3,,,1,0.968,
+19,5, 0,0,3,,,1,0.966,
+19,5, 0,0,3,,,1,0.968,
+19,5, 0,0,3,,,1,0.970,
+19,5, 0,0,3,,,1,0.972,
+19,5, 0,0,3,,,1,0.974,
+19,5, 0,0,3,,,1,0.976,
+19,5, 0,0,3,,,1,0.978,
+19,5, 0,0,3,,,1,0.980,
+19,5, 0,0,3,,,1,0.982,
+19,5, 0,0,3,,,1,0.984,
+19,5, 0,0,3,,,1,0.986,
+19,5, 0,0,3,,,1,0.988,
+19,5, 0,0,3,,,1,0.990,
+19,5, 0,0,3,,,1,0.992,
+19,5, 0,0,3,,,1,0.994,
+19,5, 0,0,3,,,1,0.996,
+19,5, 0,0,3,,,1,0.998,
+19,5, 0,0,3,,,1,1,
+
+
+[BG 0,turtles shell side]
+type = anim
+spriteno = 18,0
+start = -520,570
+delta = 0.52,0.47
+mask = 1
+scalestart = 1.5,1.5
+window = 0,0,120,2435437
+windowdelta = 0.52,0.59
+scaledelta = -0.0024
+
+[BG 0,turtles shell front]
+type = anim
+spriteno = 18,0
+start = -520,570
+delta = 0.52,0.47
+mask = 1
+scalestart = 1.5,1.5
+window = 120,0,1000,2435437
+windowdelta = 0.52,0.59
+
+[BG 0,turtles head]
+type = anim
+actionno = 7
+start = -505,560
+delta = 0.53,0.47
+mask = 1
+sin.y = 3,200
+sin.x = 4,300
+scalestart = 1.5,1.5
+
+[Begin Action 7] ;turtle
+18,1, 0,0,180,,,1,1,
+18,2, 0,0,4,,,1,1,
+18,3, 0,0,4,,,1,1,
+
+[BG 0,grass 8 p3]
+type = normal
+spriteno = 10,0
+start = -727,570
+delta = 0.58,0.55
+mask = 1
+scalestart = 0.5,0.5
+tile = 1 
+window = 950,0,1500,565
+windowdelta = 0.58,0.55
+alpha = 110,150
+trans=addalpha
+sin.x = 2,150
+
+
+[BG 0,grass 8 p2]
+type = normal
+spriteno = 10,0
+start = -727,570
+delta = 0.58,0.55
+mask = 1
+scalestart = 0.5,0.5
+tile = 1 
+window = 950,565,1500,575
+windowdelta = 0.58,0.55
+alpha = 110,150
+trans=addalpha
+sin.x = 1,150
+
+
+[BG 0,grass 8 p1]
+type = normal
+spriteno = 10,0
+start = -727,570
+delta = 0.58,0.55
+mask = 1
+scalestart = 0.5,0.5
+tile = 1 
+window = 950,575,1500,2435437
+windowdelta = 0.58,0.55
+alpha = 110,150
+trans=addalpha
+
+
+[BG 0,grass 7 p3]
+type = normal
+spriteno = 10,0
+start = -727,570
+delta = 0.58,0.55;
+mask = 1
+scalestart = 0.5,0.5
+tile = 1 
+window = -220,0,480,565
+windowdelta = 0.58,0.55
+alpha = 110,150
+trans=addalpha
+sin.x = 2,150
+
+
+[BG 0,grass 7 p2]
+type = normal
+spriteno = 10,0
+start = -727,570
+delta = 0.58,0.55
+mask = 1
+scalestart = 0.5,0.5
+tile = 1 
+window = -220,565,480,575
+windowdelta = 0.58,0.55
+alpha = 110,150
+trans=addalpha
+sin.x = 1,150
+
+[BG 0,grass 7 p1]
+type = normal
+spriteno = 10,0
+start = -727,570
+delta = 0.58,0.55
+mask = 1
+scalestart = 0.5,0.5
+tile = 1 
+window = -220,575,480,2435437
+windowdelta = 0.58,0.55
+alpha = 110,150
+trans=addalpha
+
+
+;bush 1 Sway______________________________________________________________________________________________________
+;___________________________________________________________________________________
+;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[BG 0,bush 1 left 1]
+type = normal
+spriteno = 8,4
+start = 0,641
+delta = 0.63,0.57
+mask = 1
+scalestart = 1,1
+window = 0,558,1280,50000
+windowdelta = 0.63,0.57
+
+[BG 0,bush 1 left 2]
+type = normal
+spriteno = 8,4
+start = 0,641
+delta = 0.63,0.57
+mask = 1
+scalestart = 1,1
+window = 0,534,1280,558
+sin.x = 1, 150
+windowdelta = 0.63,0.57
+
+
+[BG 0,bush 1 left 3]
+type = normal
+spriteno = 8,4
+start = 0,641
+delta = 0.63,0.57
+mask = 1
+scalestart = 1,1
+window = 0,510,1280,534
+sin.x = 2, 150
+windowdelta = 0.63,0.57
+
+
+
+[BG 0,bush 1 left 4]
+type = normal
+spriteno = 8,4
+start = 0,641
+delta = 0.63,0.57
+mask = 1
+scalestart = 1,1
+window = 0,-50000,1280,510
+sin.x = 3, 150
+windowdelta = 0.63,0.57
+
+___________________________________________________________
+-----------------_________________________________________-
+_______________________________________________________
+
+[BG 0,grass 6 p3]
+type = normal
+spriteno = 10,0
+start = -657,580
+delta = 0.68,0.59
+mask = 1
+scalestart = 0.6,0.6
+tile = 1 
+window = 700,0,1600,575
+windowdelta = 0.68,0.59
+alpha = 120,150
+trans=addalpha
+sin.x =2, 140
+
+[BG 0,grass 6 p2]
+type = normal
+spriteno = 10,0
+start = -657,580
+delta = 0.68,0.59
+mask = 1
+scalestart = 0.6,0.6
+tile = 1 
+window = 700,575,1600,585
+windowdelta = 0.68,0.59
+alpha = 120,150
+trans=addalpha
+sin.x = 1,140
+
+[BG 0,grass 6 p1]
+type = normal
+spriteno = 10,0
+start = -657,580
+delta = 0.68,0.59
+mask = 1
+scalestart = 0.6,0.6
+tile = 1 
+window = 700,585,1600,2435437
+windowdelta = 0.68,0.59
+alpha = 120,150
+trans=addalpha
+
+[BG 0,grass 5p3]
+type = normal
+spriteno = 10,0
+start = -657,580
+delta = 0.68,0.59
+mask = 1
+scalestart = 0.6,0.6
+tile = 1 
+window = -300,0,600,575
+windowdelta = 0.68,0.59
+sin.x = 2,140
+alpha = 120,150
+trans=addalpha
+;
+[BG 0,grass 5p2]
+type = normal
+spriteno = 10,0
+start = -657,580
+delta = 0.68,0.59
+mask = 1
+scalestart = 0.6,0.6
+tile = 1 
+window = -300,575,600,585
+windowdelta = 0.68,0.59;
+sin.x = 1,140;
+alpha = 120,150
+trans=addalpha
+
+[BG 0,grass 5p1]
+type = normal
+spriteno = 10,0
+start = -657,580
+delta = 0.68,0.59
+mask = 1
+scalestart = 0.6,0.6
+tile = 1 
+window = -300,585,600,2435437
+windowdelta = 0.68,0.59
+alpha = 120,150
+trans=addalpha
+
+
+[BG 0,tien]
+type = anim
+actionno = 6
+start = 120,603
+delta = 0.73,0.63
+mask = 1
+scalestart = 2.8,2.8
+
+[Begin Action 6] ;tien
+17,0, 0,0,4,h,,1,1,
+17,0, 0,0,4,h,,1,0.998,
+17,0, 0,0,4,h,,1,0.996,
+17,0, 0,0,4,h,,1,0.994,
+17,0, 0,0,4,h,,1,0.992,
+17,0, 0,0,4,h,,1,0.990,
+17,0, 0,0,4,h,,1,0.988,
+17,0, 0,0,4,h,,1,0.986,
+17,0, 0,0,4,h,,1,0.984,
+17,0, 0,0,4,h,,1,0.982,
+17,0, 0,0,4,h,,1,0.980,
+17,0, 0,0,4,h,,1,0.978,
+17,0, 0,0,4,h,,1,0.976,
+17,0, 0,0,4,h,,1,0.974,
+17,0, 0,0,4,h,,1,0.976,
+17,0, 0,0,4,h,,1,0.978,
+17,0, 0,0,4,h,,1,0.980,
+17,0, 0,0,4,h,,1,0.982,
+17,0, 0,0,4,h,,1,0.984,
+17,0, 0,0,4,h,,1,0.986,
+17,0, 0,0,4,h,,1,0.988,
+17,0, 0,0,4,h,,1,0.990,
+17,0, 0,0,4,h,,1,0.992,
+17,0, 0,0,4,h,,1,0.994,
+17,0, 0,0,4,h,,1,0.996,
+17,0, 0,0,4,h,,1,0.998,
+17,0, 0,0,4,h,,1,1,
+17,0, 0,0,4,h,,1,0.998,
+17,0, 0,0,4,h,,1,0.996,
+17,0, 0,0,4,h,,1,0.994,
+17,0, 0,0,4,h,,1,0.992,
+17,0, 0,0,4,h,,1,0.990,
+17,0, 0,0,4,h,,1,0.988,
+17,0, 0,0,4,h,,1,0.986,
+17,0, 0,0,4,h,,1,0.984,
+17,0, 0,0,4,h,,1,0.982,
+17,0, 0,0,4,h,,1,0.980,
+17,0, 0,0,4,h,,1,0.978,
+17,0, 0,0,4,h,,1,0.976,
+17,0, 0,0,4,h,,1,0.974,
+17,0, 0,0,4,h,,1,0.976,
+17,0, 0,0,4,h,,1,0.978,
+17,0, 0,0,4,h,,1,0.980,
+17,0, 0,0,4,h,,1,0.982,
+17,0, 0,0,4,h,,1,0.984,
+17,0, 0,0,4,h,,1,0.986,
+17,0, 0,0,4,h,,1,0.988,
+17,0, 0,0,4,h,,1,0.990,
+17,0, 0,0,4,h,,1,0.992,
+17,0, 0,0,4,h,,1,0.994,
+17,0, 0,0,4,h,,1,0.996,
+17,0, 0,0,4,h,,1,0.998,
+17,0, 0,0,4,h,,1,1,
+17,0, 0,0,4,h,,1,1,
+17,0, 0,0,4,h,,1,0.998,
+17,0, 0,0,4,h,,1,0.996,
+17,0, 0,0,4,h,,1,0.994,
+17,0, 0,0,4,h,,1,0.992,
+17,0, 0,0,4,h,,1,0.990,
+17,0, 0,0,4,h,,1,0.988,
+17,0, 0,0,4,h,,1,0.986,
+17,0, 0,0,4,h,,1,0.984,
+17,0, 0,0,4,h,,1,0.982,
+17,0, 0,0,4,h,,1,0.980,
+17,0, 0,0,4,h,,1,0.978,
+17,0, 0,0,4,h,,1,0.976,
+17,0, 0,0,4,h,,1,0.974,
+17,0, 0,0,4,h,,1,0.976,
+17,0, 0,0,4,h,,1,0.978,
+17,0, 0,0,4,h,,1,0.980,
+17,0, 0,0,4,h,,1,0.982,
+17,0, 0,0,4,h,,1,0.984,
+17,0, 0,0,4,h,,1,0.986,
+17,0, 0,0,4,h,,1,0.988,
+17,0, 0,0,4,h,,1,0.990,
+17,0, 0,0,4,h,,1,0.992,
+17,0, 0,0,4,h,,1,0.994,
+17,0, 0,0,4,h,,1,0.996,
+17,0, 0,0,4,h,,1,0.998,
+17,0, 0,0,4,h,,1,1,
+17,0, 0,0,4,h,,1,0.998,
+17,0, 0,0,4,h,,1,0.996,
+17,0, 0,0,4,h,,1,0.994,
+17,0, 0,0,4,h,,1,0.992,
+17,0, 0,0,4,h,,1,0.990,
+17,0, 0,0,4,h,,1,0.988,
+17,0, 0,0,4,h,,1,0.986,
+17,0, 0,0,4,h,,1,0.984,
+17,0, 0,0,4,h,,1,0.982,
+17,0, 0,0,4,h,,1,0.980,
+17,0, 0,0,4,h,,1,0.978,
+17,0, 0,0,4,h,,1,0.976,
+17,0, 0,0,4,h,,1,0.974,
+17,0, 0,0,4,h,,1,0.976,
+17,0, 0,0,4,h,,1,0.978,
+17,0, 0,0,4,h,,1,0.980,
+17,0, 0,0,4,h,,1,0.982,
+17,0, 0,0,3,h,,1,0.984,
+17,0, 0,0,3,h,,1,0.986,
+17,0, 0,0,3,h,,1,0.988,
+17,0, 0,0,3,h,,1,0.990,
+17,0, 0,0,2,h,,1,0.992,
+17,0, 0,0,2,h,,1,0.994,
+17,0, 0,0,2,h,,1,0.996,
+17,0, 0,0,2,h,,1,0.998,
+17,0, 0,0,2,h,,1,1,
+17,1, 0,0,2,h,,1,0.996,
+17,1, 0,0,2,h,,1,0.995,
+17,3, 0,0,3,h,,1,0.994,
+17,2, 0,0,3,h,,1,0.992,
+17,2, 0,0,3,h,,1,0.990,
+17,3, 0,0,3,h,,1,0.988,
+17,4, 0,0,3,h,,1,0.986,
+17,2, 0,0,3,h,,1,0.984,
+17,3, 0,0,3,h,,1,0.982,
+17,4, 0,0,3,h,,1,0.980,
+17,2, 0,0,3,h,,1,0.978,
+17,3, 0,0,3,h,,1,0.976,
+17,4, 0,0,3,h,,1,0.974,
+17,2, 0,0,3,h,,1,0.976,
+17,3, 0,0,3,h,,1,0.978,
+17,4, 0,0,3,h,,1,0.980,
+17,2, 0,0,3,h,,1,0.982,
+17,3, 0,0,3,h,,1,0.984,
+17,4, 0,0,3,h,,1,0.986,
+17,2, 0,0,3,h,,1,0.988,
+17,3, 0,0,3,h,,1,0.990,
+17,4, 0,0,3,h,,1,0.992,
+17,2, 0,0,3,h,,1,0.994,
+17,3, 0,0,3,h,,1,0.996,
+17,4, 0,0,3,h,,1,0.998,
+17,2, 0,0,3,h,,1,1,
+17,3, 0,0,3,h,,1,0.998,
+17,4, 0,0,3,h,,1,0.996,
+17,2, 0,0,3,h,,1,0.994,
+17,3, 0,0,3,h,,1,0.992,
+17,4, 0,0,3,h,,1,0.990,
+17,2, 0,0,3,h,,1,0.988,
+17,3, 0,0,3,h,,1,0.986,
+17,4, 0,0,3,h,,1,0.984,
+17,2, 0,0,3,h,,1,0.982,
+17,3, 0,0,3,h,,1,0.980,
+17,4, 0,0,3,h,,1,0.978,
+17,2, 0,0,3,h,,1,0.976,
+17,3, 0,0,3,h,,1,0.974,
+17,4, 0,0,3,h,,1,0.976,
+17,2, 0,0,3,h,,1,0.978,
+17,3, 0,0,3,h,,1,0.980,
+17,4, 0,0,3,h,,1,0.982,
+17,2, 0,0,3,h,,1,0.984,
+17,3, 0,0,3,h,,1,0.986,
+17,4, 0,0,3,h,,1,0.988,
+17,2, 0,0,3,h,,1,0.990,
+17,3, 0,0,3,h,,1,0.992,
+17,4, 0,0,3,h,,1,0.994,
+17,1, 0,0,2,h,,1,0.998,
+17,1, 0,0,2,h,,1,0.999,
+
+[BG 0,Yamcha]
+type = anim
+actionno = 5
+start = -120,595
+delta = 0.68,0.59
+mask = 1
+scalestart = 2.5,2.5
+
+[Begin Action 5] ;Yamcha
+16,5, 0,0,3,,,1,0.980,
+16,5, 0,0,3,,,1,0.978,
+16,5, 0,0,3,,,1,0.976,
+16,5, 0,0,3,,,1,0.974,
+16,5, 0,0,3,,,1,0.976,
+16,5, 0,0,3,,,1,0.978,
+16,5, 0,0,3,,,1,0.980,
+16,5, 0,0,3,,,1,0.982,
+16,5, 0,0,3,,,1,0.984,
+16,5, 0,0,3,,,1,0.986,
+16,5, 0,0,3,,,1,0.988,
+16,5, 0,0,3,,,1,0.990,
+16,5, 0,0,3,,,1,0.992,
+16,5, 0,0,3,,,1,0.994,
+16,5, 0,0,3,,,1,0.996,
+16,5, 0,0,3,,,1,0.998,
+16,5, 0,0,3,,,1,1,
+16,5, 0,0,3,,,1,0.998,
+16,5, 0,0,3,,,1,0.996,
+16,5, 0,0,3,,,1,0.994,
+16,5, 0,0,3,,,1,0.992,
+16,5, 0,0,3,,,1,0.990,
+16,5, 0,0,3,,,1,0.988,
+16,5, 0,0,3,,,1,0.986,
+16,5, 0,0,3,,,1,0.984,
+16,5, 0,0,3,,,1,0.982,
+
+
+[BG 0,grass 4 P3]
+type = normal
+spriteno = 10,0
+start = -754,590
+delta = 0.74,0.66
+mask = 1
+scalestart = 0.7,0.7
+tile = 1 
+window = -400,575,1700,585
+windowdelta = .74,0.66
+alpha = 130,150
+trans=addalpha
+sin.x = 2,130
+;
+[BG 0,grass 4 P2]
+type = normal
+spriteno = 10,0
+start = -754,590
+delta = 0.74,0.66
+mask = 1
+scalestart = 0.7,0.7
+tile = 1 
+window = -400,585,1700,595
+windowdelta = .74,0.66
+alpha = 130,150
+trans=addalpha
+sin.x = 1,130
+;
+[BG 0,grass 4 P1]
+type = normal
+spriteno = 10,0
+start = -754,590
+delta = 0.74,0.66
+mask = 1
+scalestart = 0.7,0.7
+tile = 1 
+window = -400,595,1700,244326
+windowdelta = .74,0.66
+alpha = 130,150
+trans=addalpha
+
+[BG 0,rock half2]
+type = normal
+spriteno = 11,1
+start = 500,600
+delta = 0.87,0.77
+mask = 1
+scalestart = 1,1
+scaledelta = 0.0009,0
+
+[BG 0,rock half1]
+type = normal
+spriteno = 11,0
+start = 500,600
+delta = 0.87,0.77
+mask = 1
+scalestart = 1,1
+scaledelta = -0.0009,0
+
+
+
+[BG 0,Goku]
+type = anim
+actionno = 4
+start = 0,611
+delta = 0.78,0.67
+mask = 1
+scalestart = 3,3
+
+[Begin Action 4] ;goku
+16,0, 0,0,4,,, 1,1,
+16,1, 0,0,4,,, 1,1,
+16,2, 0,-2,4,,, 1,1,
+16,3, 0,-4,4,,, 1,1,
+16,4, 0,-6,1,,, 1,1,
+16,4, 0,-7,1,,, 1,1,
+16,4, 0,-8,1,,, 1,1,
+16,4, 0,-9,1,,, 1,1,
+16,4, 0,-10,1,,, 1,1,
+16,4, 0,-9,1,,, 1,1,
+16,4, 0,-8,1,,, 1,1,
+16,4, 0,-7,1,,, 1,1,
+16,4, 0,-6,4,,, 1,1,
+16,3, 0,-4,2,,, 1,1,
+16,2, 0,-2,2,,, 1,1,
+16,1, 0,0,2,,, 1,1,
+16,0, 0,0,4,,, 1,1,
+16,1, 0,0,4,h,, 1,1,
+16,2, 0,-2,4,h,, 1,1,
+16,3, 0,-4,4,h,, 1,1,
+16,4, 0,-6,4,h,, 1,1,
+16,4, 0,-7,1,h,, 1,1,
+16,4, 0,-8,1,h,, 1,1,
+16,4, 0,-9,1,h,, 1,1,
+16,4, 0,-10,1,h,, 1,1,
+16,4, 0,-9,1,h,, 1,1,
+16,4, 0,-8,1,h,, 1,1,
+16,4, 0,-7,4,h,, 1,1,
+16,4, 0,-6,2,h,, 1,1,
+16,3, 0,-4,2,h,, 1,1,
+16,2, 0,-2,2,h,, 1,1,
+16,1, 0,0,2,h,, 1,1,
+16,0, 0,0,4,,, 1,1,
+
+
+;Tree 1 Sway______________________________________________________________________________________________________
+;___________________________________________________________________________________
+;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[BG 0,tree left 1]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+window = 0,582,1280,630
+windowdelta = 0.8,0.67
+
+[BG 0,tree left 2]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 1,200
+window = 0,534,1280,582
+windowdelta = 0.8,0.67
+
+[BG 0,tree left 3]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 2,200
+window = 0,486,1280,534
+windowdelta = 0.8,0.67
+
+[BG 0,tree left 4]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 3,200
+window = 0,438,1280,486
+windowdelta = 0.8,0.67
+
+[BG 0,tree left 5]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 4,200
+window = 0,390,1280,438
+windowdelta = 0.8,0.67
+
+[BG 0,tree left 6]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 5,200
+window = 0,342,1280,390
+windowdelta = 0.8,0.67
+
+
+[BG 0,tree left 7]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 6,200
+window = 0,294,1280,342
+windowdelta = 0.8,0.67
+
+
+[BG 0,tree left 8]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 7,200
+window = 0,246,1280,294
+windowdelta = 0.8,0.67
+
+
+[BG 0,tree left 9]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 8,200
+window = 0,198,1280,246
+windowdelta = 0.8,0.67
+
+[BG 0,tree left 10]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 9,200
+window = 0,150,1280,198
+windowdelta = 0.8,0.67
+
+[BG 0,tree left 11]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 10,200
+window = 0,102,1280,150
+windowdelta = 0.8,0.67
+
+[BG 0,tree left 12]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 11,200
+window = 0,54,1280,102
+windowdelta = 0.8,0.67
+
+[BG 0,tree left 13]
+type = normal
+spriteno = 8,0
+start = 0,641
+delta = 0.8,0.67
+mask = 1
+scalestart = 1,1
+sin.x = 12,200
+window = 0,0,1280,54
+windowdelta = 0.8,0.67
+;________________________________________________________________________________________
+;___________________________________________________________________________________
+;::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+[BG 0,grass 3 p3]
+type = normal
+spriteno = 10,0
+start = -30,610
+delta = 0.87,0.77
+mask = 1
+scalestart = 0.8,0.8
+tile = 1 
+window = -680,595,1900,605
+windowdelta = .87,.77
+alpha = 150,150
+trans=addalpha
+sin.x = 2,120
+
+[BG 0,grass 3 p2]
+type = normal
+spriteno = 10,0
+start = -30,610
+delta = 0.87,0.77
+mask = 1
+scalestart = 0.8,0.8
+tile = 1 
+window = -680,605,1900,615
+windowdelta = .87,.77
+alpha = 150,150
+trans=addalpha
+sin.x = 1,120
+
+[BG 0,grass 3 p1]
+type = normal
+spriteno = 10,0
+start = -30,610
+delta = 0.87,0.77
+mask = 1
+scalestart = 0.8,0.8
+tile = 1 
+window = -680,615,1900,630
+windowdelta = .87,.77
+alpha = 150,150
+trans=addalpha
+
+[BG 0,grass 2 p3]
+type = normal
+spriteno = 10,0
+start = -100,625
+delta = 0.97,0.89
+mask = 1
+scalestart = 0.9,0.9
+tile = 1 
+window = -800,610,2100,620
+windowdelta = .97,.89
+alpha = 170,150
+trans=addalpha
+sin.x = 2,110
+
+[BG 0,grass 2 p2]
+type = normal
+spriteno = 10,0
+start = -100,625
+delta = 0.97,0.89
+mask = 1
+scalestart = 0.9,0.9
+tile = 1 
+window = -800,620,2100,630
+windowdelta = .97,.89
+alpha = 170,150
+trans=addalpha
+sin.x = 1,110
+
+[BG 0,grass 2 p1]
+type = normal
+spriteno = 10,0
+start = -100,625
+delta = 0.97,0.89
+mask = 1
+scalestart = 0.9,0.9
+tile = 1 
+window = -800,630,2100,670
+windowdelta = .97,.89
+alpha = 170,150
+trans=addalpha
+
+
+
+[BG 0,grass 1 p1]
+type = normal
+spriteno = 10,0
+start = 0,641
+delta = 1.,1
+mask = 1
+scalestart = 1,1
+tile = 1 
+layerno = 1
+window = -1000,650,3000,670
+windowdelta = 1.,1
+alpha = 190,150
+trans=addalpha
+
+[BG 0,grass 1 p2]
+type = normal
+spriteno = 10,0
+start = 0,641
+delta = 1.,0.9
+mask = 1
+scalestart = 1,1
+tile = 1 
+layerno = 1
+window = -1000,640,3000,650
+sin.x = 1,100
+windowdelta = 1.,1
+alpha = 190,150
+trans=addalpha
+
+[BG 0,grass 1 p3]
+type = normal
+spriteno = 10,0
+start = 0,641
+delta = 1.,0.9
+mask = 1
+scalestart = 1,1
+tile = 1 
+layerno = 1
+window = -1000,630,3000,640
+sin.x = 2,100
+windowdelta = 1.,1
+alpha = 190,150
+trans=addalpha
+
+[BG 0,water 1]
+type = parallax
+spriteno = 1,0
+start = 0,641
+delta = 1.105,0.82
+mask = 1
+Tile = 1
+width = 4000, 8000
+scaledelta = 0, -0.006
+scalestart = 1,1
+velocity = 1
+sin.y = 10,500
+sin.x = 15,500
+layerno=1
+id=1
+
+
+
+
+
+
+
+_++_+_+_+_+_+_+_+_+_++_+_+_+_+_+_+_+_+_+_+_+_+_+_+
+___________________________________________________
+=-=-=-=-=-+_+_=-=-=-=-=-+-=_-=-=
+[Begin Action 1] 
+13,0, 0,0,4,,, 1,1,
+13,0, 0,0,4,,, 1,0.998,
+13,0, 0,0,4,,, 1,0.996,
+13,0, 0,0,4,,, 1,0.994,
+13,0, 0,0,4,,, 1,0.992,
+13,0, 0,0,4,,, 1,0.990,
+13,0, 0,0,4,,, 1,0.988,
+13,0, 0,0,4,,, 1,0.986,
+13,0, 0,0,4,,, 1,0.984,
+13,0, 0,0,4,,, 1,0.982,
+13,0, 0,0,4,,, 1,0.980,
+13,0, 0,0,4,,, 1,0.978,
+13,0, 0,0,4,,, 1,0.976,
+13,0, 0,0,4,,, 1,0.974,
+13,2, 0,0,4,,, 1,0.972,
+13,1, 0,0,4,,, 1,0.970,
+13,2, 0,0,4,,, 1,0.968,
+13,0, 0,0,4,,, 1,0.970,
+13,0, 0,0,4,,, 1,0.970,
+13,0, 0,0,4,,, 1,0.972,
+13,0, 0,0,4,,, 1,0.974,
+13,0, 0,0,4,,, 1,0.976,
+13,0, 0,0,4,,, 1,0.978,
+13,0, 0,0,4,,, 1,0.980,
+13,0, 0,0,4,,, 1,0.982,
+13,0, 0,0,4,,, 1,0.984,
+13,0, 0,0,4,,, 1,0.986,
+13,0, 0,0,4,,, 1,0.988,
+13,0, 0,0,4,,, 1,0.990,
+13,0, 0,0,4,,, 1,0.992,
+13,0, 0,0,4,,, 1,0.994,
+13,0, 0,0,4,,, 1,0.996,
+13,0, 0,0,4,,, 1,0.998,
+13,0, 0,0,4,,, 1,1,
+13,0, 0,0,4,,, 1,1,
+13,0, 0,0,4,,, 1,0.998,
+13,0, 0,0,4,,, 1,0.996,
+13,0, 0,0,4,,, 1,0.994,
+13,0, 0,0,4,,, 1,0.992,
+13,0, 0,0,4,,, 1,0.990,
+13,0, 0,0,4,,, 1,0.988,
+13,0, 0,0,4,,, 1,0.986,
+13,0, 0,0,4,,, 1,0.984,
+13,0, 0,0,4,,, 1,0.982,
+13,0, 0,0,4,,, 1,0.980,
+13,0, 0,0,4,,, 1,0.978,
+13,0, 0,0,4,,, 1,0.976,
+13,0, 0,0,4,,, 1,0.974,
+13,0, 0,0,4,,, 1,0.972,
+13,0, 0,0,4,,, 1,0.970,
+13,0, 0,0,4,,, 1,0.968,
+13,0, 0,0,4,,, 1,0.970,
+13,0, 0,0,4,,, 1,0.972,
+13,0, 0,0,4,,, 1,0.974,
+13,0, 0,0,4,,, 1,0.976,
+13,0, 0,0,4,,, 1,0.978,
+13,0, 0,0,4,,, 1,0.980,
+13,0, 0,0,4,,, 1,0.982,
+13,0, 0,0,4,,, 1,0.984,
+13,0, 0,0,4,,, 1,0.986,
+13,0, 0,0,4,,, 1,0.988,
+13,0, 0,0,4,,, 1,0.990,
+13,0, 0,0,4,,, 1,0.992,
+13,0, 0,0,4,,, 1,0.994,
+13,0, 0,0,4,,, 1,0.996,
+13,0, 0,0,4,,, 1,0.998,
+13,0, 0,0,4,,, 1,1,
+
+[Begin Action 2] 
+14,0, 0,0,4,,, 1,1,
+14,0, 0,0,4,,, 1,0.998,
+14,0, 0,0,4,,, 1,0.996,
+14,0, 0,0,4,,, 1,0.994,
+14,0, 0,0,4,,, 1,0.992,
+14,0, 0,0,4,,, 1,0.990,
+14,0, 0,0,4,,, 1,0.988,
+14,0, 0,0,4,,, 1,0.986,
+14,0, 0,0,4,,, 1,0.984,
+14,0, 0,0,4,,, 1,0.982,
+14,0, 0,0,4,,, 1,0.980,
+14,0, 0,0,4,,, 1,0.978,
+14,0, 0,0,4,,, 1,0.976,
+14,0, 0,0,4,,, 1,0.974,
+14,2, 0,0,4,,, 1,0.972,
+14,1, 0,0,4,,, 1,0.970,
+14,2, 0,0,4,,, 1,0.968,
+14,0, 0,0,4,,, 1,0.970,
+14,0, 0,0,4,,, 1,0.970,
+14,0, 0,0,4,,, 1,0.972,
+14,0, 0,0,4,,, 1,0.974,
+14,0, 0,0,4,,, 1,0.976,
+14,0, 0,0,4,,, 1,0.978,
+14,0, 0,0,4,,, 1,0.980,
+14,0, 0,0,4,,, 1,0.982,
+14,0, 0,0,4,,, 1,0.984,
+14,0, 0,0,4,,, 1,0.986,
+14,0, 0,0,4,,, 1,0.988,
+14,0, 0,0,4,,, 1,0.990,
+14,0, 0,0,4,,, 1,0.992,
+14,0, 0,0,4,,, 1,0.994,
+14,0, 0,0,4,,, 1,0.996,
+14,0, 0,0,4,,, 1,0.998,
+14,0, 0,0,4,,, 1,1,
+14,0, 0,0,4,,, 1,1,
+14,0, 0,0,4,,, 1,0.998,
+14,0, 0,0,4,,, 1,0.996,
+14,0, 0,0,4,,, 1,0.994,
+14,0, 0,0,4,,, 1,0.992,
+14,0, 0,0,4,,, 1,0.990,
+14,0, 0,0,4,,, 1,0.988,
+14,0, 0,0,4,,, 1,0.986,
+14,0, 0,0,4,,, 1,0.984,
+14,0, 0,0,4,,, 1,0.982,
+14,0, 0,0,4,,, 1,0.980,
+14,0, 0,0,4,,, 1,0.978,
+14,0, 0,0,4,,, 1,0.976,
+14,0, 0,0,4,,, 1,0.974,
+14,0, 0,0,4,,, 1,0.972,
+14,0, 0,0,4,,, 1,0.970,
+14,0, 0,0,4,,, 1,0.968,
+14,0, 0,0,4,,, 1,0.970,
+14,0, 0,0,4,,, 1,0.972,
+14,0, 0,0,4,,, 1,0.974,
+14,0, 0,0,4,,, 1,0.976,
+14,0, 0,0,4,,, 1,0.978,
+14,0, 0,0,4,,, 1,0.980,
+14,0, 0,0,4,,, 1,0.982,
+14,0, 0,0,4,,, 1,0.984,
+14,0, 0,0,4,,, 1,0.986,
+14,0, 0,0,4,,, 1,0.988,
+14,0, 0,0,4,,, 1,0.990,
+14,0, 0,0,4,,, 1,0.992,
+14,0, 0,0,4,,, 1,0.994,
+14,0, 0,0,4,,, 1,0.996,
+14,0, 0,0,4,,, 1,0.998,
+14,0, 0,0,4,,, 1,1,
+
+
+[Begin Action 3] 
+15,0, 0,0,6,,, 1,1,
+15,1, 0,0,6,,, 1,0.990,
+15,2, 0,0,6,,, 1,0.980,
+15,3, 0,0,6,,, 1,0.970,
+15,0, 0,0,6,,, 1,0.960,
+15,1, 0,0,6,,, 1,0.950,
+15,2, 0,0,6,,, 1,0.940,
+15,3, 0,0,6,,, 1,0.930,
+15,0, 0,0,6,,, 1,0.920,
+15,1, 0,0,6,,, 1,0.930,
+15,2, 0,0,6,,, 1,0.940,
+15,3, 0,0,6,,, 1,0.950,
+15,0, 0,0,6,,, 1,0.960,
+15,1, 0,0,6,,, 1,0.970,
+15,2, 0,0,6,,, 1,0.980,
+15,3, 0,0,6,,, 1,0.990,
+15,0, 0,0,6,,, 1,1,
+15,1, 0,0,6,,, 1,0.990,
+15,2, 0,0,6,,, 1,0.980,
+15,3, 0,0,6,,, 1,0.970,
+15,4, 0,0,6,,, 1,0.960,
+15,5, 0,0,6,,, 1,0.950,
+15,6, 0,0,6,,, 1,0.940,
+15,7, 0,0,6,,, 1,0.930,
+15,8, 0,0,6,,, 1,0.920,
+15,9, 0,0,6,,, 1,0.930,
+15,10, 0,0,6,,, 1,0.940,
+15,11, 0,0,6,,, 1,0.950,
+15,12, 0,0,6,,, 1,0.960,
+15,11, 0,0,6,,, 1,0.970,
+15,12, 0,0,6,,, 1,0.980,
+15,11, 0,0,6,,, 1,0.990,
+15,12, 0,0,6,,, 1,1,
+15,11, 0,0,6,,, 1,0.990,
+15,12, 0,0,6,,, 1,0.980,
+15,11, 0,0,6,,, 1,0.970,
+15,12, 0,0,6,,, 1,0.960,
+15,11, 0,0,6,,, 1,0.950,
+15,12, 0,0,6,,, 1,0.940,
+15,11, 0,0,6,,, 1,0.930,
+15,10, 0,0,6,,, 1,0.920,
+15,9, 0,0,6,,, 1,0.920,
+15,8, 0,0,6,,, 1,0.920,
+15,7, 0,0,6,,, 1,0.930,
+15,6, 0,0,6,,, 1,0.940,
+15,5, 0,0,6,,, 1,0.950,
+15,4, 0,0,6,,, 1,0.960,
+15,3, 0,0,6,,, 1,0.970,
+15,2, 0,0,6,,, 1,0.980,
+15,1, 0,0,6,,, 1,0.990,
+
+

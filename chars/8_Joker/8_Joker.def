@@ -1,0 +1,37 @@
+; _______________________________________________
+;| Joker by varo_hades				 |
+; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+;====================<DEFINITION>====================
+[Info]
+name        ="Joker"
+displayName ="Joker"
+versionDate =05,02,2012
+mugenVersion=1.0
+author      ="varo_hades"
+pal.defaults=4,5,6,1,2,3,10,11,12,7,8,9
+localCoord  = 320,240
+
+[Files]
+cmd     =Command.cmd
+cns     =Constants.cns
+st      =States/System.st
+stCommon=common1.cns
+sprite  =Sprite.sff
+anim    =Anim.air
+sound   =Sound.snd
+pal1=Palettes/joker03.act
+pal2=Palettes/joker04.act
+pal3=Palettes/joker05.act
+pal4=Palettes/joker00.act
+pal5=Palettes/joker06.act
+pal6=Palettes/joker07.act
+pal7=Palettes/joker08.act
+pal8=Palettes/joker09.act
+pal9=Palettes/joker10.act
+pal10=Palettes/joker11.act
+pal11=Palettes/joker12.act
+pal12=Palettes/joker02.act
+st1=States/Normal.st
+st2=States/Special.st
+st3=States/Super.st
+st4=States/Helpers.st

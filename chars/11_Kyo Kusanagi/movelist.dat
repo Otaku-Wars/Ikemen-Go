@@ -1,0 +1,98 @@
+(K)										Kyo Mode
+(E)										EX Mode
+(U)										Kusanagi Mode
+
+<#f0f000>THROWS</>
+
+(KEU) Hatsugane							(near opponent) [_B/_F]_+^2P
+(KEU) Issetsu Seoi Nage					(near opponent) [_B/_F]_+^2K
+
+<#f0f000>NORMAL</>
+
+(KEU) Geshiki: Naraku Otoshi			(on air)_D^Z
+(KEU) 88 Shiki							(hold)_D_F_+^C
+
+(KE) Horin								_F^Z
+(KE) Geshiki: Goufu Yo					_F^B
+
+(U) Honofuri							_F^Z
+(U) Kurogami							_F^Y
+(U) Migiri Ugachi						(hold)_D_F_+^Z
+
+<#f0f000>SPECIALS</>
+
+(KEU) 100 Shiki: Oniyaki_EX				_F_D_F^P
+(KEU) 212 Shiki: Kototsuki Yo_EX		_F_D_B^K
+(KEU) 75 Shiki: Kai_EX					_D_F^K^K
+
+(KE) 108 Shiki: Yami Barai_EX			_D_B^P
+(KE) R.E.D. Kick_EX						_B_D_B^K
+(EU) 101 Shiki: Oboro Guruma_EX			_B_D^K
+(KU) Aoki_EX							_F_D_B^P
+
+(K) 412 Shiki: Hikigane_EX				_D_B^K
+(E) 412 Shiki: Hikigane_EX				_F_D_B^K
+(U) 108 Shiki: Yami Barai_EX			_D_F^P
+
+(KE) 114 Shiki: Aragami					_D_F[^X/^Y]
+_!128 Shiki: Konokizu					_D_F^P
+  _!127 Shiki: Yanosabi					^P
+  _!125 Shiki: Nanase					^K
+_!127 Shiki: Yanosabi					_F_D_B^P
+  _!Geshiki: Migiri Ugachi				^P
+  _!125 Shiki: Nanase					^K
+(E) _!212 Shiki: Kototsuki Yo			_F_D_B^K
+
+(KE) 115 Shiki: Dokugami				_D_F^Z
+_!401 Shiki: Tsumi Yomi					_F_D_B^P
+_!402 Shiki: Batsu Yomi					_F^P
+_!100 Shiki: Oniyaki					_F_D_F^P
+
+(KE) 115 Shiki:Dokugami Kai(_EXonly)		_D_F^2P
+_!114 Shiki: Aragami					_D_F^P
+_!128 Shiki: Konokizu					_D_F^P
+_!125 Shiki: Nanase Kai					_D_F^K
+(K) _!412 Shiki: Hikigane				_F_D_B^K
+(E) _!123 Shiki: Shaku En				_F_D_B^K
+
+<#f0f000>LEVEL 1 SUPER COMBOS</>
+
+(KEU) Ura 108 Shiki: Orochinagi			(hold)_D_B_D_F^P
+
+(KU) 1999 Shiki: Kiri Homura			_D_F_D_F^K
+
+(K) Saishu Kessen Ougi "Mu-shiki"		_D_F_D_F^P
+(E) 182 Shiki							_D_F_D_F^P
+
+<#f0f000>LEVEL 2 SUPER COMBOS</>
+
+(KEU) MAX Ura 108 Shiki: Orochinagi		(hold)_D_B_D_F^P
+
+(KU) MAX 1999 Shiki: Kiri Homura		_D_F_D_F^2K
+
+(K) MAX Saishu Kessen Ougi "Mu-shiki"		_D_F_D_F^2P
+(E) MAX 182 Shiki						_D_F_D_F^2P
+
+<#f0f000>LEVEL 3 HYPER COMBOS</>
+
+(KE) 524 Shiki: Kamukura				(near opponent)_D_F_D_F^P^K
+
+(U) Saishu Kessen Ougi Zero Shiki		_D_F_D_F^2P
+
+<#f0f000>SYSTEM</>
+
+Forward Dash					_F_F
+_!Run							(hold)_F
+Back Dash						_B_B
+High Jump						_TAP_D, _U
+Hop								_TAP_U
+Hyper Hop						_TAP_D, _TAP_U
+Parry							_TAP_F / _TAP_D
+Roll							[_B/_F]^A_+^X
+Sidestep						^A_+^X
+_!Sidestep Attack				^P/^K
+Power Charge					^B_+^Y
+Custom Combo					(air also) ^C_+^Z
+Zero Counter					_B_D^P/^K(while standing/crouching guard)
+Fall Recovery					(when allowed)^P/^K
+Taunt							^S

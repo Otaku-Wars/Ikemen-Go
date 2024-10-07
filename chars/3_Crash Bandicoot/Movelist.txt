@@ -1,0 +1,80 @@
+Super Moves:
+
+Crash Bash:
+D, DF, F, D, DF, F, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for MAX Version
+
+Hyper Tornado:
+D, DB, B, D, DB, B, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for MAX Version
+
+Hyper Nitro Karts:
+D, DF, F, D, DF, F, (a, b or c)
+
+(a+b) . (b+c) . (a+b) for MAX Version
+
+Hyper Wumpa Yoyo:
+D, DB, B, D, DB, B, (a, b or c)
+
+(a+b) . (b+c) . (a+b) for MAX Version
+
+Time Stop: [LvL3]
+
+F, B, D, F, (x+y) . (y+z) . (x+z)
+
+__________________________________________________________________________________________
+
+
+Special Moves:
+
+Fruit Bazooka:
+D, DF, F, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Spin:
+D, DB, B, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Ika-Ika Gravity Uppercut:
+F, D, DF, (x, y or z)
+
+(x+y) . (y+z) . (x+z) for EX version
+
+Lani-Loli Phase:
+B, D, DB, (x, y or z)
+
+--------------------------------------------------------------------------
+
+Nitro Kart:
+D, DF, F, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+Wumpa Yoyo
+D, DB, B, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+Akano Attack:
+F, D, DF, (a, b or c) (Air)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+Wumpa Hammer:
+B, D, DB, (a, b or c)
+
+(a+b) . (b+c) . (a+c) for EX version
+
+__________________________________________________________________________________________
+
+Unique Moves:
+
+Body Slam (Air Only)
+D + MP
+
+Aku Aku (Protects Crash from Projectiles)
+HP + HK

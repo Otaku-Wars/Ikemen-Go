@@ -1,0 +1,640 @@
+2024-10-01T21:05:27.276Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:05:36.674Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:05:46.065Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:05:49.054Z [error]: Ikemen stderr: 2024/10/01 16:05:49 Using OpenGL 0x2e969e0 (0x2bdecd8)
+
+2024-10-01T21:05:55.452Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:06:04.861Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:06:09.862Z [error]: Max ffmpeg restarts reached within the interval. Not restarting.
+2024-10-01T21:06:35.274Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:06:44.654Z [error]: FFmpeg stderr: 16:06:44.653543/ffmpeg*E:SRT.ea: EID:2 no sockets to check, this would deadlock
+
+2024-10-01T21:06:46.654Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:06:57.200Z [error]: Ikemen stderr: 2024/10/01 16:06:57 Using OpenGL 0x12b4dd0 (0x11842a8)
+
+2024-10-01T21:06:59.397Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:07:10.773Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:07:22.142Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:07:31.524Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:07:42.908Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:07:52.294Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:08:01.697Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:08:11.105Z [error]: FFmpeg process exited with code 1
+2024-10-01T21:08:16.106Z [error]: Max ffmpeg restarts reached within the interval. Not restarting.
+2024-10-01T21:10:46.547Z [error]: Ikemen stderr: 2024/10/01 16:10:46 Using OpenGL 0x1e06950 (0x1b5db28)
+
+2024-10-01T21:14:27.455Z [error]: Ikemen stderr: 2024/10/01 16:14:27 Using OpenGL 0x1400850 (0x1149d08)
+
+2024-10-01T21:17:12.301Z [error]: Ikemen stderr: 2024/10/01 16:17:12 Using OpenGL 0x1a11d60 (0x18e0fe8)
+
+2024-10-01T21:20:08.334Z [error]: Ikemen stderr: 2024/10/01 16:20:08 Using OpenGL 0x11f6840 (0xf3f498)
+
+2024-10-01T21:22:05.119Z [error]: Ikemen stderr: 2024/10/01 16:22:05 Using OpenGL 0x2e271b0 (0x2cf6428)
+
+2024-10-01T21:24:04.013Z [error]: Ikemen stderr: 2024/10/01 16:24:04 Using OpenGL 0x1af1750 (0x1849008)
+
+2024-10-01T21:27:21.376Z [error]: Ikemen stderr: 2024/10/01 16:27:21 Using OpenGL 0x1ac0910 (0x1817e38)
+
+2024-10-01T21:29:56.778Z [error]: Ikemen stderr: 2024/10/01 16:29:56 Using OpenGL 0x15a17a0 (0x1470798)
+
+2024-10-01T21:32:51.398Z [error]: Ikemen stderr: 2024/10/01 16:32:51 Using OpenGL 0x18bedf0 (0x178e1f8)
+
+2024-10-01T21:34:44.363Z [error]: Ikemen stderr: 2024/10/01 16:34:44 Using OpenGL 0x1d2b120 (0x1bfa838)
+
+2024-10-01T21:37:27.175Z [error]: Ikemen stderr: 2024/10/01 16:37:27 Using OpenGL 0x201a370 (0x1d62498)
+
+2024-10-01T21:42:10.942Z [error]: Ikemen stderr: 2024/10/01 16:42:10 Using OpenGL 0x150fb50 (0x1257f08)
+
+2024-10-01T21:45:17.568Z [error]: Ikemen stderr: 2024/10/01 16:45:17 Using OpenGL 0x25a18d0 (0x22ea848)
+
+2024-10-01T21:49:00.408Z [error]: Ikemen stderr: 2024/10/01 16:49:00 Using OpenGL 0x216a490 (0x1ec1d18)
+
+2024-10-01T21:51:57.576Z [error]: Ikemen stderr: 2024/10/01 16:51:57 Using OpenGL 0x20f0010 (0x1e47ce8)
+
+2024-10-01T21:53:24.136Z [error]: Ikemen stderr: 2024/10/01 16:53:24 Using OpenGL 0x1a69e30 (0x193d788)
+
+2024-10-01T21:55:29.214Z [error]: Ikemen stderr: 2024/10/01 16:55:29 Using OpenGL 0x1c82200 (0x1b51298)
+
+2024-10-01T21:59:36.500Z [error]: Ikemen stderr: 2024/10/01 16:59:36 Using OpenGL 0x1e9e870 (0x1d6db98)
+
+2024-10-01T22:03:08.701Z [error]: Ikemen stderr: 2024/10/01 17:03:08 Using OpenGL 0x2b7abd0 (0x28c3128)
+
+2024-10-01T22:05:27.935Z [error]: Ikemen stderr: 2024/10/01 17:05:27 Using OpenGL 0x2d32880 (0x2c01be8)
+
+2024-10-01T22:09:39.279Z [error]: Ikemen stderr: 2024/10/01 17:09:39 Using OpenGL 0x23d5c70 (0x22a5518)
+
+2024-10-01T22:12:14.624Z [error]: Ikemen stderr: 2024/10/01 17:12:14 Using OpenGL 0x1658c90 (0x13b0cd8)
+
+2024-10-01T22:13:32.619Z [error]: Ikemen stderr: 2024/10/01 17:13:32 Using OpenGL 0x187c650 (0x15d4b88)
+
+2024-10-01T22:17:22.904Z [error]: Ikemen stderr: 2024/10/01 17:17:22 Using OpenGL 0x1c7a510 (0x19d2428)
+
+2024-10-01T22:20:12.496Z [error]: Ikemen stderr: 2024/10/01 17:20:12 Using OpenGL 0x2fec4d0 (0x2d42d68)
+
+2024-10-01T22:24:08.751Z [error]: Ikemen stderr: 2024/10/01 17:24:08 Using OpenGL 0x30d2910 (0x2e29c38)
+
+2024-10-01T22:26:54.930Z [error]: Ikemen stderr: 2024/10/01 17:26:54 Using OpenGL 0x1a5fc50 (0x192f208)
+
+2024-10-01T22:30:37.348Z [error]: Ikemen stderr: 2024/10/01 17:30:37 Using OpenGL 0x236f8d0 (0x20b8148)
+
+2024-10-01T22:34:37.967Z [error]: Ikemen stderr: 2024/10/01 17:34:37 Using OpenGL 0x220c350 (0x1f64578)
+
+2024-10-01T22:38:38.811Z [error]: Ikemen stderr: 2024/10/01 17:38:38 Using OpenGL 0x1ec7120 (0x1d96198)
+
+2024-10-01T22:40:47.776Z [error]: Ikemen stderr: 2024/10/01 17:40:47 Using OpenGL 0x294eea0 (0x281dfa8)
+
+2024-10-01T22:43:07.401Z [error]: Ikemen stderr: 2024/10/01 17:43:07 Using OpenGL 0x2dce460 (0x2b16b88)
+
+2024-10-01T22:45:51.389Z [error]: Ikemen stderr: 2024/10/01 17:45:51 Using OpenGL 0x2f99510 (0x2ce1bd8)
+
+2024-10-01T22:50:20.656Z [error]: Ikemen stderr: 2024/10/01 17:50:20 Using OpenGL 0x21ceb80 (0x1f17958)
+
+2024-10-01T22:53:14.999Z [error]: Ikemen stderr: 2024/10/01 17:53:14 Using OpenGL 0x27fc7c0 (0x26cc068)
+
+2024-10-01T22:55:43.958Z [error]: Ikemen stderr: 2024/10/01 17:55:43 Using OpenGL 0x1343a90 (0x109b6f8)
+
+2024-10-01T22:59:57.192Z [error]: Ikemen stderr: 2024/10/01 17:59:57 Using OpenGL 0x1713050 (0x1469a58)
+
+2024-10-01T23:01:39.060Z [error]: Ikemen stderr: 2024/10/01 18:01:39 Using OpenGL 0x203e0b0 (0x1d85f78)
+
+2024-10-01T23:06:29.074Z [error]: Ikemen stderr: 2024/10/01 18:06:29 Using OpenGL 0x1693de0 (0x1563028)
+
+2024-10-01T23:09:50.000Z [error]: Ikemen stderr: 2024/10/01 18:09:50 Using OpenGL 0x2c54b70 (0x2b24428)
+
+2024-10-01T23:13:09.171Z [error]: Ikemen stderr: 2024/10/01 18:13:09 Using OpenGL 0x289a900 (0x25e2ff8)
+
+2024-10-01T23:16:11.028Z [error]: Ikemen stderr: 2024/10/01 18:16:11 Using OpenGL 0x2a9ecc0 (0x27e7348)
+
+2024-10-01T23:18:58.304Z [error]: Ikemen stderr: 2024/10/01 18:18:58 Using OpenGL 0x1756a30 (0x1625e68)
+
+2024-10-01T23:21:36.314Z [error]: Ikemen stderr: 2024/10/01 18:21:36 Using OpenGL 0x15c5450 (0x130d228)
+
+2024-10-01T23:26:18.840Z [error]: Ikemen stderr: 2024/10/01 18:26:18 Using OpenGL 0x2987380 (0x26cfb58)
+
+2024-10-01T23:29:29.242Z [error]: Ikemen stderr: 2024/10/01 18:29:29 Using OpenGL 0x272ee40 (0x25fe328)
+
+2024-10-01T23:33:44.293Z [error]: Ikemen stderr: 2024/10/01 18:33:44 Using OpenGL 0x270cdc0 (0x2454dc8)
+
+2024-10-01T23:36:18.466Z [error]: Ikemen stderr: 2024/10/01 18:36:18 Using OpenGL 0x1dfddd0 (0x1b55378)
+
+2024-10-01T23:37:46.920Z [error]: Ikemen stderr: 2024/10/01 18:37:46 Using OpenGL 0x15271d0 (0x127d998)
+
+2024-10-01T23:41:23.882Z [error]: Ikemen stderr: 2024/10/01 18:41:23 Using OpenGL 0x209d780 (0x1f6c988)
+
+2024-10-01T23:44:10.890Z [error]: Ikemen stderr: 2024/10/01 18:44:10 Using OpenGL 0x257e250 (0x22d5e18)
+
+2024-10-01T23:47:28.977Z [error]: Ikemen stderr: 2024/10/01 18:47:28 Using OpenGL 0x2c46300 (0x2b15aa8)
+
+2024-10-01T23:50:45.348Z [error]: Ikemen stderr: 2024/10/01 18:50:45 Using OpenGL 0x26ffc00 (0x2447df8)
+
+2024-10-01T23:53:48.167Z [error]: Ikemen stderr: 2024/10/01 18:53:48 Using OpenGL 0x2c20130 (0x2aef268)
+
+2024-10-01T23:57:52.754Z [error]: Ikemen stderr: 2024/10/01 18:57:52 Using OpenGL 0x1cd3a60 (0x1ba2e68)
+
+2024-10-02T00:01:07.061Z [error]: Ikemen stderr: 2024/10/01 19:01:07 Using OpenGL 0x219ee40 (0x1ee81a8)
+
+2024-10-02T00:04:05.224Z [error]: Ikemen stderr: 2024/10/01 19:04:05 Using OpenGL 0x2dd0a90 (0x2b28d68)
+
+2024-10-02T00:06:44.054Z [error]: Ikemen stderr: 2024/10/01 19:06:44 Using OpenGL 0x1163410 (0x1033128)
+
+2024-10-02T00:09:56.169Z [error]: Ikemen stderr: 2024/10/01 19:09:56 Using OpenGL 0x26271c0 (0x24f6c28)
+
+2024-10-02T00:11:59.101Z [error]: Ikemen stderr: 2024/10/01 19:11:59 Using OpenGL 0x13e05a0 (0x12afc28)
+
+2024-10-02T00:14:55.932Z [error]: Ikemen stderr: 2024/10/01 19:14:55 Using OpenGL 0x12863c0 (0x1155bf8)
+
+2024-10-02T00:17:31.497Z [error]: Ikemen stderr: 2024/10/01 19:17:31 Using OpenGL 0x16d9f90 (0x14350b8)
+
+2024-10-02T00:21:04.098Z [error]: Ikemen stderr: 2024/10/01 19:21:04 Using OpenGL 0x22bc4d0 (0x2013ac8)
+
+2024-10-02T00:23:40.164Z [error]: Ikemen stderr: 2024/10/01 19:23:40 Using OpenGL 0x1720b40 (0x15eff18)
+
+2024-10-02T00:27:11.645Z [error]: Ikemen stderr: 2024/10/01 19:27:11 Using OpenGL 0x197bf30 (0x184ba88)
+
+2024-10-02T00:29:32.224Z [error]: Ikemen stderr: 2024/10/01 19:29:32 Using OpenGL 0x250c7e0 (0x23dc7f8)
+
+2024-10-02T00:31:56.514Z [error]: Ikemen stderr: 2024/10/01 19:31:56 Using OpenGL 0x1a71410 (0x17c8778)
+
+2024-10-02T00:34:49.641Z [error]: Ikemen stderr: 2024/10/01 19:34:49 Using OpenGL 0x2cb7690 (0x2b86ca8)
+
+2024-10-02T00:37:40.160Z [error]: Ikemen stderr: 2024/10/01 19:37:40 Using OpenGL 0x14dbd50 (0x1233018)
+
+2024-10-02T00:40:30.559Z [error]: Ikemen stderr: 2024/10/01 19:40:30 Using OpenGL 0x2556f30 (0x2426cf8)
+
+2024-10-02T00:43:36.102Z [error]: Ikemen stderr: 2024/10/01 19:43:36 Using OpenGL 0x139c520 (0x126bb98)
+
+2024-10-02T00:45:55.539Z [error]: Ikemen stderr: 2024/10/01 19:45:55 Using OpenGL 0x31a1c10 (0x2ef91f8)
+
+2024-10-02T00:48:46.108Z [error]: Ikemen stderr: 2024/10/01 19:48:46 Using OpenGL 0x252f2c0 (0x23fef28)
+
+2024-10-02T00:51:31.741Z [error]: Ikemen stderr: 2024/10/01 19:51:31 Using OpenGL 0x2bf0f50 (0x2ac13a8)
+
+2024-10-02T00:53:19.893Z [error]: Ikemen stderr: 2024/10/01 19:53:19 Using OpenGL 0x2e1cc50 (0x2b739f8)
+
+2024-10-02T00:56:14.635Z [error]: Ikemen stderr: 2024/10/01 19:56:14 Using OpenGL 0x1301b90 (0x1058e68)
+
+2024-10-02T00:59:49.025Z [error]: Ikemen stderr: 2024/10/01 19:59:49 Using OpenGL 0x1ae5890 (0x183d0a8)
+
+2024-10-02T01:02:24.734Z [error]: Ikemen stderr: 2024/10/01 20:02:24 Using OpenGL 0x246e230 (0x21b6fd8)
+
+2024-10-02T01:05:26.887Z [error]: Ikemen stderr: 2024/10/01 20:05:26 Using OpenGL 0x2dece10 (0x2b48a38)
+
+2024-10-02T01:08:11.617Z [error]: Ikemen stderr: 2024/10/01 20:08:11 Using OpenGL 0x2862600 (0x25aa608)
+
+2024-10-02T01:11:00.820Z [error]: Ikemen stderr: 2024/10/01 20:11:00 Using OpenGL 0x155a4c0 (0x1429b78)
+
+2024-10-02T01:14:50.790Z [error]: Ikemen stderr: 2024/10/01 20:14:50 Using OpenGL 0x2a57140 (0x2925d18)
+
+2024-10-02T01:17:56.621Z [error]: Ikemen stderr: 2024/10/01 20:17:56 Using OpenGL 0x1fea570 (0x1d332e8)
+
+2024-10-02T01:21:52.394Z [error]: Ikemen stderr: 2024/10/01 20:21:52 Using OpenGL 0x2d9e770 (0x2ae72c8)
+
+2024-10-02T01:25:41.603Z [error]: Ikemen stderr: 2024/10/01 20:25:41 Using OpenGL 0x1796ed0 (0x14eeb68)
+
+2024-10-02T01:29:22.914Z [error]: Ikemen stderr: 2024/10/01 20:29:22 Using OpenGL 0x1b141d0 (0x186b6c8)
+
+2024-10-02T01:33:22.355Z [error]: Ikemen stderr: 2024/10/01 20:33:22 Using OpenGL 0x2cc9d10 (0x2a211d8)
+
+2024-10-02T01:36:30.239Z [error]: Ikemen stderr: 2024/10/01 20:36:30 Using OpenGL 0x14dfcb0 (0x13afaf8)
+
+2024-10-02T01:39:00.250Z [error]: Ikemen stderr: 2024/10/01 20:39:00 Using OpenGL 0x1b967a0 (0x1a65798)
+
+2024-10-02T01:41:56.407Z [error]: Ikemen stderr: 2024/10/01 20:41:56 Using OpenGL 0x2da3d90 (0x2afb218)
+
+2024-10-02T01:45:06.718Z [error]: Ikemen stderr: 2024/10/01 20:45:06 Using OpenGL 0x2c24cf0 (0x296d068)
+
+2024-10-02T01:47:44.217Z [error]: Ikemen stderr: 2024/10/01 20:47:44 Using OpenGL 0x1451920 (0x1321848)
+
+2024-10-02T01:50:19.134Z [error]: Ikemen stderr: 2024/10/01 20:50:19 Using OpenGL 0x1414ed0 (0x116cbb8)
+
+2024-10-02T01:54:47.155Z [error]: Ikemen stderr: 2024/10/01 20:54:47 Using OpenGL 0x319a300 (0x2ee2978)
+
+2024-10-02T01:58:09.648Z [error]: Ikemen stderr: 2024/10/01 20:58:09 Using OpenGL 0x1423cb0 (0x12f2d98)
+
+2024-10-02T02:01:44.847Z [error]: Ikemen stderr: 2024/10/01 21:01:44 Using OpenGL 0x13a38f0 (0x1273188)
+
+2024-10-02T02:03:42.996Z [error]: Ikemen stderr: 2024/10/01 21:03:42 Using OpenGL 0x14168e0 (0x11c5a68)
+
+2024-10-02T02:06:42.898Z [error]: Ikemen stderr: 2024/10/01 21:06:42 Using OpenGL 0x2bbae10 (0x2a89e38)
+
+2024-10-02T02:09:27.585Z [error]: Ikemen stderr: 2024/10/01 21:09:27 Using OpenGL 0x16da000 (0x15a9a58)
+
+2024-10-02T02:11:54.119Z [error]: Ikemen stderr: 2024/10/01 21:11:54 Using OpenGL 0x13bb810 (0x128b088)
+
+2024-10-02T02:14:02.885Z [error]: Ikemen stderr: 2024/10/01 21:14:02 Using OpenGL 0x1939d90 (0x1682078)
+
+2024-10-02T02:16:31.932Z [error]: Ikemen stderr: 2024/10/01 21:16:31 Using OpenGL 0x20013f0 (0x1ed1078)
+
+2024-10-02T02:21:22.858Z [error]: Ikemen stderr: 2024/10/01 21:21:22 Using OpenGL 0x305ecd0 (0x2db7768)
+
+2024-10-02T02:24:12.525Z [error]: Ikemen stderr: 2024/10/01 21:24:12 Using OpenGL 0x2aede40 (0x29bc918)
+
+2024-10-02T02:27:23.835Z [error]: Ikemen stderr: 2024/10/01 21:27:23 Using OpenGL 0x23ae8e0 (0x20f79d8)
+
+2024-10-02T02:30:19.322Z [error]: Ikemen stderr: 2024/10/01 21:30:19 Using OpenGL 0x1d93bb0 (0x1adcca8)
+
+2024-10-02T02:33:45.457Z [error]: Ikemen stderr: 2024/10/01 21:33:45 Using OpenGL 0x1e56cf0 (0x1b9ec98)
+
+2024-10-02T02:36:32.571Z [error]: Ikemen stderr: 2024/10/01 21:36:32 Using OpenGL 0x2a41550 (0x2798a18)
+
+2024-10-02T02:40:30.551Z [error]: Ikemen stderr: 2024/10/01 21:40:30 Using OpenGL 0x2059790 (0x1db0af8)
+
+2024-10-02T02:46:41.749Z [error]: Ikemen stderr: 2024/10/01 21:46:41 Using OpenGL 0x16533c0 (0x15227e8)
+
+2024-10-02T02:49:10.770Z [error]: Ikemen stderr: 2024/10/01 21:49:10 Using OpenGL 0x1d3b760 (0x1a83ae8)
+
+2024-10-03T23:07:43.047Z [error]: FFmpeg process exited with code 1
+2024-10-03T23:07:56.435Z [error]: FFmpeg process exited with code 1
+2024-10-03T23:08:04.849Z [error]: Ikemen stderr: 2024/10/03 18:08:04 Using OpenGL 0x26b12d0 (0x240cea8)
+
+2024-10-03T23:08:09.777Z [error]: FFmpeg process exited with code 1
+2024-10-03T23:08:19.138Z [error]: FFmpeg process exited with code 1
+2024-10-03T23:08:30.505Z [error]: FFmpeg process exited with code 1
+2024-10-03T23:08:41.855Z [error]: FFmpeg process exited with code 1
+2024-10-03T23:08:53.208Z [error]: FFmpeg process exited with code 1
+2024-10-03T23:09:04.576Z [error]: FFmpeg process exited with code 1
+2024-10-03T23:09:15.939Z [error]: FFmpeg process exited with code 1
+2024-10-04T00:21:30.952Z [error]: FFmpeg process exited with code 1
+2024-10-04T00:21:40.341Z [error]: FFmpeg process exited with code 1
+2024-10-04T00:21:51.729Z [error]: FFmpeg process exited with code 1
+2024-10-04T00:21:56.976Z [error]: Ikemen stderr: 2024/10/03 19:21:56 Using OpenGL 0x20bb710 (0x1f8a928)
+
+2024-10-04T00:22:03.279Z [error]: FFmpeg process exited with code 1
+2024-10-04T00:22:12.659Z [error]: FFmpeg process exited with code 1
+2024-10-04T00:22:17.659Z [error]: Max ffmpeg restarts reached within the interval. Not restarting.
+2024-10-04T00:24:59.641Z [error]: FFmpeg stderr: 19:24:59.641169/ffmpeg*E:SRT.ea: EID:2 no sockets to check, this would deadlock
+
+2024-10-04T00:25:01.638Z [error]: FFmpeg process exited with code 1
+2024-10-04T00:25:13.015Z [error]: FFmpeg process exited with code 1
+2024-10-04T00:25:22.397Z [error]: FFmpeg process exited with code 1
+2024-10-04T00:25:23.300Z [error]: Ikemen stderr: 2024/10/03 19:25:23 Using OpenGL 0x1394cd0 (0x10bf298)
+
+2024-10-04T00:25:33.773Z [error]: FFmpeg process exited with code 1
+2024-10-06T22:55:37.551Z [error]: Ikemen stderr: 2024/10/06 17:55:37 Using OpenGL 0x1e6e210 (0x1bc5158)
+
+2024-10-06T23:03:13.254Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-06T23:03:56.684Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-06T23:04:57.157Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-06T23:05:10.102Z [error]: Ikemen stderr: 2024/10/06 18:05:10 Using OpenGL 0x1ccadd0 (0x1a12c18)
+
+2024-10-06T23:10:35.178Z [error]: Ikemen stderr: 2024/10/06 18:10:35 Using OpenGL 0x1b6ef70 (0x18b76c8)
+
+2024-10-06T23:13:10.468Z [error]: Ikemen stderr: 2024/10/06 18:13:10 Using OpenGL 0x286afb0 (0x273a698)
+
+2024-10-06T23:15:41.900Z [error]: Ikemen stderr: 2024/10/06 18:15:41 Using OpenGL 0x1a6d3a0 (0x193cd68)
+
+2024-10-06T23:20:21.182Z [error]: Ikemen stderr: 2024/10/06 18:20:21 Using OpenGL 0x24ee630 (0x2237908)
+
+2024-10-06T23:22:33.400Z [error]: Ikemen stderr: 2024/10/06 18:22:33 Using OpenGL 0x2d56090 (0x2aad918)
+
+2024-10-06T23:24:17.882Z [error]: Ikemen stderr: 2024/10/06 18:24:17 Using OpenGL 0x2712600 (0x25e1ae8)
+
+2024-10-06T23:26:05.619Z [error]: Ikemen stderr: 2024/10/06 18:26:05 Using OpenGL 0x2ab8f20 (0x2988758)
+
+2024-10-06T23:26:07.204Z [error]: Ikemen stderr: 2024/10/06 18:26:07 Failed to open bgm: open sound/Luffy_Fierce_Attack.mp3: no such file or directory
+
+2024-10-06T23:29:04.030Z [error]: Ikemen stderr: 2024/10/06 18:29:04 Using OpenGL 0x2648580 (0x2390e68)
+
+2024-10-06T23:29:27.005Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-06T23:29:53.705Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-06T23:30:52.828Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-06T23:31:25.412Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-06T23:32:58.712Z [error]: Ikemen stderr: 2024/10/06 18:32:58 Using OpenGL 0x2e61210 (0x2ba9748)
+
+2024-10-06T23:35:23.598Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-06T23:35:39.674Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-06T23:35:58.285Z [error]: Ikemen stderr: 2024/10/06 18:35:58 Using OpenGL 0x283e630 (0x270e418)
+
+2024-10-06T23:35:58.492Z [error]: Ikemen stderr: 2024/10/06 18:35:58 stages/Kame House (Day).sff duplicated palette: 0,4 (6/16)
+
+2024-10-06T23:36:00.916Z [error]: Ikemen stderr: 2024/10/06 18:36:00 WARNING: BGM volume set beyond expected range (value: 255). Clamped to MaxBgmVolume
+
+2024-10-06T23:39:48.214Z [error]: Ikemen stderr: 2024/10/06 18:39:48 Using OpenGL 0x18d3590 (0x162b298)
+
+2024-10-06T23:42:03.081Z [error]: Ikemen stderr: 2024/10/06 18:42:03 Using OpenGL 0x167e590 (0x13c7648)
+
+2024-10-06T23:43:32.923Z [error]: Ikemen stderr: 2024/10/06 18:43:32 Using OpenGL 0x263c0a0 (0x250b1a8)
+
+2024-10-06T23:45:00.396Z [error]: Ikemen stderr: 2024/10/06 18:45:00 Using OpenGL 0x1703300 (0x15d2c38)
+
+2024-10-06T23:48:22.637Z [error]: Ikemen stderr: 2024/10/06 18:48:22 Using OpenGL 0x2510250 (0x2267018)
+
+2024-10-06T23:51:02.778Z [error]: Ikemen stderr: 2024/10/06 18:51:02 Using OpenGL 0x1b9db50 (0x1a6d3f8)
+
+2024-10-06T23:51:46.777Z [error]: Ikemen stderr: 2024/10/06 18:51:46 Using OpenGL 0x24fe690 (0x2247298)
+
+2024-10-06T23:51:47.640Z [error]: Ikemen stderr: 2024/10/06 18:51:47 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T00:25:06.184Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:25:12.719Z [error]: Ikemen stderr: 2024/10/06 19:25:12 Using OpenGL 0x2416fc0 (0x215f698)
+
+2024-10-07T00:25:13.464Z [error]: Ikemen stderr: 2024/10/06 19:25:13 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T00:26:19.405Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:26:22.535Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:27:49.729Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:28:10.995Z [error]: Ikemen stderr: 2024/10/06 19:28:10 Using OpenGL 0x2397690 (0x20ee9e8)
+
+2024-10-07T00:28:11.544Z [error]: Ikemen stderr: 2024/10/06 19:28:11 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T00:29:34.395Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:31:01.214Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:31:01.485Z [error]: Ikemen stderr: 2024/10/06 19:31:01 Using OpenGL 0x260d6c0 (0x24dd448)
+
+2024-10-07T00:35:14.619Z [error]: Ikemen stderr: 2024/10/06 19:35:14 Using OpenGL 0x1865d80 (0x1734a88)
+
+2024-10-07T00:35:15.313Z [error]: Ikemen stderr: 2024/10/06 19:35:15 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T00:37:30.552Z [error]: Ikemen stderr: 2024/10/06 19:37:30 Using OpenGL 0x2876f10 (0x25cf648)
+
+2024-10-07T00:37:31.821Z [error]: Ikemen stderr: 2024/10/06 19:37:31 Failed to open bgm: open sound/Battle of Hoth.mp3: no such file or directory
+
+2024-10-07T00:40:57.788Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:41:13.879Z [error]: Ikemen stderr: 2024/10/06 19:41:13 Using OpenGL 0x2c09bf0 (0x2951e28)
+
+2024-10-07T00:41:14.654Z [error]: Ikemen stderr: 2024/10/06 19:41:14 Failed to open bgm: open sound/DeathStar.mp3: no such file or directory
+
+2024-10-07T00:41:40.844Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:42:13.312Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:44:18.322Z [error]: Ikemen stderr: 2024/10/06 19:44:18 Using OpenGL 0x2da7b20 (0x2b55d78)
+
+2024-10-07T00:45:42.837Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:48:59.602Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T00:49:00.684Z [error]: Ikemen stderr: 2024/10/06 19:49:00 Using OpenGL 0x1078160 (0xf47b58)
+
+2024-10-07T00:49:01.338Z [error]: Ikemen stderr: 2024/10/06 19:49:01 Failed to open bgm: open sound/Dragon Ball Z - BGM 7.mp3: no such file or directory
+
+2024-10-07T00:51:54.066Z [error]: Ikemen stderr: 2024/10/06 19:51:54 Using OpenGL 0x11a22a0 (0x1071e08)
+
+2024-10-07T00:54:56.795Z [error]: Ikemen stderr: 2024/10/06 19:54:56 Using OpenGL 0x26f0300 (0x25bf068)
+
+2024-10-07T00:54:58.034Z [error]: Ikemen stderr: 2024/10/06 19:54:58 Failed to open bgm: open sound/Final Destination.mp3: no such file or directory
+
+2024-10-07T01:01:05.020Z [error]: Ikemen stderr: 2024/10/06 20:01:05 Using OpenGL 0x1befe30 (0x1abfe98)
+
+2024-10-07T01:01:05.583Z [error]: Ikemen stderr: 2024/10/06 20:01:05 Failed to open bgm: open sound/Marvel Super Heroes OST - Iron Man.mp3: no such file or directory
+
+2024-10-07T01:02:35.036Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T01:04:13.200Z [error]: Ikemen stderr: 2024/10/06 20:04:13 Using OpenGL 0x24dc410 (0x2234098)
+
+2024-10-07T01:04:14.034Z [error]: Ikemen stderr: 2024/10/06 20:04:14 Failed to open bgm: open sound/Marvel Super Heroes OST - Iron Man.mp3: no such file or directory
+
+2024-10-07T01:06:02.866Z [error]: Ikemen stderr: 2024/10/06 20:06:02 Using OpenGL 0x28c7200 (0x260fa98)
+
+2024-10-07T01:06:03.403Z [error]: Ikemen stderr: 2024/10/06 20:06:03 Failed to open bgm: open sound/DeathStar.mp3: no such file or directory
+
+2024-10-07T01:06:46.742Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T01:07:02.982Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T01:07:16.583Z [error]: Error processing message: Cannot read properties of undefined (reading 'replace')
+2024-10-07T01:08:23.555Z [error]: Ikemen stderr: 2024/10/06 20:08:23 Using OpenGL 0x1241130 (0x1111838)
+
+2024-10-07T01:08:23.676Z [error]: Ikemen stderr: 2024/10/06 20:08:23 stages/Kame House (Day).sff duplicated palette: 0,4 (6/16)
+
+2024-10-07T01:08:24.719Z [error]: Ikemen stderr: 2024/10/06 20:08:24 WARNING: BGM volume set beyond expected range (value: 255). Clamped to MaxBgmVolume
+
+2024-10-07T01:10:52.982Z [error]: Ikemen stderr: 2024/10/06 20:10:52 Using OpenGL 0x2cb02b0 (0x2b7fca8)
+
+2024-10-07T01:10:53.490Z [error]: Ikemen stderr: 2024/10/06 20:10:53 Failed to open bgm: open sound/smb2desert.ogg: no such file or directory
+
+2024-10-07T01:13:57.460Z [error]: Ikemen stderr: 2024/10/06 20:13:57 Using OpenGL 0x1447d80 (0x1316ff8)
+
+2024-10-07T01:13:58.774Z [error]: Ikemen stderr: 2024/10/06 20:13:58 Failed to open bgm: open sound/DeathStar.mp3: no such file or directory
+
+2024-10-07T01:16:09.400Z [error]: Ikemen stderr: 2024/10/06 20:16:09 Using OpenGL 0x2eb6820 (0x2d86d08)
+
+2024-10-07T01:16:09.823Z [error]: Ikemen stderr: 2024/10/06 20:16:09 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T01:19:40.284Z [error]: Ikemen stderr: 2024/10/06 20:19:40 Using OpenGL 0x22312d0 (0x1f892c8)
+
+2024-10-07T01:19:41.137Z [error]: Ikemen stderr: 2024/10/06 20:19:41 Failed to open bgm: open stages/BatCave.mp3: no such file or directory
+
+2024-10-07T01:22:37.613Z [error]: Ikemen stderr: 2024/10/06 20:22:37 Using OpenGL 0x1aceaa0 (0x199dcf8)
+
+2024-10-07T01:22:37.941Z [error]: Ikemen stderr: 2024/10/06 20:22:37 Failed to open bgm: open sound/Battle of Hoth.mp3: no such file or directory
+
+2024-10-07T01:24:59.850Z [error]: Ikemen stderr: 2024/10/06 20:24:59 Using OpenGL 0x2905840 (0x264e828)
+
+2024-10-07T01:25:00.479Z [error]: Ikemen stderr: 2024/10/06 20:25:00 Failed to open bgm: open sound/DeathStar.mp3: no such file or directory
+
+2024-10-07T01:28:51.228Z [error]: Ikemen stderr: 2024/10/06 20:28:51 Using OpenGL 0x1864260 (0x1733978)
+
+2024-10-07T01:28:51.793Z [error]: Ikemen stderr: 2024/10/06 20:28:51 Failed to open bgm: open sound/87 - Pok_mon Center Theme - Pok_mon Red - Blue - Green.mp3: no such file or directory
+
+2024-10-07T01:33:02.801Z [error]: Ikemen stderr: 2024/10/06 20:33:02 Using OpenGL 0x1d81f80 (0x1acac78)
+
+2024-10-07T01:35:25.726Z [error]: Ikemen stderr: 2024/10/06 20:35:25 Using OpenGL 0x1858e40 (0x15a1098)
+
+2024-10-07T01:35:26.871Z [error]: Ikemen stderr: 2024/10/06 20:35:26 Failed to open bgm: open sound/Luffy_Fierce_Attack.mp3: no such file or directory
+
+2024-10-07T01:38:25.137Z [error]: Ikemen stderr: 2024/10/06 20:38:25 Using OpenGL 0x222c040 (0x20fbec8)
+
+2024-10-07T01:38:25.966Z [error]: Ikemen stderr: 2024/10/06 20:38:25 Failed to open bgm: open stages/BatCave.mp3: no such file or directory
+
+2024-10-07T01:40:41.777Z [error]: Ikemen stderr: 2024/10/06 20:40:41 Using OpenGL 0x2e9bf90 (0x2d6b348)
+
+2024-10-07T01:40:42.691Z [error]: Ikemen stderr: 2024/10/06 20:40:42 Failed to open bgm: open sound/Marvel Super Heroes OST - Iron Man.mp3: no such file or directory
+
+2024-10-07T01:44:45.642Z [error]: Ikemen stderr: 2024/10/06 20:44:45 Using OpenGL 0x18f34d0 (0x163b948)
+
+2024-10-07T01:44:46.619Z [error]: Ikemen stderr: 2024/10/06 20:44:46 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T01:48:26.423Z [error]: Ikemen stderr: 2024/10/06 20:48:26 Using OpenGL 0x2f8d830 (0x2e5ca28)
+
+2024-10-07T01:50:37.434Z [error]: Ikemen stderr: 2024/10/06 20:50:37 Using OpenGL 0x26ad980 (0x23f60d8)
+
+2024-10-07T01:51:27.656Z [error]: Ikemen stderr: 2024/10/06 20:51:27 Using OpenGL 0x1c841d0 (0x19db5a8)
+
+2024-10-07T01:51:28.760Z [error]: Ikemen stderr: 2024/10/06 20:51:28 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T01:52:55.524Z [error]: Ikemen stderr: 2024/10/06 20:52:55 Using OpenGL 0x2c7f010 (0x29d5ff8)
+
+2024-10-07T01:52:55.695Z [error]: Ikemen stderr: 2024/10/06 20:52:55 stages/Kame House (Day).sff duplicated palette: 0,4 (6/16)
+
+2024-10-07T01:52:57.190Z [error]: Ikemen stderr: 2024/10/06 20:52:57 WARNING: BGM volume set beyond expected range (value: 255). Clamped to MaxBgmVolume
+
+2024-10-07T01:54:21.520Z [error]: Ikemen stderr: 2024/10/06 20:54:21 Using OpenGL 0x14d6cf0 (0x13a65c8)
+
+2024-10-07T01:55:50.026Z [error]: Ikemen stderr: 2024/10/06 20:55:50 Using OpenGL 0x162da30 (0x1375908)
+
+2024-10-07T01:55:51.035Z [error]: Ikemen stderr: 2024/10/06 20:55:51 Failed to open bgm: open sound/Dragon Ball Z - BGM 7.mp3: no such file or directory
+
+2024-10-07T01:57:26.408Z [error]: Ikemen stderr: 2024/10/06 20:57:26 Using OpenGL 0x2201ea0 (0x20d1048)
+
+2024-10-07T01:57:26.566Z [error]: Ikemen stderr: 2024/10/06 20:57:26 stages/Kame House (Day).sff duplicated palette: 0,4 (6/16)
+
+2024-10-07T01:57:27.891Z [error]: Ikemen stderr: 2024/10/06 20:57:27 WARNING: BGM volume set beyond expected range (value: 255). Clamped to MaxBgmVolume
+
+2024-10-07T01:59:17.169Z [error]: FFmpeg process exited with code 1
+2024-10-07T01:59:41.593Z [error]: Ikemen stderr: 2024/10/06 20:59:41 Using OpenGL 0x3063610 (0x2dbb9b8)
+
+2024-10-07T01:59:41.791Z [error]: Ikemen stderr: 2024/10/06 20:59:41 stages/Kame House (Day).sff duplicated palette: 0,4 (6/16)
+
+2024-10-07T01:59:43.530Z [error]: Ikemen stderr: 2024/10/06 20:59:43 WARNING: BGM volume set beyond expected range (value: 255). Clamped to MaxBgmVolume
+
+2024-10-07T02:00:37.511Z [error]: Ikemen stderr: 2024/10/06 21:00:37 Using OpenGL 0x1ed4f30 (0x1c1ed08)
+
+2024-10-07T02:00:38.183Z [error]: Ikemen stderr: 2024/10/06 21:00:38 Failed to open bgm: open stages/BatCave.mp3: no such file or directory
+
+2024-10-07T02:04:36.298Z [error]: Ikemen stderr: 2024/10/06 21:04:36 Using OpenGL 0x178c470 (0x14d4a08)
+
+2024-10-07T02:04:36.916Z [error]: Ikemen stderr: 2024/10/06 21:04:36 Failed to open bgm: open sound/87 - Pok_mon Center Theme - Pok_mon Red - Blue - Green.mp3: no such file or directory
+
+2024-10-07T02:08:36.699Z [error]: Ikemen stderr: 2024/10/06 21:08:36 Using OpenGL 0x27300a0 (0x25ffaa8)
+
+2024-10-07T02:08:38.109Z [error]: Ikemen stderr: 2024/10/06 21:08:38 Failed to open bgm: open sound/Dragon Ball Z - BGM 7.mp3: no such file or directory
+
+2024-10-07T02:12:14.007Z [error]: Ikemen stderr: 2024/10/06 21:12:14 Using OpenGL 0x23acac0 (0x227b8b8)
+
+2024-10-07T02:12:14.727Z [error]: Ikemen stderr: 2024/10/06 21:12:14 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T02:14:35.683Z [error]: Ikemen stderr: 2024/10/06 21:14:35 Using OpenGL 0x1db8ef0 (0x1c88368)
+
+2024-10-07T02:14:35.830Z [error]: Ikemen stderr: 2024/10/06 21:14:35 stages/Kame House (Day).sff duplicated palette: 0,4 (6/16)
+
+2024-10-07T02:14:37.273Z [error]: Ikemen stderr: 2024/10/06 21:14:37 WARNING: BGM volume set beyond expected range (value: 255). Clamped to MaxBgmVolume
+
+2024-10-07T02:17:17.748Z [error]: Ikemen stderr: 2024/10/06 21:17:17 Using OpenGL 0x2f84840 (0x2e53808)
+
+2024-10-07T02:17:19.773Z [error]: Ikemen stderr: 2024/10/06 21:17:19 Failed to open bgm: open sound/Luffy_Fierce_Attack.mp3: no such file or directory
+
+2024-10-07T02:20:16.985Z [error]: Ikemen stderr: 2024/10/06 21:20:16 Using OpenGL 0x1632370 (0x137b238)
+
+2024-10-07T02:20:17.313Z [error]: Ikemen stderr: 2024/10/06 21:20:17 Failed to open bgm: open stages/BatCave.mp3: no such file or directory
+
+2024-10-07T02:24:09.799Z [error]: Ikemen stderr: 2024/10/06 21:24:09 Using OpenGL 0x3165860 (0x2f14348)
+
+2024-10-07T02:27:24.970Z [error]: Ikemen stderr: 2024/10/06 21:27:24 Using OpenGL 0x25bed00 (0x2307348)
+
+2024-10-07T02:27:25.721Z [error]: Ikemen stderr: 2024/10/06 21:27:25 Failed to open bgm: open sound/smb2desert.ogg: no such file or directory
+
+2024-10-07T02:30:21.060Z [error]: Ikemen stderr: 2024/10/06 21:30:21 Using OpenGL 0x2ccbf50 (0x2a22748)
+
+2024-10-07T02:30:21.452Z [error]: Ikemen stderr: 2024/10/06 21:30:21 Failed to open bgm: open sound/Luffy_Fierce_Attack.mp3: no such file or directory
+
+2024-10-07T02:34:07.894Z [error]: Ikemen stderr: 2024/10/06 21:34:07 Using OpenGL 0x165e960 (0x152d6d8)
+
+2024-10-07T02:34:08.609Z [error]: Ikemen stderr: 2024/10/06 21:34:08 Failed to open bgm: open stages/BatCave.mp3: no such file or directory
+
+2024-10-07T02:36:48.003Z [error]: Ikemen stderr: 2024/10/06 21:36:48 Using OpenGL 0x2f82cd0 (0x2cdad68)
+
+2024-10-07T02:36:49.375Z [error]: Ikemen stderr: 2024/10/06 21:36:49 Failed to open bgm: open sound/smb2desert.ogg: no such file or directory
+
+2024-10-07T02:39:56.353Z [error]: Ikemen stderr: 2024/10/06 21:39:56 Using OpenGL 0x1b688e0 (0x18b0aa8)
+
+2024-10-07T02:44:20.468Z [error]: Ikemen stderr: 2024/10/06 21:44:20 Using OpenGL 0x2b83e30 (0x2a52e88)
+
+2024-10-07T02:47:33.925Z [error]: Ikemen stderr: 2024/10/06 21:47:33 Using OpenGL 0x3074370 (0x2dbc6b8)
+
+2024-10-07T02:47:34.641Z [error]: Ikemen stderr: 2024/10/06 21:47:34 Failed to open bgm: open sound/DeathStar.mp3: no such file or directory
+
+2024-10-07T02:49:43.169Z [error]: Ikemen stderr: 2024/10/06 21:49:43 Using OpenGL 0x1aedf00 (0x19bd078)
+
+2024-10-07T02:49:44.825Z [error]: Ikemen stderr: 2024/10/06 21:49:44 Failed to open bgm: open sound/87 - Pok_mon Center Theme - Pok_mon Red - Blue - Green.mp3: no such file or directory
+
+2024-10-07T02:53:35.779Z [error]: Ikemen stderr: 2024/10/06 21:53:35 Using OpenGL 0x2d929a0 (0x2c61c38)
+
+2024-10-07T02:53:36.654Z [error]: Ikemen stderr: 2024/10/06 21:53:36 Failed to open bgm: open sound/Marvel Super Heroes OST - Iron Man.mp3: no such file or directory
+
+2024-10-07T02:57:09.703Z [error]: Ikemen stderr: 2024/10/06 21:57:09 Using OpenGL 0x2b9fe50 (0x28f7548)
+
+2024-10-07T02:57:09.857Z [error]: Ikemen stderr: 2024/10/06 21:57:09 stages/Kame House (Day).sff duplicated palette: 0,4 (6/16)
+
+2024-10-07T02:57:11.136Z [error]: Ikemen stderr: 2024/10/06 21:57:11 WARNING: BGM volume set beyond expected range (value: 255). Clamped to MaxBgmVolume
+
+2024-10-07T02:59:51.750Z [error]: Ikemen stderr: 2024/10/06 21:59:51 Using OpenGL 0x2e78c60 (0x2d481b8)
+
+2024-10-07T02:59:53.634Z [error]: Ikemen stderr: 2024/10/06 21:59:53 Failed to open bgm: open sound/Dragon Ball Z - BGM 7.mp3: no such file or directory
+
+2024-10-07T03:02:00.026Z [error]: Ikemen stderr: 2024/10/06 22:02:00 Using OpenGL 0x1929f10 (0x16824a8)
+
+2024-10-07T03:02:00.937Z [error]: Ikemen stderr: 2024/10/06 22:02:00 Failed to open bgm: open sound/Dragon Ball Z - BGM 7.mp3: no such file or directory
+
+2024-10-07T03:04:04.675Z [error]: Ikemen stderr: 2024/10/06 22:04:04 Using OpenGL 0x2cd7520 (0x2a1fce8)
+
+2024-10-07T03:04:05.472Z [error]: Ikemen stderr: 2024/10/06 22:04:05 Failed to open bgm: open stages/BatCave.mp3: no such file or directory
+
+2024-10-07T03:07:12.241Z [error]: Ikemen stderr: 2024/10/06 22:07:12 Using OpenGL 0x2d17420 (0x2be6568)
+
+2024-10-07T03:09:22.239Z [error]: Ikemen stderr: 2024/10/06 22:09:22 Using OpenGL 0x3077d70 (0x2dc0a08)
+
+2024-10-07T03:13:32.695Z [error]: Ikemen stderr: 2024/10/06 22:13:32 Using OpenGL 0x229e370 (0x216d9e8)
+
+2024-10-07T03:13:32.987Z [error]: Ikemen stderr: 2024/10/06 22:13:32 Failed to open bgm: open sound/Battle of Hoth.mp3: no such file or directory
+
+2024-10-07T03:15:49.010Z [error]: Ikemen stderr: 2024/10/06 22:15:49 Using OpenGL 0x10aeac0 (0xf7dc78)
+
+2024-10-07T03:15:49.879Z [error]: Ikemen stderr: 2024/10/06 22:15:49 Failed to open bgm: open sound/smb2desert.ogg: no such file or directory
+
+2024-10-07T03:18:44.168Z [error]: Ikemen stderr: 2024/10/06 22:18:44 Using OpenGL 0x219c570 (0x1ee5de8)
+
+2024-10-07T03:18:44.779Z [error]: Ikemen stderr: 2024/10/06 22:18:44 Failed to open bgm: open sound/Luffy_Fierce_Attack.mp3: no such file or directory
+
+2024-10-07T03:21:26.329Z [error]: Ikemen stderr: 2024/10/06 22:21:26 Using OpenGL 0x2aab6f0 (0x27f3b18)
+
+2024-10-07T03:21:27.177Z [error]: Ikemen stderr: 2024/10/06 22:21:27 Failed to open bgm: open stages/BatCave.mp3: no such file or directory
+
+2024-10-07T03:24:15.829Z [error]: Ikemen stderr: 2024/10/06 22:24:15 Using OpenGL 0x2941dd0 (0x28121c8)
+
+2024-10-07T03:24:16.832Z [error]: Ikemen stderr: 2024/10/06 22:24:16 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T03:26:51.517Z [error]: Ikemen stderr: 2024/10/06 22:26:51 Using OpenGL 0x226c770 (0x213ce08)
+
+2024-10-07T03:26:53.338Z [error]: Ikemen stderr: 2024/10/06 22:26:53 Failed to open bgm: open sound/kfm.mid: no such file or directory
+
+2024-10-07T03:30:29.285Z [error]: Ikemen stderr: 2024/10/06 22:30:29 Using OpenGL 0x1fcb440 (0x1d13908)
+
+2024-10-07T03:30:30.005Z [error]: Ikemen stderr: 2024/10/06 22:30:30 Failed to open bgm: open sound/Dragon Ball Z - BGM 7.mp3: no such file or directory
+
+2024-10-07T03:32:58.513Z [error]: Ikemen stderr: 2024/10/06 22:32:58 Using OpenGL 0x1d04c60 (0x1a4d348)
+
+2024-10-07T03:33:00.043Z [error]: Ikemen stderr: 2024/10/06 22:33:00 Failed to open bgm: open sound/Final Destination.mp3: no such file or directory
+
+2024-10-07T03:35:52.164Z [error]: Ikemen stderr: 2024/10/06 22:35:52 Using OpenGL 0x1a7c130 (0x194bc18)
+
+2024-10-07T03:38:20.596Z [error]: Ikemen stderr: 2024/10/06 22:38:20 Using OpenGL 0x1de56d0 (0x1cb4ac8)
+
+2024-10-07T03:38:21.554Z [error]: Ikemen stderr: 2024/10/06 22:38:21 Failed to open bgm: open sound/Luffy_Fierce_Attack.mp3: no such file or directory
+
+2024-10-07T03:39:43.124Z [error]: Ikemen stderr: 2024/10/06 22:39:43 Using OpenGL 0x216b710 (0x1ec23e8)
+
+2024-10-07T03:39:44.295Z [error]: Ikemen stderr: 2024/10/06 22:39:44 Failed to open bgm: open sound/87 - Pok_mon Center Theme - Pok_mon Red - Blue - Green.mp3: no such file or directory
+
+2024-10-07T03:42:42.911Z [error]: Ikemen stderr: 2024/10/06 22:42:42 Using OpenGL 0x1cb5150 (0x19fdeb8)
+
+2024-10-07T03:42:43.037Z [error]: Ikemen stderr: 2024/10/06 22:42:43 stages/Kame House (Day).sff duplicated palette: 0,4 (6/16)
+
+2024-10-07T03:42:43.912Z [error]: Ikemen stderr: 2024/10/06 22:42:43 WARNING: BGM volume set beyond expected range (value: 255). Clamped to MaxBgmVolume
+
+2024-10-07T03:45:10.518Z [error]: Ikemen stderr: 2024/10/06 22:45:10 Using OpenGL 0x201aec0 (0x1eeab68)
+
+2024-10-07T03:50:55.375Z [error]: Ikemen stderr: 2024/10/06 22:50:55 Using OpenGL 0x20dcb10 (0x1e33e68)
+
+2024-10-07T03:50:55.562Z [error]: Ikemen stderr: 2024/10/06 22:50:55 stages/Kame House (Day).sff duplicated palette: 0,4 (6/16)
+
+2024-10-07T03:50:56.921Z [error]: Ikemen stderr: 2024/10/06 22:50:56 WARNING: BGM volume set beyond expected range (value: 255). Clamped to MaxBgmVolume
+
+2024-10-07T03:52:49.040Z [error]: Ikemen stderr: 2024/10/06 22:52:49 Using OpenGL 0x1e2e890 (0x1b862a8)
+
+2024-10-07T03:55:26.565Z [error]: Ikemen stderr: 2024/10/06 22:55:26 Using OpenGL 0x29a7ef0 (0x28771b8)
+
+2024-10-07T03:55:27.149Z [error]: Ikemen stderr: 2024/10/06 22:55:27 Failed to open bgm: open sound/Battle of Hoth.mp3: no such file or directory
+
+2024-10-07T03:58:00.164Z [error]: Ikemen stderr: 2024/10/06 22:58:00 Using OpenGL 0x2fbd9d0 (0x2d14608)
+
+2024-10-07T03:59:57.613Z [error]: Ikemen stderr: 2024/10/06 22:59:57 Using OpenGL 0x16f55b0 (0x15c4378)
+
+2024-10-07T03:59:57.992Z [error]: Ikemen stderr: 2024/10/06 22:59:57 Failed to open bgm: open stages/BatCave.mp3: no such file or directory
+
+2024-10-07T04:01:19.460Z [error]: FFmpeg process exited with code 1
+2024-10-07T04:01:43.606Z [error]: Ikemen stderr: 2024/10/06 23:01:43 Using OpenGL 0x26aa8a0 (0x25798b8)
+
+2024-10-07T04:06:04.854Z [error]: Ikemen stderr: 2024/10/06 23:06:04 Using OpenGL 0x293c3b0 (0x280b4b8)
+
+2024-10-07T04:06:05.237Z [error]: Ikemen stderr: 2024/10/06 23:06:05 Failed to open bgm: open sound/DeathStar.mp3: no such file or directory
+
+2024-10-07T04:08:15.671Z [error]: Ikemen stderr: 2024/10/06 23:08:15 Using OpenGL 0x28cfe00 (0x279f0a8)
+
+2024-10-07T04:08:16.849Z [error]: Ikemen stderr: 2024/10/06 23:08:16 Failed to open bgm: open sound/DeathStar.mp3: no such file or directory
+
+2024-10-07T04:11:21.406Z [error]: Ikemen stderr: 2024/10/06 23:11:21 Using OpenGL 0x1bb2e00 (0x18fbc68)
+
