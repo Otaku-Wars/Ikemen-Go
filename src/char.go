@@ -6,6 +6,8 @@ import (
 	"math"
 	"os"
 	"strings"
+	"log"
+	"strconv"
 )
 
 const MaxPalNo = 12
@@ -234,8 +236,8 @@ func (cd *CharData) init() {
 	cd.power = 3000
 	cd.dizzypoints = 1000
 	cd.guardpoints = 1000
-	cd.attack = 100
-	cd.defence = 100
+	cd.attack = 169
+	cd.defence = 169
 	cd.fall.defence_up = 50
 	cd.fall.defence_mul = 1.5
 	cd.liedown.time = 60
@@ -2502,6 +2504,18 @@ func (c *Char) load(def string) error {
 						is.ReadI32("attack", &gi.data.attack)
 						is.ReadI32("defence", &gi.data.defence)
 						is.ReadI32("fall.defence_up", &gi.data.fall.defence_up)
+						
+						//attack defensce from cmdline
+						attackStr := sys.cmdFlags["-p"+strconv.Itoa(c.playerNo+1)+".attack"]
+						defenceStr := sys.cmdFlags["-p"+strconv.Itoa(c.playerNo+1)+".defence"]
+						gi.data.attack = int32(Atoi(attackStr))
+						gi.data.defence = int32(Atoi(defenceStr))
+
+						//log attack and defence
+						log.Println(name, "Attack", gi.data.attack)
+						log.Println(name, "Defence", gi.data.defence)
+						log.Println(name, "LifeMax", c.lifeMax)
+
 						gi.data.fall.defence_mul = (float32(gi.data.fall.defence_up) + 100) / 100
 						var i32 int32
 						if is.ReadI32("liedown.time", &i32) {

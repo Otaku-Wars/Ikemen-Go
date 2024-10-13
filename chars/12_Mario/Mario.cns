@@ -2,7 +2,7 @@
 life = 1000
 power = 2000
 attack = 100
-defence = 100
+
 fall.defence_up = 50
 liedown.time = 60
 airjuggle = 999
@@ -89,7 +89,7 @@ victory15 = "Wahoo! I'm the winner!!"
 victory16 = "Hooray!"
 victory17 = "Yeah, Mario wins! Wahoo!"
 victory18 = "See you later!"
-victory19 = "I am more courageous than any—even you!"
+victory19 = "I am more courageous than anyï¿½even you!"
 victory20 = "No one can match my courage!"
 victory21 = "I'm-a the Superstar!"
 victory22 = "It's-a me! I've been on fire lately, but I hope you'll challenge me!"
@@ -2663,7 +2663,7 @@ ctrl = 0
 anim = 630
 sprpriority = 2
 
-[State 1000, ²ˆÊ’uˆÚ“®]
+[State 1000, ï¿½ï¿½ï¿½Ê’uï¿½Ú“ï¿½]
 type = VelAdd
 trigger1 = AnimElemtime(1) > 0
 y = .52
@@ -2769,7 +2769,7 @@ type = PlayerPush
 trigger1 = 1
 value = 0
 
-[State 1000, ²ˆÊ’uˆÚ“®]
+[State 1000, ï¿½ï¿½ï¿½Ê’uï¿½Ú“ï¿½]
 type = VelAdd
 trigger1 = AnimElemtime(6) > 0
 y = .52
@@ -2836,7 +2836,7 @@ type = Posset
 trigger1 = time = 0
 y = 0
 
-[State 1000, ²ˆÊ’uˆÚ“®]
+[State 1000, ï¿½ï¿½ï¿½Ê’uï¿½Ú“ï¿½]
 type = Velset
 trigger1 = time = 0
 x = 0
@@ -6829,7 +6829,7 @@ shadow = 0,0,0
 ownpal = 1
 removeongethit = 1
 
-[State 1000, ƒwƒ‹ƒp[‚ğo‚·]
+[State 1000, ï¿½wï¿½ï¿½ï¿½pï¿½[ï¿½ï¿½ï¿½oï¿½ï¿½]
 type = Helper
 trigger1 = AnimElem = 11
 name = "Fire"
@@ -6946,7 +6946,7 @@ ownpal = 1
 ignorehitpause = 1
 scale = 0.4,0.4
 
-[State 1000, ²ˆÊ’uˆÚ“®]
+[State 1000, ï¿½ï¿½ï¿½Ê’uï¿½Ú“ï¿½]
 type = velset
 trigger1 = time >= 0
 x = 6.5
@@ -6979,22 +6979,22 @@ supermove=99999
 ignorehitpause = 1
 scale = 0.5,0.5
 
-[State 170, –³“G]
+[State 170, ï¿½ï¿½ï¿½G]
 type = NotHitBy
 trigger1 = 1
 value = SCA
 
-[State 191, “ÁêŒø‰Ê]
+[State 191, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]
 type = AssertSpecial
 trigger1 = 1
 flag = noshadow
 
-[State 1201, ƒLƒƒƒ‰–{‘Ì‚Éˆø‚Á•t‚­ˆÊ’u]
+[State 1201, ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½Ì‚Éˆï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ê’u]
 type = null;BindToParent
 trigger1 = time = [0,20]
 pos = 60,0
 
-[State 2001, UŒ‚‚ğó‚¯‚½‚çÁ–ÅƒXƒe[ƒg‚ÉˆÚ“®]
+[State 2001, ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ó‚¯‚ï¿½ï¿½ï¿½ï¿½ï¿½ÅƒXï¿½eï¿½[ï¿½gï¿½ÉˆÚ“ï¿½]
 type = HitOverride
 trigger1 = Time = 0
 attr = SCA, NT, ST, HT, NA, SA, HA, NP, SP, HP
@@ -7081,7 +7081,7 @@ supermovetime =999
 pausemovetime = 999
 ignorehitpause = 1
 
-[State 1000, ƒwƒ‹ƒp[‚ğo‚·]
+[State 1000, ï¿½wï¿½ï¿½ï¿½pï¿½[ï¿½ï¿½ï¿½oï¿½ï¿½]
 type = Helper
 trigger1 = Movehit = 1
 name = "Slow"
@@ -7102,7 +7102,7 @@ fvar(4) = root,fvar(4)*0.89
 ignorehitpause = 1
 persistent = 0
 
-[State 1001, ‚±‚Ìƒwƒ‹ƒp[‚ğÁ‚·]
+[State 1001, ï¿½ï¿½ï¿½Ìƒwï¿½ï¿½ï¿½pï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]
 type = DestroySelf
 trigger1 = AnimTime = 0
 trigger2 = Root,Stateno != 3000
@@ -7119,17 +7119,17 @@ anim     = 4901
 ctrl     = 0
 sprpriority = 0
 
-[State 170, –³“G]
+[State 170, ï¿½ï¿½ï¿½G]
 type = NotHitBy
 trigger1 = 1
 value = SCA
 
-[State 191, “ÁêŒø‰Ê]
+[State 191, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]
 type = AssertSpecial
 trigger1 = 1
 flag = noshadow
 
-[State 1001, ‚±‚Ìƒwƒ‹ƒp[‚ğÁ‚·]
+[State 1001, ï¿½ï¿½ï¿½Ìƒwï¿½ï¿½ï¿½pï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]
 type = DestroySelf
 trigger1 = AnimTime = 0
 
@@ -7317,7 +7317,7 @@ shadow = 0,0,0
 ownpal = 1
 removeongethit = 1
 
-[State 1000, ƒwƒ‹ƒp[‚ğo‚·]
+[State 1000, ï¿½wï¿½ï¿½ï¿½pï¿½[ï¿½ï¿½ï¿½oï¿½ï¿½]
 type = Helper
 trigger1 = AnimElem = 11
 name = "Fire"
@@ -7463,7 +7463,7 @@ ownpal = 1
 ignorehitpause = 1
 scale = 0.4,0.4
 
-[State 1000, ²ˆÊ’uˆÚ“®]
+[State 1000, ï¿½ï¿½ï¿½Ê’uï¿½Ú“ï¿½]
 type = velset
 trigger1 = time >= 0
 x = 6.5
@@ -7496,22 +7496,22 @@ supermove=99999
 ignorehitpause = 1
 scale = 0.5,0.5
 
-[State 170, –³“G]
+[State 170, ï¿½ï¿½ï¿½G]
 type = NotHitBy
 trigger1 = 1
 value = SCA
 
-[State 191, “ÁêŒø‰Ê]
+[State 191, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]
 type = AssertSpecial
 trigger1 = 1
 flag = noshadow
 
-[State 1201, ƒLƒƒƒ‰–{‘Ì‚Éˆø‚Á•t‚­ˆÊ’u]
+[State 1201, ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½Ì‚Éˆï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ê’u]
 type = null;BindToParent
 trigger1 = time = [0,20]
 pos = 60,0
 
-[State 2001, UŒ‚‚ğó‚¯‚½‚çÁ–ÅƒXƒe[ƒg‚ÉˆÚ“®]
+[State 2001, ï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½ó‚¯‚ï¿½ï¿½ï¿½ï¿½ï¿½ÅƒXï¿½eï¿½[ï¿½gï¿½ÉˆÚ“ï¿½]
 type = HitOverride
 trigger1 = Time = 0
 attr = SCA, NT, ST, HT, NA, SA, HA, NP, SP, HP
@@ -7598,7 +7598,7 @@ supermovetime =999
 pausemovetime = 999
 ignorehitpause = 1
 
-[State 1000, ƒwƒ‹ƒp[‚ğo‚·]
+[State 1000, ï¿½wï¿½ï¿½ï¿½pï¿½[ï¿½ï¿½ï¿½oï¿½ï¿½]
 type = Helper
 trigger1 = Movehit = 1
 name = "Slow"
@@ -7619,7 +7619,7 @@ fvar(4) = root,fvar(4)*0.89
 ignorehitpause = 1
 persistent = 0
 
-[State 1001, ‚±‚Ìƒwƒ‹ƒp[‚ğÁ‚·]
+[State 1001, ï¿½ï¿½ï¿½Ìƒwï¿½ï¿½ï¿½pï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]
 type = DestroySelf
 trigger1 = AnimTime = 0
 trigger2 = Root,Stateno != 3005

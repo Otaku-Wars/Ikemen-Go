@@ -133,6 +133,8 @@ Quick VS Options:
 -p<n>.color <col>       Sets player n's color to <col>
 -p<n>.power <power>     Sets player n's power to <power>
 -p<n>.life <life>       Sets player n's life to <life>
+-p<n>.attack <attack>   Sets player n's attack to <attack>
+-p<n>.defence <defence> Sets player n's defence to <defence>
 -tmode1 <tmode>         Sets p1 team mode to <tmode>
 -tmode2 <tmode>         Sets p2 team mode to <tmode>
 -time <num>             Round time (-1 to disable)
@@ -174,6 +176,8 @@ Debug Options:
 			}
 		}
 	}
+	// Log the command line flags
+	fmt.Println("Command line flags set:", sys.cmdFlags)
 }
 
 type configSettings struct {

@@ -1,8 +1,11 @@
-external/script/main.lua:1474: 
-overrideCharData function used before loading player 2, member 1
-
+./external/script/global.lua:46: module gfx not found:
+	no field package.preload['gfx']
+	stat ./gfx.lua: no such file or directory
+	stat /usr/local/share/lua/5.1/gfx.lua: no such file or directory
+	stat /usr/local/share/lua/5.1/gfx/init.lua: no such file or directory, 
 stack traceback:
-	[G]: in function 'overrideCharData'
-	external/script/main.lua:1474: in function 'f_commandLine'
-	external/script/main.lua:1515: in main chunk
+	[G]: in function 'require'
+	./external/script/global.lua:46: in function <./external/script/global.lua:0>
+	[G]: in function 'require'
+	external/script/main.lua:1319: in main chunk
 	[G]: ?
