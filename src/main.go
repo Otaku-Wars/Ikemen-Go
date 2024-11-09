@@ -176,6 +176,7 @@ Debug Options:
 			}
 		}
 	}
+	fmt.Sprintf("Hellow world")
 	// Log the command line flags
 	fmt.Println("Command line flags set:", sys.cmdFlags)
 }

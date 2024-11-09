@@ -127,8 +127,8 @@ function statusInfo(p)
 	local oldid = id()
 	if not player(p) then return false end
 	local ret = string.format(
-		'P%d: %d; LIF:%4d; POW:%4d; ATK:%4d; DEF:%4d; RED:%4d; GRD:%4d; STN:%4d',
-		playerno(), id(), life(), power(), attack(), defence(), redlife(), guardpoints(), dizzypoints()
+		'P%d: %d; LIF:%4d; POW:%4d; ATK:%4d; DEF:%4d',
+		playerno(), id(), life(), power(), attack(), defence()
 	)
 	playerid(oldid)
 	return ret
@@ -171,7 +171,7 @@ function stateInfo()
 	)
 end
 
-loadDebugInfo({'engineInfo', 'playerInfo', 'actionInfo', 'stateInfo'})
+--loadDebugInfo({'engineInfo', 'playerInfo', 'actionInfo', 'stateInfo'})
 
 --;===========================================================
 --; MATCH LOOP

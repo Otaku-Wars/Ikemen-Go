@@ -1644,6 +1644,8 @@ end
 
 function launchFight(data)
 	local t = {}
+	printConsole("Hellow world")
+
 	if continue() then -- on rematch all arguments are ignored and values are restored from last match
 		t = main.f_tableCopy(start.launchFightSav)
 		start.p[2].t_selTemp = {} -- in case it's not cleaned already (preserved p2 side during select screen)
