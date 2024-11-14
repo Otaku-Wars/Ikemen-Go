@@ -4,7 +4,7 @@
 
 [Data]
 life = 1000
-power = 100
+power = 1000
 attack = 95		;attack power (more is stronger)
 defence = 95		;defensive power (more is stronger)
 fall.defence_up = 0	;Percentage to increase defense everytime player is knocked down

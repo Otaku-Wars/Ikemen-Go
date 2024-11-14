@@ -1,6 +1,6 @@
 [Data]
 life = 1000
-power = 100
+power = 1000
 attack = 400
 defence = 400
 fall.defence_up = 50

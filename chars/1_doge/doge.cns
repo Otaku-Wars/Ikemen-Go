@@ -2,7 +2,7 @@
 [Data]
 ;起始HP
 life = 1000
-power = 100
+power = 1000
 ;攻击力（数值高更强）
 attack = 20
 

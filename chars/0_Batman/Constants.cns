@@ -53,7 +53,7 @@
 ;====================<CONSTANTS>====================
 [Data]
 life = 1000
-power = 100
+power = 1000
 attack = 65
 defence = 65
 fall.defence_up = 50
