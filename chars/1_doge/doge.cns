@@ -2,12 +2,12 @@
 [Data]
 ;起始HP
 life = 1000
-
+power = 100
 ;攻击力（数值高更强）
-attack = 10
+attack = 20
 
 ;防御力（数值高更强）
-defence = 10
+defence = 20
 
 ;倒地时增加防御力百分比
 fall.defence_up = 50

@@ -3,7 +3,8 @@
 ; (And yes, I took that comment from Insanius's own commentation of his Kanae)
 
 [Data]
-life = 1000			;Amount of life to start with
+life = 1000
+power = 100
 attack = 90		;attack power (more is stronger)
 defence = 90		;defensive power (more is stronger)
 fall.defence_up = 50	;Percentage to increase defense everytime player is knocked down
