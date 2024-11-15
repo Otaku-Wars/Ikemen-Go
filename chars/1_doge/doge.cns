@@ -4,10 +4,10 @@
 life = 1000
 power = 1000
 ;攻击力（数值高更强）
-attack = 20
+attack = 5
 
 ;防御力（数值高更强）
-defence = 20
+defence = 5
 
 ;倒地时增加防御力百分比
 fall.defence_up = 50

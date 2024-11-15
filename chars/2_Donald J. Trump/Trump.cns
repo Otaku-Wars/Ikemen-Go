@@ -1,8 +1,8 @@
 [Data]
 life = 1000
 power = 1000
-attack = 120
-defence = 120
+attack = 135
+defence = 135
 fall.defence_up = 50
 liedown.time = 50	
 airjuggle = 20		

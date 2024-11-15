@@ -4,8 +4,8 @@
 [Data]
 life = 1000
 power = 1000
-attack = 140
-defence = 140
+attack = 200
+defence = 200
 
 [statedef -2]
 
