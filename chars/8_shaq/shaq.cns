@@ -4,9 +4,9 @@
 
 [Data]
 life = 1000
-power = 1000
-attack = 100		;attack power (more is stronger)
-defence = 100		;defensive power (more is stronger)
+
+attack = 80		;attack power (more is stronger)
+defence = 80		;defensive power (more is stronger)
 fall.defence_up = 50	;Percentage to increase defense everytime player is knocked down
 liedown.time = 6		;Time which player lies down for, before getting up
 airjuggle = 15		;Number of points for juggling
