@@ -53,8 +53,8 @@
 ;====================<CONSTANTS>====================
 [Data]
 life = 1000
-attack = 75
-defence = 75
+attack = 85
+defence = 85
 fall.defence_up = 50
 lieDown.time = 60
 airJuggle = 15
