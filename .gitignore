@@ -1,6 +1,7 @@
 # Dependencies
 go/*
-
+.log
+.env
 # Runtime
 *.bat
 Ikemen_GO.exe
